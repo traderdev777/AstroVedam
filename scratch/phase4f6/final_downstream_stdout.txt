@@ -1,0 +1,56 @@
+=== GATE 6: DOWNSTREAM REGRESSION & INTEGRATION AUDIT ===
+
+[TEST 1] Planetary Longitude Feeds & Ayanamsha Invariance:
+  ✅ PASS: getAllTropicalLongitudes contains finite Saturn
+  ✅ PASS: Saturn tropical longitude normalized: 337.1956°
+  ✅ PASS: getSiderealLongitudes applies ayanamsha exactly once: diff=0.0000e+0
+
+[TEST 2] Velocity, Stationary Detection & Retrograde Invariants:
+  ✅ PASS: RETRO-01 isPlanetRetrograde strictly true
+  ✅ PASS: RETRO-01 velocity negative: -0.0758°/day
+  ✅ PASS: REF-01 isPlanetRetrograde strictly false
+  ✅ PASS: REF-01 velocity positive: 0.1286°/day
+  ✅ PASS: STAT-01 velocity near zero (|v| < 0.005°/day): 0.00117°/day
+  ✅ PASS: STAT-01 isPlanetStationary strictly true
+
+[TEST 3] Kundali Chart Placement & Divisional Integration:
+  ✅ PASS: Kundali contains Saturn
+  ✅ PASS: Saturn longitude valid: 313.0151°
+  ✅ PASS: Saturn rashi in 1..12: 11 (Aquarius)
+  ✅ PASS: Saturn nakshatra in 1..27: 24 (Shatabhisha)
+  ✅ PASS: Saturn pada in 1..4: 2
+  ✅ PASS: Kundali marks Saturn retrograde correctly at REF-06
+  ✅ PASS: D9 Navamsha chart contains Saturn
+  ✅ PASS: Saturn D9 rashi in 1..12: 10
+
+[TEST 4] Dynamic Transit & Sade Sati Classifications:
+  ✅ PASS: calculateSaturnTransit returns valid result
+  ✅ PASS: Moon in Aquarius produces isSadeSati: true
+  ✅ PASS: Aquarius transit classified as PEAK: PEAK
+  ✅ PASS: 1st house -> PEAK Sade Sati
+  ✅ PASS: 2nd house -> SETTING Sade Sati
+  ✅ PASS: 3th house -> FREE
+  ✅ PASS: 4th house -> KANTAKA Dhaiya
+  ✅ PASS: 5th house -> FREE
+  ✅ PASS: 6th house -> FREE
+  ✅ PASS: 7th house -> FREE
+  ✅ PASS: 8th house -> ASHTAMA Dhaiya
+  ✅ PASS: 9th house -> FREE
+  ✅ PASS: 10th house -> FREE
+  ✅ PASS: 11th house -> FREE
+  ✅ PASS: 12th house -> RISING Sade Sati
+
+[TEST 5] Janampatrika 9-Page Comprehensive Report Generation:
+  ✅ PASS: renderFullPatrikaReport (English) rendered successfully
+  ✅ PASS: English report contains Saturn and Aquarius placement
+  ✅ PASS: renderFullPatrikaReport (Hindi) rendered successfully
+  ✅ PASS: Hindi report contains शनि and कुंभ placement
+
+[TEST 6] AstroGuru AI Advisor Transit Awareness:
+  ✅ PASS: AstroGuru Kannada returns robust analysis
+  ✅ PASS: AstroGuru analysis contains live Saturn transit assessment (ಶನಿ ಗೋಚಾರ)
+  ✅ PASS: AstroGuru English career analysis robust
+
+===========================================================
+DOWNSTREAM AUDIT SUMMARY: 39/39 passed (100.0%)
+===========================================================

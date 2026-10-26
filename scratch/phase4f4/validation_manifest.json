@@ -1,0 +1,102 @@
+[
+  {
+    "id": "HIST-01",
+    "name": "Early 20th Century (1920)",
+    "regime": "Historical",
+    "dateUTC": "1920-05-15 00:00",
+    "refTropLon": 9.5205711,
+    "refTropLat": 3.123168,
+    "filename": "HIST-01_Moon_horizons_raw.json",
+    "sha256": "b6556470480b33cd06c505c34923595dfc45fd284ec4b920a132c1f499986d1f"
+  },
+  {
+    "id": "HIST-02",
+    "name": "Mid 20th Century (1950)",
+    "regime": "Historical",
+    "dateUTC": "1950-01-01 00:00",
+    "refTropLon": 61.4154091,
+    "refTropLat": 3.7818195,
+    "filename": "HIST-02_Moon_horizons_raw.json",
+    "sha256": "f213de2ecac37e9387078d11d581cabfdb43f34898612e90ef7447bd95e2bc48"
+  },
+  {
+    "id": "HIST-03",
+    "name": "Late 20th Century (1975)",
+    "regime": "Historical",
+    "dateUTC": "1975-07-01 00:00",
+    "refTropLon": 0.9747389,
+    "refTropLat": 4.4565467,
+    "filename": "HIST-03_Moon_horizons_raw.json",
+    "sha256": "2f09f3d06dbe6d71c6eedd22bbc16cc97760fb27b8fe46d954ea85596554da34"
+  },
+  {
+    "id": "HIST-04",
+    "name": "Mid 21st Century (2050)",
+    "regime": "Future",
+    "dateUTC": "2050-01-01 00:00",
+    "refTropLon": 18.6755971,
+    "refTropLat": 3.3912133,
+    "filename": "HIST-04_Moon_horizons_raw.json",
+    "sha256": "5bc470980224e4ca8499fcf8793cb94ccfd537514c2214b2ed4452d261adc376"
+  },
+  {
+    "id": "HIST-05",
+    "name": "Late 21st Century (2080)",
+    "regime": "Future",
+    "dateUTC": "2080-10-15 00:00",
+    "refTropLon": 226.5226507,
+    "refTropLat": -3.5828241,
+    "filename": "HIST-05_Moon_horizons_raw.json",
+    "sha256": "238a66f038d2bdcba282e342362580ea9f30a0ce6f3f34d1fd103249ffa2a806"
+  },
+  {
+    "id": "PHASE-01",
+    "name": "Full Moon near REF-02 Epoch",
+    "regime": "Phase / Near REF-02",
+    "dateUTC": "2000-04-18 17:41",
+    "refTropLon": 208.9798048,
+    "refTropLat": 5.0014918,
+    "filename": "PHASE-01_Moon_horizons_raw.json",
+    "sha256": "c09d7de0837cb1ba5b8c3839a367c0b8247fdcb56164d7f30d15d104b055dc03"
+  },
+  {
+    "id": "PHASE-02",
+    "name": "Total Solar Eclipse / New Moon",
+    "regime": "Solar Eclipse / New Moon",
+    "dateUTC": "2024-04-08 18:21",
+    "refTropLon": 19.4018948,
+    "refTropLat": 0.3494598,
+    "filename": "PHASE-02_Moon_horizons_raw.json",
+    "sha256": "fa4aa4ffa46b3248e49d14c6d3f7763aa47e17d798b66f1de483157867915160"
+  },
+  {
+    "id": "PERIGEE-01",
+    "name": "Extreme Perigee Supermoon",
+    "regime": "Extreme Velocity Perigee",
+    "dateUTC": "2016-11-14 11:23",
+    "refTropLon": 51.0333313,
+    "refTropLat": -4.7589606,
+    "filename": "PERIGEE-01_Moon_horizons_raw.json",
+    "sha256": "9797076cc2028f34dff52db41d797b12140564c8e6bead27a40eb1c03c2d6366"
+  },
+  {
+    "id": "BOUND-01",
+    "name": "Moon 0°/360° Pisces-Aries Wrap",
+    "regime": "0/360 Wrap",
+    "dateUTC": "2023-03-21 16:15",
+    "refTropLon": 0.1387759,
+    "refTropLat": -2.9201731,
+    "filename": "BOUND-01_Moon_horizons_raw.json",
+    "sha256": "a53373bf34ead5e00890a475d8e5d317fc99132d04022d783b52ac1905cb677c"
+  },
+  {
+    "id": "BOUND-02",
+    "name": "Scorpio-Sagittarius Sign Boundary",
+    "regime": "Sign Boundary",
+    "dateUTC": "2024-08-15 06:00",
+    "refTropLon": 263.4418579,
+    "refTropLat": -5.0030833,
+    "filename": "BOUND-02_Moon_horizons_raw.json",
+    "sha256": "8fe29d2710ad3c6eba56ad6b72e754bf99261771607e3538df0cde538a61fbf4"
+  }
+]

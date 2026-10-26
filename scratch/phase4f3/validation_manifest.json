@@ -1,0 +1,123 @@
+[
+  {
+    "id": "HIST-01",
+    "name": "Early 20th Century (1920)",
+    "regime": "Historical",
+    "dateUTC": "1920-05-15 00:00",
+    "refTropLon": 203.1738988,
+    "refTropLat": 0.5416507,
+    "filename": "HIST-01_Mars_horizons_raw.json",
+    "sha256": "a5c7eff97dd1dbbe0899f94bed5b2400f8a4a21e1ab2f4bbc9256e1d89fa3685",
+    "measuredError": -0.23074545486792886
+  },
+  {
+    "id": "HIST-02",
+    "name": "Mid 20th Century (1950)",
+    "regime": "Historical",
+    "dateUTC": "1950-01-01 00:00",
+    "refTropLon": 182.2111967,
+    "refTropLat": 2.5124824,
+    "filename": "HIST-02_Mars_horizons_raw.json",
+    "sha256": "c992e24488daec59c821a5617a5560ef07dbefed81adf3e1edfedd856205e89c",
+    "measuredError": -0.16937822131865232
+  },
+  {
+    "id": "HIST-03",
+    "name": "Late 20th Century (1975)",
+    "regime": "Historical",
+    "dateUTC": "1975-07-01 00:00",
+    "refTropLon": 29.8847916,
+    "refTropLat": -1.6504636,
+    "filename": "HIST-03_Mars_horizons_raw.json",
+    "sha256": "148802a9093cc49b458bb7e3e3e07dc248fe4f67bcf7f6eeb88cca53fe1e325d",
+    "measuredError": 0.12698762378832384
+  },
+  {
+    "id": "HIST-04",
+    "name": "Mid 21st Century (2050)",
+    "regime": "Future",
+    "dateUTC": "2050-01-01 00:00",
+    "refTropLon": 227.7146939,
+    "refTropLat": 0.7726782,
+    "filename": "HIST-04_Mars_horizons_raw.json",
+    "sha256": "a888f30cf31a7567a8ed6216f2588d49156f2f6ed7bccdb152360cd5fde81bae",
+    "measuredError": 0.20006302978686108
+  },
+  {
+    "id": "HIST-05",
+    "name": "Late 21st Century (2080)",
+    "regime": "Future",
+    "dateUTC": "2080-10-15 00:00",
+    "refTropLon": 293.6616014,
+    "refTropLat": -2.5677573,
+    "filename": "HIST-05_Mars_horizons_raw.json",
+    "sha256": "ca46eb4295097e65825d74bb81e758f20caf7cbaa7b56716592f26589791d666",
+    "measuredError": 0.45790592489311166
+  },
+  {
+    "id": "STAT-01",
+    "name": "Mars Stationary Retrograde Turn",
+    "regime": "Stationary Retrograde",
+    "dateUTC": "2022-10-30 14:00",
+    "refTropLon": 85.613947,
+    "refTropLat": 0.4441034,
+    "filename": "STAT-01_Mars_horizons_raw.json",
+    "sha256": "6c3fff1b8c315a0525402cb781c7fbf8c87fedd72903a92cd328508689e44e3f",
+    "measuredError": -0.5168653496949105
+  },
+  {
+    "id": "STAT-02",
+    "name": "Mars Stationary Direct Turn",
+    "regime": "Stationary Direct",
+    "dateUTC": "2023-01-12 20:00",
+    "refTropLon": 68.1291406,
+    "refTropLat": 2.8379345,
+    "filename": "STAT-02_Mars_horizons_raw.json",
+    "sha256": "92ba96779a69b38d5948bea864a6a2c25d219a9f4017df0569284bb8c6b63782",
+    "measuredError": -0.8483081550579641
+  },
+  {
+    "id": "BOUND-01",
+    "name": "Mars near 0°/360° Pisces-Aries wrap",
+    "regime": "0/360 Wrap",
+    "dateUTC": "2024-04-23 12:00",
+    "refTropLon": 354.4805183,
+    "refTropLat": -1.265666,
+    "filename": "BOUND-01_Mars_horizons_raw.json",
+    "sha256": "3097c992a7f6a60d01937351b475bc45329f7ba7af7a195ec1603a5d986d94b1",
+    "measuredError": 0.6791545861938175
+  },
+  {
+    "id": "BOUND-02",
+    "name": "Mars Cancer-Leo Boundary",
+    "regime": "Sign Boundary",
+    "dateUTC": "2023-07-10 12:00",
+    "refTropLon": 150.0083591,
+    "refTropLat": 1.1147276,
+    "filename": "BOUND-02_Mars_horizons_raw.json",
+    "sha256": "11c5ff8724f1351c233bae3b59ddeedbdce3fb544fb24eed97375995e4f1108f",
+    "measuredError": 0.20260986846153628
+  },
+  {
+    "id": "RETRO-01",
+    "name": "Opposition Perihelion Close Approach",
+    "regime": "Extreme Close Approach",
+    "dateUTC": "2003-08-27 10:00",
+    "refTropLon": 335.3767957,
+    "refTropLat": -6.6466006,
+    "filename": "RETRO-01_Mars_horizons_raw.json",
+    "sha256": "c44e464e0a0d1e427f06d6e47bbaaa23ae4d547525346c714a585ddf405289fe",
+    "measuredError": 0.1293321219804966
+  },
+  {
+    "id": "RETRO-02",
+    "name": "Retrograde Mid-Loop (2024)",
+    "regime": "Retrograde",
+    "dateUTC": "2024-12-15 00:00",
+    "refTropLon": 125.7334358,
+    "refTropLat": 3.1923263,
+    "filename": "RETRO-02_Mars_horizons_raw.json",
+    "sha256": "bd2e0246d7c37881ac9bde13d9320a9928cd495fdb9a739072a40dd945dd1d44",
+    "measuredError": -0.5145979419003766
+  }
+]

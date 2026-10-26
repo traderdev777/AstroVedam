@@ -1,0 +1,39 @@
+
+--- Running Phase 5B Timezone & Input Safety (DEF-01, DEF-02) ---
+  ✅ PASS: Missing timezone throws TypeError with clear message
+  ✅ PASS: Undefined timezone throws TypeError
+  ✅ PASS: null timezone throws TypeError (rejects silent UTC coercion)
+  ✅ PASS: NaN timezone throws TypeError
+  ✅ PASS: Infinity timezone throws TypeError
+  ✅ PASS: -Infinity timezone throws TypeError
+  ✅ PASS: String timezone throws TypeError
+  ✅ PASS: Boolean timezone throws TypeError
+  ✅ PASS: Timezone +15 throws RangeError
+  ✅ PASS: Timezone -13 throws RangeError
+  ✅ PASS: Valid timezone -12 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches -12
+  ✅ PASS: Valid timezone -11 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches -11
+  ✅ PASS: Valid timezone 0 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 0
+  ✅ PASS: Valid timezone 5.5 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 5.5
+  ✅ PASS: Valid timezone 9.75 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 9.75
+  ✅ PASS: Valid timezone 12 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 12
+  ✅ PASS: Valid timezone 13 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 13
+  ✅ PASS: Valid timezone 14 produces complete Kundali chart
+  ✅ PASS: Recorded timezone matches 14
+  ✅ PASS: Latitude 95 throws RangeError
+  ✅ PASS: Latitude -91 throws RangeError
+  ✅ PASS: Invalid date throws TypeError
+  ✅ PASS: Invalid time throws TypeError
+  ✅ PASS: Canonical Vijayapura chart lagna is Gemini (Mithuna, Rashi 3)
+  ✅ PASS: Lagna name is Gemini
+  ✅ PASS: Lagna Hindi name is मिथुन
+  ✅ PASS: Canonical Sun is in Pisces (Meena, Rashi 12)
+  ✅ PASS: Sun nakshatra is Uttara Bhadrapada
+
+Phase 5B Input Safety Suite Results: 35/35 passed

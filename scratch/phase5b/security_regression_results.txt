@@ -1,0 +1,25 @@
+
+--- Running Phase 5B Security & DOM-based XSS Remediation ---
+  ✅ PASS: Tag payload has brackets escaped
+  ✅ PASS: Exact entity encoding of img tag verified
+  ✅ PASS: Script tag neutralized
+  ✅ PASS: Script tag replaced with &lt;script&gt;
+  ✅ PASS: Double quotes escaped to &quot;
+  ✅ PASS: Attribute breakout neutralized
+  ✅ PASS: Single quotes escaped to &#39;
+  ✅ PASS: Ampersands and brackets encoded properly
+  ✅ PASS: Hindi Unicode text preserved uncorrupted
+  ✅ PASS: Kannada Unicode text preserved uncorrupted
+  ✅ PASS: Nested ampersand within Unicode string escaped
+  ✅ PASS: escapeHtml(null) returns empty string
+  ✅ PASS: escapeHtml(undefined) returns empty string
+  ✅ PASS: escapeHtml(0) returns string '0'
+  ✅ PASS: escapeHtml(false) returns string 'false'
+  ✅ PASS: Kundali dashboard snippet does not contain executable svg tag
+  ✅ PASS: Kundali dashboard snippet does not contain attribute breakout
+  ✅ PASS: Matching UI snippet does not contain raw script tag
+  ✅ PASS: Matching UI snippet does not contain raw iframe tag
+  ✅ PASS: Numerology phone snippet does not contain executable bold element
+  ✅ PASS: Phone payload safely encoded as text
+
+Phase 5B Security Suite Results: 21/21 passed

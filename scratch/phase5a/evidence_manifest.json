@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "auditDirective": "ASTROVEDAM CTO DIRECTIVE — PHASE 5A",
+    "authority": "Principal Engineer, Astronomical Software Auditor, Application Security Engineer & QA Lead",
+    "generatedAt": "2026-10-24T06:59:26.044Z",
+    "gitDisclosure": {
+      "gitRepositoryPresent": false,
+      "limitationStatement": "The workspace is an unversioned project directory snapshot without an active .git database. Cryptographic SHA-256 hashes establish source and artifact integrity."
+    }
+  },
+  "baselineExecution": {
+    "fullTestSuite": {
+      "command": "npm test (node tests/run_all_tests.js)",
+      "exitCode": 0,
+      "totalAssertions": 1478,
+      "passedAssertions": 1478,
+      "failedAssertions": 0,
+      "durationSeconds": 0.34,
+      "logFile": "scratch/phase5a/baseline_test_results.txt"
+    },
+    "productionBuild": {
+      "command": "npm run build (vite build)",
+      "exitCode": 0,
+      "durationSeconds": 4.75,
+      "bundleSizes": {
+        "dist/index.html": "7.97 kB (gzip: 1.92 kB)",
+        "dist/assets/index-CFPN4POS.css": "36.17 kB (gzip: 7.89 kB)",
+        "dist/assets/purify.es-CAi2OJFm.js": "30.47 kB (gzip: 11.73 kB)",
+        "dist/assets/index.es-DP25s6hN.js": "151.03 kB (gzip: 51.65 kB)",
+        "dist/assets/index-MTg-ZhEq.js": "1,181.72 kB (gzip: 377.76 kB)"
+      },
+      "warning": "(!) Some chunks are larger than 500 kB after minification."
+    }
+  },
+  "astronomicalValidationSummary": {
+    "datasetSource": "NASA JPL Horizons On-Line Ephemeris System (DE440/441)",
+    "totalEvaluations": 133,
+    "passedEvaluations": 133,
+    "failedEvaluations": 0,
+    "residualsJson": "scratch/phase5a/astronomical_residuals.json",
+    "priorReportDiscrepancy": "Prior report claimed 135 JPL reference cases. Forensic analysis proves the benchmark comprises 9 distinct calendar epochs across 7 planets + Ascendant (15 checks per case = 135 total comparisons, including boolean retrogrades)."
+  },
+  "securityFindings": [
+    {
+      "id": "SEC-01",
+      "severity": "HIGH",
+      "component": "src/pages/Kundali.js",
+      "description": "DOM-based XSS in renderInteractiveDashboard via clientName and cityName innerHTML interpolation."
+    },
+    {
+      "id": "SEC-02",
+      "severity": "HIGH",
+      "component": "src/pages/Matching.js",
+      "description": "DOM-based XSS in matchHoroscopes UI via bName and gName innerHTML interpolation."
+    },
+    {
+      "id": "SEC-03",
+      "severity": "HIGH",
+      "component": "src/pages/Numerology.js",
+      "description": "DOM-based XSS in nameInput attribute breakout and candidate phone verification innerHTML interpolation."
+    },
+    {
+      "id": "SEC-04",
+      "severity": "MODERATE",
+      "component": "package.json (esbuild/vite)",
+      "description": "GHSA-67mh-4wv8-2f99 dev server request vulnerability."
+    },
+    {
+      "id": "SEC-05",
+      "severity": "INFO",
+      "component": "index.html",
+      "description": "External Google Fonts stylesheet loaded from fonts.googleapis.com."
+    }
+  ],
+  "demonstratedDefects": [
+    {
+      "id": "DEF-01",
+      "severity": "CRITICAL",
+      "component": "src/engines/astrology/kundali.js",
+      "description": "Unhandled TypeError (Cannot read properties of undefined reading en) on missing/undefined timezone parameter."
+    },
+    {
+      "id": "DEF-02",
+      "severity": "HIGH",
+      "component": "src/engines/astrology/kundali.js",
+      "description": "Silent interpretation of null timezone as UTC (0) via JavaScript coercion."
+    },
+    {
+      "id": "DEF-03",
+      "severity": "HIGH",
+      "component": "src/engines/astrology/ephemeris.js",
+      "description": "Unnormalized angle boundary corruption (< 0 or >= 360) in getNakshatra, getNakshatraPada, getDegreeInRashi, and getNavamsaRashi."
+    },
+    {
+      "id": "DEF-04",
+      "severity": "MEDIUM",
+      "component": "src/engines/astrology/ephemeris.js",
+      "description": "Planetary time-scale and aberration inconsistency: Saturn implements apparent geocentric coordinates with TT conversion and stellar aberration, whereas Jupiter, Mars, Venus, and Mercury omit stellar aberration and explicit TT conversion."
+    }
+  ],
+  "sources": {
+    "src/engines/astrology/ephemeris.js": {
+      "bytes": 54662,
+      "sha256": "be719d4946da0074530569af0e2b5e74ac0a5e761391fdb83519de7b3a2072c7"
+    },
+    "src/engines/astrology/constants.js": {
+      "bytes": 23494,
+      "sha256": "bb1ab6e1b56bac7926931fe8292eb87cbdd971505c0200c0f4223c7ba43e750c"
+    },
+    "src/engines/astrology/kundali.js": {
+      "bytes": 6390,
+      "sha256": "69eb1ed340cd38647cbc1b4cd364b7a6b95b8d588b139adc0598808d8f3137e9"
+    },
+    "src/engines/astrology/dosha.js": {
+      "bytes": 13629,
+      "sha256": "568a333c10d59f384b7cd8a37c4276f58be5076f67bcf6acfaaf43b76d15fe80"
+    },
+    "src/engines/astrology/dasha.js": {
+      "bytes": 6703,
+      "sha256": "78ba90a89567a3470c663ac7b53cd381a3415e404a315231e286b3de00286e43"
+    },
+    "src/engines/astrology/matching.js": {
+      "bytes": 18571,
+      "sha256": "8f893b6e27db20879d33dbeb907d8e03305401e8dbd6e4f118c82e31941c9f87"
+    },
+    "src/engines/astrology/panchang.js": {
+      "bytes": 7953,
+      "sha256": "ef10cf6eecfb222f83b9a7dbc89d31f924f38a877a03040650809bef7e3437e0"
+    },
+    "src/engines/astrology/muhurta.js": {
+      "bytes": 5934,
+      "sha256": "4af229280ff57c0978c2c4b241e943307e2955492d25c17172e40ae13a09ddcd"
+    },
+    "src/engines/astrology/naming.js": {
+      "bytes": 3178,
+      "sha256": "1fac32cf59109842b499f665aa80ef8865fd32ffb31aa92c558b763c2b8f285d"
+    },
+    "src/engines/astrology/predictions.js": {
+      "bytes": 62255,
+      "sha256": "0d2d61ec947bb275c134848b221e200a9456c933dabaae7b4eb2be39a7e80cf3"
+    },
+    "src/engines/astrology/yoga.js": {
+      "bytes": 11206,
+      "sha256": "4d8e6c69eb7a945dea5405da8115d6c2f7ed397e7650fd8b9b298859f3aa9de3"
+    },
+    "src/engines/astroguru/advisor.js": {
+      "bytes": 52401,
+      "sha256": "c46c8c6e79e7a274a607210af7420caecd7fdf707a53a84a902b6174ae8183be"
+    },
+    "src/engines/numerology/calculator.js": {
+      "bytes": 49430,
+      "sha256": "82e938d100e46e27178ea09860ae729a7287e427bf50674c87b0d6116fa31c14"
+    },
+    "src/engines/vaastu/analyzer.js": {
+      "bytes": 9441,
+      "sha256": "11b10568a8aa1bf7d621d2211fdf87085176df4c1be12a7d06c72943a29a0bd3"
+    },
+    "src/components/charts/NorthIndianChart.js": {
+      "bytes": 7524,
+      "sha256": "ab8e4c45454c9e801fcbc4fddad328e657683c0d5df33dd72a0f292440daecbf"
+    },
+    "src/components/charts/SouthIndianChart.js": {
+      "bytes": 5612,
+      "sha256": "6ec5b9d2caed88781bbfff977a6c8beb3b2e66dc6742b5d9caf19ff44d610cf0"
+    },
+    "src/components/reports/FullPatrikaReport.js": {
+      "bytes": 76012,
+      "sha256": "9c3bb9e719a03adc6ab7e9f6d97bc16f2503dff651796abf64683c91ab6149dd"
+    },
+    "src/pages/Kundali.js": {
+      "bytes": 34489,
+      "sha256": "363860d632df4ba81febcd7fd63cd606ae3d754579c9c2cbe7e411ace48eb405"
+    },
+    "src/pages/Matching.js": {
+      "bytes": 23705,
+      "sha256": "5c43b82ce6e4c0537a293dac7b99c8bbd2ae56ebe5bd69019582348fd61b68bf"
+    },
+    "src/pages/Numerology.js": {
+      "bytes": 31448,
+      "sha256": "c02ac7210b88cc5776141f6bfcba9ccd9eda5a47bf563585628f8f8216dc5f9a"
+    },
+    "src/pages/AstroGuru.js": {
+      "bytes": 44214,
+      "sha256": "b97739b144d0ef44f51525819ecf04886a085f1e6af000bafce3097e9470870d"
+    },
+    "src/pages/Vaastu.js": {
+      "bytes": 12801,
+      "sha256": "9b8cd2d3361584321b90a8c8b67e8b8b3cfd0e8347c1f61f10f3dfb3f222a9b3"
+    },
+    "src/utils/pdfDownloader.js": {
+      "bytes": 6259,
+      "sha256": "72f99eff35724bd38105ef139c3adf03ca59b0779ca56d81b431be646af1fe47"
+    },
+    "src/utils/store.js": {
+      "bytes": 1423,
+      "sha256": "4741c4fce4e143e2b8570937477b1b4ee6b52c8c7198a0fe155bc93dd2714872"
+    },
+    "src/main.js": {
+      "bytes": 5447,
+      "sha256": "435635eb202d2c701b6718646b88a72b3c930d18afc8b61a20f23437fc448ec7"
+    },
+    "tests/run_all_tests.js": {
+      "bytes": 3566,
+      "sha256": "b948353330c4151fde1ae522fd439261d898a9dc68d5037f980795d93629b44f"
+    }
+  }
+}

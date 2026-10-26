@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AstroVeda — Premium Vedic Astrology, Numerology & Vaastu Shastra. Accurate Janam Kundali, Lagan Kundali, Dasha predictions, Muhurta, Panchang & more based on Sanatan Hindu Vedic traditions." />
+  <meta name="keywords" content="Vedic Astrology, Kundali, Janam Kundali, Numerology, Vaastu Shastra, Horoscope, Dasha, Muhurta, Panchang, Hindu Astrology" />
+  <meta name="author" content="AstroVeda" />
+  <meta property="og:title" content="AstroVeda — Vedic Astrology, Numerology & Vaastu" />
+  <meta property="og:description" content="Comprehensive Vedic Astrology app with Kundali, Dasha, Muhurta, Numerology & Vaastu solutions." />
+  <meta property="og:type" content="website" />
+  <title>AstroVeda — Vedic Astrology, Numerology & Vaastu</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Noto+Sans+Kannada:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-content">
+        <div class="loading-mandala">
+          <svg viewBox="0 0 200 200" class="mandala-svg">
+            <circle cx="100" cy="100" r="90" fill="none" stroke="url(#gold-gradient)" stroke-width="1" opacity="0.3"/>
+            <circle cx="100" cy="100" r="70" fill="none" stroke="url(#gold-gradient)" stroke-width="1" opacity="0.5"/>
+            <circle cx="100" cy="100" r="50" fill="none" stroke="url(#gold-gradient)" stroke-width="1.5" opacity="0.7"/>
+            <circle cx="100" cy="100" r="30" fill="none" stroke="url(#gold-gradient)" stroke-width="2" opacity="0.9"/>
+            <g class="lotus-petals">
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(0 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(30 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(60 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(90 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(120 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(150 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(180 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(210 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(240 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(270 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(300 100 100)"/>
+              <ellipse cx="100" cy="40" rx="12" ry="25" fill="none" stroke="url(#gold-gradient)" stroke-width="1" transform="rotate(330 100 100)"/>
+            </g>
+            <text x="100" y="105" text-anchor="middle" fill="url(#gold-gradient)" font-size="20" font-family="serif">&#2384;</text>
+            <defs>
+              <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#F5C842"/>
+                <stop offset="50%" stop-color="#DAA520"/>
+                <stop offset="100%" stop-color="#B8860B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h1 class="loading-title">AstroVeda</h1>
+        <p class="loading-subtitle">Vedic Astrology | Numerology | Vaastu</p>
+        <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+      </div>
+    </div>
+    <div id="app-shell" class="app-shell hidden">
+      <nav id="main-nav" class="main-nav">
+        <div class="nav-brand">
+          <span class="nav-logo">&#x1F549;&#xFE0F;</span>
+          <span class="nav-title">AstroVeda</span>
+        </div>
+        <div class="nav-links" id="nav-links">
+          <a href="#" class="nav-link active" data-page="home" id="nav-home"><span class="nav-icon">&#x1F3E0;</span><span class="nav-text" data-i18n="nav.home">Home</span></a>
+          <a href="#" class="nav-link" data-page="kundali" id="nav-kundali"><span class="nav-icon">&#x1FA90;</span><span class="nav-text" data-i18n="nav.kundali">Kundali</span></a>
+          <a href="#" class="nav-link" data-page="dasha" id="nav-dasha"><span class="nav-icon">&#x23F3;</span><span class="nav-text" data-i18n="nav.dasha">Dasha</span></a>
+          <a href="#" class="nav-link" data-page="panchang" id="nav-panchang"><span class="nav-icon">&#x1F4C5;</span><span class="nav-text" data-i18n="nav.panchang">Panchang</span></a>
+          <a href="#" class="nav-link" data-page="muhurta" id="nav-muhurta"><span class="nav-icon">&#x1F550;</span><span class="nav-text" data-i18n="nav.muhurta">Muhurta</span></a>
+          <a href="#" class="nav-link" data-page="matching" id="nav-matching"><span class="nav-icon">&#x1F491;</span><span class="nav-text" data-i18n="nav.matching">Matching</span></a>
+          <a href="#" class="nav-link" data-page="numerology" id="nav-numerology"><span class="nav-icon">&#x1F522;</span><span class="nav-text" data-i18n="nav.numerology">Numerology</span></a>
+          <a href="#" class="nav-link" data-page="vaastu" id="nav-vaastu"><span class="nav-icon">&#x1F3E1;</span><span class="nav-text" data-i18n="nav.vaastu">Vaastu</span></a>
+          <a href="#" class="nav-link" data-page="astroguru" id="nav-astroguru" style="border: 1px solid rgba(218,165,32,0.4); border-radius: 9999px; background: rgba(218,165,32,0.1);"><span class="nav-icon">&#x1F9D9;&#x200D;&#x2642;&#xFE0F;</span><span class="nav-text" data-i18n="nav.astroguru" style="font-weight: 800; color: var(--gold-300);">AstroGuru</span></a>
+        </div>
+        <div class="nav-controls">
+          <button id="lang-toggle" class="control-btn" title="Switch Language"><span id="lang-label">EN</span></button>
+          <button id="theme-toggle" class="control-btn" title="Toggle Theme"><span id="theme-icon">&#x1F319;</span></button>
+          <button id="mobile-menu-btn" class="control-btn mobile-only" title="Menu"><span>&#x2630;</span></button>
+        </div>
+      </nav>
+      <main id="page-content" class="page-content"></main>
+      <footer class="app-footer">
+        <div class="footer-content">
+          <p>&#x1F549;&#xFE0F; AstroVeda &mdash; <span data-i18n="footer.tagline">Vedic Wisdom for Modern Life</span></p>
+          <p class="footer-sub"><span data-i18n="footer.tradition">Based on Sanatan Hindu Vedic Traditions</span> &bull; <span data-i18n="footer.contact">Contact</span>: +91 901 908 8160</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <canvas id="cosmic-canvas" class="cosmic-canvas"></canvas>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

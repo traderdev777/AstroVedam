@@ -1,0 +1,1214 @@
+{
+  "metadata": {
+    "title": "Astrology Helper Consistency Results",
+    "testedHelpers": [
+      "getRashi",
+      "getDegreeInRashi",
+      "getNakshatra",
+      "getNakshatraPada",
+      "getNavamsaRashi"
+    ],
+    "totalTestCases": 46,
+    "passedCases": 46,
+    "failedCases": 0,
+    "allPassed": true,
+    "timestamp": "2026-10-24T09:19:44.509Z"
+  },
+  "results": [
+    {
+      "case": "Zero boundary (0°)",
+      "input": 0,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Taurus ingress (30°)",
+      "input": 30,
+      "expected": {
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "actual": {
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Gemini ingress (60°)",
+      "input": 60,
+      "expected": {
+        "rashi": 3,
+        "degreeInRashi": 0,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "actual": {
+        "rashi": 3,
+        "degreeInRashi": 0,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Cancer ingress (90°)",
+      "input": 90,
+      "expected": {
+        "rashi": 4,
+        "degreeInRashi": 0,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "actual": {
+        "rashi": 4,
+        "degreeInRashi": 0,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Leo ingress (120°)",
+      "input": 120,
+      "expected": {
+        "rashi": 5,
+        "degreeInRashi": 0,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 5,
+        "degreeInRashi": 0,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Virgo ingress (150°)",
+      "input": 150,
+      "expected": {
+        "rashi": 6,
+        "degreeInRashi": 0,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "actual": {
+        "rashi": 6,
+        "degreeInRashi": 0,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Libra ingress (180°)",
+      "input": 180,
+      "expected": {
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "actual": {
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Scorpio ingress (210°)",
+      "input": 210,
+      "expected": {
+        "rashi": 8,
+        "degreeInRashi": 0,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "actual": {
+        "rashi": 8,
+        "degreeInRashi": 0,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Sagittarius ingress (240°)",
+      "input": 240,
+      "expected": {
+        "rashi": 9,
+        "degreeInRashi": 0,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 9,
+        "degreeInRashi": 0,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Capricorn ingress (270°)",
+      "input": 270,
+      "expected": {
+        "rashi": 10,
+        "degreeInRashi": 0,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "actual": {
+        "rashi": 10,
+        "degreeInRashi": 0,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Aquarius ingress (300°)",
+      "input": 300,
+      "expected": {
+        "rashi": 11,
+        "degreeInRashi": 0,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "actual": {
+        "rashi": 11,
+        "degreeInRashi": 0,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Pisces ingress (330°)",
+      "input": 330,
+      "expected": {
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Full circle (360°)",
+      "input": 360,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Taurus ingress (29.99999°)",
+      "input": 29.99999,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Gemini ingress (59.99999°)",
+      "input": 59.99999,
+      "expected": {
+        "rashi": 2,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 5,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "actual": {
+        "rashi": 2,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 5,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Cancer ingress (89.99999°)",
+      "input": 89.99999,
+      "expected": {
+        "rashi": 3,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 7,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "actual": {
+        "rashi": 3,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 7,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Leo ingress (119.99999°)",
+      "input": 119.99999,
+      "expected": {
+        "rashi": 4,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 9,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "actual": {
+        "rashi": 4,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 9,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Virgo ingress (149.99999°)",
+      "input": 149.99999,
+      "expected": {
+        "rashi": 5,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 12,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "actual": {
+        "rashi": 5,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 12,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Libra ingress (179.99999°)",
+      "input": 179.99999,
+      "expected": {
+        "rashi": 6,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 14,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "actual": {
+        "rashi": 6,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 14,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Scorpio ingress (209.99999°)",
+      "input": 209.99999,
+      "expected": {
+        "rashi": 7,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 16,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "actual": {
+        "rashi": 7,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 16,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Sagittarius ingress (239.99999°)",
+      "input": 239.99999,
+      "expected": {
+        "rashi": 8,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 18,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "actual": {
+        "rashi": 8,
+        "degreeInRashi": 29.999989999999997,
+        "nakshatra": 18,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Capricorn ingress (269.99999°)",
+      "input": 269.99999,
+      "expected": {
+        "rashi": 9,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 21,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "actual": {
+        "rashi": 9,
+        "degreeInRashi": 29.999990000000025,
+        "nakshatra": 21,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Aquarius ingress (299.99999°)",
+      "input": 299.99999,
+      "expected": {
+        "rashi": 10,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 23,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "actual": {
+        "rashi": 10,
+        "degreeInRashi": 29.999990000000025,
+        "nakshatra": 23,
+        "pada": 2,
+        "navamsa": 6
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before Pisces ingress (329.99999°)",
+      "input": 329.99999,
+      "expected": {
+        "rashi": 11,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 25,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "actual": {
+        "rashi": 11,
+        "degreeInRashi": 29.999990000000025,
+        "nakshatra": 25,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Immediately before 360° (359.99999°)",
+      "input": 359.99999,
+      "expected": {
+        "rashi": 12,
+        "degreeInRashi": 29.99999,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29.999990000000025,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Ashwini/Bharani exact boundary (13.333333333333334°)",
+      "input": 13.333333333333334,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 13.333333333333334,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 13.333333333333334,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Ashwini/Bharani just before boundary",
+      "input": 13.333332333333335,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 13.333332333333335,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 13.333332333333335,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Bharani/Krittika exact boundary (26.666666666666668°)",
+      "input": 26.666666666666668,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 26.666666666666668,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 26.666666666666668,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Bharani/Krittika just before boundary",
+      "input": 26.666665666666667,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 26.666665666666667,
+        "nakshatra": 2,
+        "pada": 4,
+        "navamsa": 8
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 26.666665666666667,
+        "nakshatra": 2,
+        "pada": 4,
+        "navamsa": 8
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 1° (-1°)",
+      "input": -1,
+      "expected": {
+        "rashi": 12,
+        "degreeInRashi": 29,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 30° (-30°)",
+      "input": -30,
+      "expected": {
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 180° (-180°)",
+      "input": -180,
+      "expected": {
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "actual": {
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 360° (-360°)",
+      "input": -360,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 720° (-720°)",
+      "input": -720,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Negative 721° (-721°)",
+      "input": -721,
+      "expected": {
+        "rashi": 12,
+        "degreeInRashi": 29,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "One revolution + 1° (361°)",
+      "input": 361,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Two revolutions (720°)",
+      "input": 720,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Two revolutions + 30° (750°)",
+      "input": 750,
+      "expected": {
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "actual": {
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Three revolutions (1080°)",
+      "input": 1080,
+      "expected": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "NaN input",
+      "input": null,
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Infinity input",
+      "input": null,
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "-Infinity input",
+      "input": null,
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "String input",
+      "input": "invalid",
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Null input",
+      "input": null,
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Undefined input",
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    },
+    {
+      "case": "Object input",
+      "input": {},
+      "expected": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "assertions": {
+        "rashi": true,
+        "degreeInRashi": true,
+        "nakshatra": true,
+        "pada": true,
+        "navamsa": true
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "contractVersion": "1.0.0",
+  "auditPhase": "Phase 4F.6C",
+  "auditDate": "2026-10-23",
+  "definitions": {
+    "UTC": "Coordinated Universal Time. Civil atomic time scale broadcast by standard frequency stations. Ticks at the SI second rate of TAI, with integer leap seconds inserted periodically to maintain |UTC - UT1| < 0.9s. Modern UTC definition instituted on 1972-01-01.",
+    "UT1": "Universal Time 1. Non-uniform astronomical time scale tied strictly to the diurnal rotation of the Earth relative to the Celestial Intermediate Origin (CIO). Subject to tidal deceleration and atmospheric/core irregularities.",
+    "TAI": "International Atomic Time. Continuous statistical atomic time scale calculated by the BIPM from primary cesium frequency standards. No leap seconds.",
+    "TT": "Terrestrial Time. Theoretical uniform dynamical time scale for geocentric ephemerides, representing proper time on the rotating geoid. Fixed by IAU definition as TT = TAI + 32.184s.",
+    "TDB": "Barycentric Dynamical Time. Relativistic coordinate time scale for the Solar System Barycenter (SSB). Evaluated on Earth, TDB differs from TT by small periodic relativistic terms: |TDB - TT| < 1.66 ms.",
+    "DeltaT_astronomical": "Astronomical Delta-T defined as Delta-T = TT - UT1 (or historically ET - UT). Quantifies cumulative Earth rotational deceleration against uniform dynamical time.",
+    "TT_minus_UTC": "The discrete offset between Terrestrial Time and civil atomic UTC for dates >= 1972-01-01: TT - UTC = (TAI - UTC) + 32.184s = Delta_AT + 32.184s.",
+    "DUT1": "DUT1 = UT1 - UTC. Maintained within [-0.9s, +0.9s] by the IERS via leap-second insertions."
+  },
+  "j2000Investigation": {
+    "standardEpoch": "J2000.0 = 2000-01-01 12:00:00 TT (JD 2451545.0 TT)",
+    "TAI_minus_UTC_at_J2000": 32.0,
+    "TT_minus_UTC_at_J2000": 64.184,
+    "DUT1_at_J2000": 0.35547,
+    "DeltaT_astronomical_at_J2000": 63.82853,
+    "espenakMeeus_polynomial_at_2000": 63.86,
+    "forensicResolution": "The Phase 4F.6B statement that J2000.0 Delta-T is exactly 64.184s is mathematically true ONLY for TT - UTC (32s + 32.184s). Astronomical Delta-T (TT - UT1) at J2000.0 was approximately 63.83s (differing by DUT1 = +0.355s). The production ephemeris code converting UTC calendar input to TT needs TT - UTC (64.184s), which matches the exact physical quantity returned by getDeltaT for modern dates."
+  },
+  "functions": [
+    {
+      "name": "getDeltaT",
+      "signature": "getDeltaT(jd: number): number",
+      "module": "src/engines/astrology/ephemeris.js",
+      "exported": true,
+      "purpose": "Calculates the offset in seconds required to convert a civil Julian Day to dynamical Terrestrial Time (TT).",
+      "inputScale": "Civil Julian Day: UTC for dates >= 1972-01-01; UT1 / GMT for dates < 1972-01-01.",
+      "outputScale": "Seconds to add to civil time. Returns TT - UTC for modern dates (>= 1972); returns Delta-T = TT - UT1 for historical dates (< 1972).",
+      "conversionFormula": {
+        "modern": "For jd >= 2441317.5: (TAI - UTC) + 32.184s from IERS leap-second table.",
+        "historical": "For jd < 2441317.5: Piecewise polynomials of Fred Espenak & Jean Meeus (NASA TP-2006-214141) covering 11 historical intervals."
+      },
+      "applicableEpochRange": "Ancient eras (-3000 BCE) to foreseeable future (2100+ CE).",
+      "assumptions": [
+        "Modern era assumes standard IERS Bulletin C leap-second table.",
+        "Future dates (> 2017) hold the offset constant at 69.184s, matching NASA JPL Horizons operational policy.",
+        "Historical dates assume civil records reflect Greenwich Mean Time / UT1."
+      ],
+      "uncertainty": {
+        "modern": "< 0.001 s (exact by international convention)",
+        "future": "Accumulates ~1-2s per decade of unannounced future leap seconds",
+        "historical_1900_1972": "±0.05 to ±0.5 s",
+        "historical_1600_1900": "±1 to ±5 s",
+        "ancient": "±10 to ±100 s"
+      },
+      "invalidInputHandling": "Returns 0 safely for NaN, non-number, null, or non-finite inputs."
+    },
+    {
+      "name": "utcToTT",
+      "signature": "utcToTT(jdUtc: number): number",
+      "module": "src/engines/astrology/ephemeris.js",
+      "exported": true,
+      "purpose": "Converts a Julian Day Number in civil time (UTC / UT1) to dynamical Terrestrial Time (TT / TDB).",
+      "inputScale": "Julian Day Number in UTC (for jd >= 2441317.5) or UT1 (for jd < 2441317.5).",
+      "outputScale": "Julian Day Number in Terrestrial Time (TT).",
+      "conversionFormula": "jdTT = jdUtc + getDeltaT(jdUtc) / 86400.0",
+      "applicableEpochRange": "All epochs supported by getDeltaT.",
+      "assumptions": "TDB is approximated by TT (difference |TDB - TT| < 1.66 ms, corresponding to < 0.000003 arcseconds in Saturn longitude).",
+      "uncertainty": "Inherited directly from getDeltaT uncertainty divided by 86400 days.",
+      "invalidInputHandling": "Returns NaN safely for NaN, non-number, null, undefined, or non-finite inputs."
+    },
+    {
+      "name": "ttToUTC",
+      "signature": "ttToUTC(jdTT: number): number",
+      "module": "src/engines/astrology/ephemeris.js",
+      "exported": true,
+      "purpose": "Converts a Julian Day Number in Terrestrial Time (TT) back to civil time (UTC / UT1).",
+      "inputScale": "Julian Day Number in Terrestrial Time (TT).",
+      "outputScale": "Julian Day Number in civil time (UTC for jd >= 2441317.5; UT1 for jd < 2441317.5).",
+      "conversionFormula": "jdUtc = jdTT - getDeltaT(jdTT) / 86400.0",
+      "applicableEpochRange": "All continuous intervals outside instantaneous leap-second boundary steps.",
+      "assumptions": "Assumes getDeltaT(jdTT) ≈ getDeltaT(jdUtc), which holds within 0.1 ms on continuous domains because d(DeltaT)/dt < 1.0 s/year.",
+      "uncertainty": "< 1e-9 days (< 0.1 ms) on continuous intervals.",
+      "invalidInputHandling": "Returns NaN safely for NaN, non-number, null, undefined, or non-finite inputs."
+    },
+    {
+      "name": "dateToJD",
+      "signature": "dateToJD(year, month, day, hour = 0, min = 0, sec = 0): number",
+      "module": "src/engines/astrology/ephemeris.js",
+      "exported": true,
+      "purpose": "Converts Gregorian calendar date and time components into a continuous Julian Day Number.",
+      "inputScale": "Calendar components in any uniform or civil time scale (UTC, UT1, or Local Civil).",
+      "outputScale": "Julian Day Number in the exact same time scale as the input components.",
+      "conversionFormula": "decimalDay = day + (hour + min / 60 + sec / 3600) / 24; standard Meeus astronomical algorithm with Gregorian leap year rule.",
+      "applicableEpochRange": "Gregorian calendar dates (-4712 BCE to 4000+ CE).",
+      "assumptions": "Does not perform time-scale conversion; output time scale is identical to input time scale.",
+      "uncertainty": "Mathematically exact to floating-point precision (~1e-11 days).",
+      "invalidInputHandling": "Produces NaN if non-numerical arguments are provided."
+    },
+    {
+      "name": "generateKundali",
+      "signature": "generateKundali(birthDate, birthTime, latitude, longitude, timezone, ayanamsaSystem = 'LAHIRI'): object",
+      "module": "src/engines/astrology/kundali.js",
+      "exported": true,
+      "purpose": "Primary user-facing astrology chart generation function converting user birth inputs to astronomical and astrological positions.",
+      "inputScale": "Local Civil Timestamp with explicit numerical timezone offset (hours east of Greenwich, e.g. +5.5 for IST).",
+      "outputScale": "Kundali chart object containing planetary sidereal longitudes, house cusps, ascendant, and Julian Day in UTC/GMT.",
+      "conversionFormula": "utcHour = hour - timezone; jd = dateToJD(year, month, day, utcHour, minute, 0); saturnLongitude evaluates utcToTT(jd).",
+      "applicableEpochRange": "Modern and historical birth dates.",
+      "assumptions": [
+        "User supplies local standard clock time and the applicable timezone offset.",
+        "Subtracting timezone converts local civil time to Greenwich civil time (UTC for >= 1972; GMT/UT1 for < 1972).",
+        "A Delta-T polynomial does NOT convert local time to UT1; timezone subtraction performs local-to-Greenwich conversion."
+      ],
+      "uncertainty": "Subject to user-provided timezone accuracy; historical dates before standard time zones (e.g. pre-1906 in India) require Local Mean Time (LMT = lon / 15.0).",
+      "invalidInputHandling": "If timezone is missing or undefined, utcHour evaluates to NaN, resulting in safe NaN propagation in calculations."
+    }
+  ]
+}

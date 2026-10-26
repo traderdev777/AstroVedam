@@ -1,0 +1,1163 @@
+
+> astroveda@1.0.0 test
+> node tests/run_all_tests.js
+
+===========================================================
+🪐 ASTROVEDAM MASTER QA REGRESSION TEST SUITE
+===========================================================
+
+--- Running Janampatrika 9-Page Report & Multilingual Integration ---
+  ✅ PASS: [EN] Exactly 9 pages generated
+  ✅ PASS: [EN] Page 1 container present
+  ✅ PASS: [EN] Page 2 container present
+  ✅ PASS: [EN] Page 3 container present
+  ✅ PASS: [EN] Page 4 container present
+  ✅ PASS: [EN] Page 5 container present
+  ✅ PASS: [EN] Page 6 container present
+  ✅ PASS: [EN] Page 7 container present
+  ✅ PASS: [EN] Page 8 container present
+  ✅ PASS: [EN] Page 9 container present
+  ✅ PASS: [EN] Zero occurrences of 'undefined'
+  ✅ PASS: [EN] Zero occurrences of '>null<'
+  ✅ PASS: [EN] Zero occurrences of 'NaN'
+  ✅ PASS: [EN] Lagna chart mount element present on Page 2
+  ✅ PASS: [EN] Navamsha chart mount element present on Page 2
+  ✅ PASS: [HI] Exactly 9 pages generated
+  ✅ PASS: [HI] Page 1 container present
+  ✅ PASS: [HI] Page 2 container present
+  ✅ PASS: [HI] Page 3 container present
+  ✅ PASS: [HI] Page 4 container present
+  ✅ PASS: [HI] Page 5 container present
+  ✅ PASS: [HI] Page 6 container present
+  ✅ PASS: [HI] Page 7 container present
+  ✅ PASS: [HI] Page 8 container present
+  ✅ PASS: [HI] Page 9 container present
+  ✅ PASS: [HI] Zero occurrences of 'undefined'
+  ✅ PASS: [HI] Zero occurrences of '>null<'
+  ✅ PASS: [HI] Zero occurrences of 'NaN'
+  ✅ PASS: [HI] Lagna chart mount element present on Page 2
+  ✅ PASS: [HI] Navamsha chart mount element present on Page 2
+  ✅ PASS: [KN] Exactly 9 pages generated
+  ✅ PASS: [KN] Page 1 container present
+  ✅ PASS: [KN] Page 2 container present
+  ✅ PASS: [KN] Page 3 container present
+  ✅ PASS: [KN] Page 4 container present
+  ✅ PASS: [KN] Page 5 container present
+  ✅ PASS: [KN] Page 6 container present
+  ✅ PASS: [KN] Page 7 container present
+  ✅ PASS: [KN] Page 8 container present
+  ✅ PASS: [KN] Page 9 container present
+  ✅ PASS: [KN] Zero occurrences of 'undefined'
+  ✅ PASS: [KN] Zero occurrences of '>null<'
+  ✅ PASS: [KN] Zero occurrences of 'NaN'
+  ✅ PASS: [KN] Lagna chart mount element present on Page 2
+  ✅ PASS: [KN] Navamsha chart mount element present on Page 2
+  ✅ PASS: [MR] Exactly 9 pages generated
+  ✅ PASS: [MR] Page 1 container present
+  ✅ PASS: [MR] Page 2 container present
+  ✅ PASS: [MR] Page 3 container present
+  ✅ PASS: [MR] Page 4 container present
+  ✅ PASS: [MR] Page 5 container present
+  ✅ PASS: [MR] Page 6 container present
+  ✅ PASS: [MR] Page 7 container present
+  ✅ PASS: [MR] Page 8 container present
+  ✅ PASS: [MR] Page 9 container present
+  ✅ PASS: [MR] Zero occurrences of 'undefined'
+  ✅ PASS: [MR] Zero occurrences of '>null<'
+  ✅ PASS: [MR] Zero occurrences of 'NaN'
+  ✅ PASS: [MR] Lagna chart mount element present on Page 2
+  ✅ PASS: [MR] Navamsha chart mount element present on Page 2
+  ✅ PASS: [TE] Exactly 9 pages generated
+  ✅ PASS: [TE] Page 1 container present
+  ✅ PASS: [TE] Page 2 container present
+  ✅ PASS: [TE] Page 3 container present
+  ✅ PASS: [TE] Page 4 container present
+  ✅ PASS: [TE] Page 5 container present
+  ✅ PASS: [TE] Page 6 container present
+  ✅ PASS: [TE] Page 7 container present
+  ✅ PASS: [TE] Page 8 container present
+  ✅ PASS: [TE] Page 9 container present
+  ✅ PASS: [TE] Zero occurrences of 'undefined'
+  ✅ PASS: [TE] Zero occurrences of '>null<'
+  ✅ PASS: [TE] Zero occurrences of 'NaN'
+  ✅ PASS: [TE] Lagna chart mount element present on Page 2
+  ✅ PASS: [TE] Navamsha chart mount element present on Page 2
+  ✅ PASS: [KN] Localized Dwadashi Tithi in Kannada
+  ✅ PASS: [KN] Localized Magha Nakshatra in Kannada
+  ✅ PASS: [KN] Localized Emerald in Kannada for Gemini Lagna
+  ✅ PASS: [KN] Localized Own Sign dignity in Kannada
+  ✅ PASS: [KN] Zero English color leakage
+  ✅ PASS: [KN] Zero Hindi leakage in Kannada attributes
+  ✅ PASS: [HI] Localized Dwadashi Tithi in Hindi
+  ✅ PASS: [HI] Localized Magha Nakshatra in Hindi
+  ✅ PASS: [MR] Localized Tithi label in Marathi
+  ✅ PASS: [TE] Localized Tithi label in Telugu
+  ✅ PASS: Empty name defaults to "Seeker"
+  ✅ PASS: Empty phone renders localized "Not specified (Optional)"
+  ✅ PASS: Page 6 renders informational disclaimer card when phone is empty
+  ✅ PASS: Empty city defaults to "New Delhi, Delhi"
+  ✅ PASS: XSS: Unescaped <img> tag NOT in output
+  ✅ PASS: XSS: Unescaped <script> tag from fatherName NOT in output
+  ✅ PASS: XSS: Unescaped <svg> tag from motherName NOT in output
+  ✅ PASS: XSS: Unescaped <script> tag from phone NOT in output
+  ✅ PASS: XSS: Name safely escaped to HTML entities
+  ✅ PASS: XSS: Father safely escaped to HTML entities
+  ✅ PASS: Legitimate name with special chars encoded safely
+  ✅ PASS: Legitimate fatherName with & encoded safely
+  ✅ PASS: Legitimate motherName with apostrophe encoded safely
+Suite Results: 98/98 passed
+
+
+--- Running North & South Indian Chart SVG Rendering ---
+  ✅ PASS: North Indian: Generates root <svg> element
+  ✅ PASS: North Indian: Uses standard 480x480 coordinate system
+  ✅ PASS: North Indian: Contains central diamond polygon
+  ✅ PASS: North Indian: Contains central Om watermark
+  ✅ PASS: North Indian (Print): Uses high-contrast print planet palette for Sun
+  ✅ PASS: North Indian: House 1 group present
+  ✅ PASS: North Indian: House 2 group present
+  ✅ PASS: North Indian: House 3 group present
+  ✅ PASS: North Indian: House 4 group present
+  ✅ PASS: North Indian: House 5 group present
+  ✅ PASS: North Indian: House 6 group present
+  ✅ PASS: North Indian: House 7 group present
+  ✅ PASS: North Indian: House 8 group present
+  ✅ PASS: North Indian: House 9 group present
+  ✅ PASS: North Indian: House 10 group present
+  ✅ PASS: North Indian: House 11 group present
+  ✅ PASS: North Indian: House 12 group present
+  ✅ PASS: North Indian (Dark): References dark gradient background (chartBgGrad)
+  ✅ PASS: North Indian (Dark): Uses glowing palette for Sun (#F59E0B)
+  ✅ PASS: South Indian: Generates root <svg> element
+  ✅ PASS: South Indian: Uses 480x480 coordinate space
+  ✅ PASS: South Indian: Central box contains SOUTH INDIAN title
+  ✅ PASS: South Indian: Contains Fixed Zodiac descriptor
+  ✅ PASS: South Indian: Contains Aries (1) box label
+  ✅ PASS: South Indian: Contains Pisces (12) box label
+  ✅ PASS: South Indian: Contains Leo (5) box label
+  ✅ PASS: Universal Switcher: Renders North Indian chart when style="north"
+  ✅ PASS: Universal Switcher: Renders South Indian chart when style="south"
+  ✅ PASS: Navamsha: Renders D-9 SVG chart without exceptions
+Suite Results: 29/29 passed
+
+
+--- Running Astrology Baseline Contracts & Sade Sati Reference ---
+  ✅ PASS: Dasha: Contains at least 9 Mahadasha periods
+  ✅ PASS: Dasha: Moon in Magha correctly starts with Ketu Mahadasha
+  ✅ PASS: Dasha: Ketu initial balance is positive and <= 7 years
+  ✅ PASS: Dasha: Second period is Venus Mahadasha (20 years)
+  ✅ PASS: Dasha: Venus period length is 20 years
+  ✅ PASS: Dasha: Resolves active current Mahadasha period
+  ✅ PASS: Dasha: Resolves active current Antardasha period
+  ✅ PASS: Yogas: Returns array of detected yogas
+  ✅ PASS: Yogas: Detected 2 auspicious combinations for reference seeker
+  ✅ PASS: Yoga: 'Hamsa Yoga (Pancha Mahapurusha)' has valid name
+  ✅ PASS: Yoga: 'Hamsa Yoga (Pancha Mahapurusha)' has description
+  ✅ PASS: Yoga: 'Amala Yoga' has valid name
+  ✅ PASS: Yoga: 'Amala Yoga' has description
+  ✅ PASS: Doshas: Returns array of dosha evaluations
+  ✅ PASS: Sade Sati: Shani influence assessment is included in doshas
+  ✅ PASS: Sade Sati: present field is boolean
+  ✅ PASS: Sade Sati: details description present
+  ✅ PASS: Sade Sati: Contains practical remedies array
+  ✅ PASS: Sade Sati: Valid sidereal sign distance (1-12)
+  ✅ PASS: Sade Sati: Valid transit Saturn sign
+  ✅ PASS: Sade Sati: Details correctly reference transiting Saturn sign
+  ✅ PASS: Sade Sati: Details correctly reference natal Moon sign
+  ✅ PASS: Panchang: Contains valid Tithi
+  ✅ PASS: Panchang: Contains valid Nakshatra
+  ✅ PASS: Panchang: Contains valid Yoga
+  ✅ PASS: Panchang: Contains valid Karana
+  ✅ PASS: Panchang: Contains sunrise timestamp
+Suite Results: 27/27 passed
+
+
+--- Running AstroGuru Conversational AI & Chart Awareness ---
+  ✅ PASS: [KN] Intent 'CAREER' classified accurately
+  ✅ PASS: [KN] Response for 'CAREER' has title containing 'ವೃತ್ತಿ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'CAREER'
+  ✅ PASS: [KN] Actionable remedies provided for 'CAREER'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'CAREER'
+  ✅ PASS: [KN] Intent 'MARRIAGE' classified accurately
+  ✅ PASS: [KN] Response for 'MARRIAGE' has title containing 'ವಿವಾಹ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'MARRIAGE'
+  ✅ PASS: [KN] Actionable remedies provided for 'MARRIAGE'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'MARRIAGE'
+  ✅ PASS: [KN] Intent 'WEALTH' classified accurately
+  ✅ PASS: [KN] Response for 'WEALTH' has title containing 'ಧನ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'WEALTH'
+  ✅ PASS: [KN] Actionable remedies provided for 'WEALTH'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'WEALTH'
+  ✅ PASS: [KN] Intent 'HEALTH' classified accurately
+  ✅ PASS: [KN] Response for 'HEALTH' has title containing 'ಆರೋಗ್ಯ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'HEALTH'
+  ✅ PASS: [KN] Actionable remedies provided for 'HEALTH'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'HEALTH'
+  ✅ PASS: [KN] Intent 'DOSHAS' classified accurately
+  ✅ PASS: [KN] Response for 'DOSHAS' has title containing 'ದೋಷ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'DOSHAS'
+  ✅ PASS: [KN] Actionable remedies provided for 'DOSHAS'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'DOSHAS'
+  ✅ PASS: [KN] Intent 'GEMSTONE' classified accurately
+  ✅ PASS: [KN] Response for 'GEMSTONE' has title containing 'ರತ್ನ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'GEMSTONE'
+  ✅ PASS: [KN] Actionable remedies provided for 'GEMSTONE'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'GEMSTONE'
+  ✅ PASS: [KN] Intent 'MANTRAS' classified accurately
+  ✅ PASS: [KN] Response for 'MANTRAS' has title containing 'ಇಷ್ಟದೇವತೆ'
+  ✅ PASS: [KN] Detailed astrological analysis generated for 'MANTRAS'
+  ✅ PASS: [KN] Actionable remedies provided for 'MANTRAS'
+  ✅ PASS: [KN] Zero occurrences of 'undefined' in response for 'MANTRAS'
+  ✅ PASS: [EN] English career title present
+  ✅ PASS: [EN] English analysis references chart factors
+  ✅ PASS: [HI] Hindi career title present
+  ✅ PASS: [MR] Marathi response generated with valid title
+  ✅ PASS: [TE] Telugu response generated with valid title
+  ✅ PASS: Personalization: Lagna summaries differ between Seeker 1 and Seeker 2
+  ✅ PASS: Personalization: Seeker 1 Lagna summary correctly identifies Mithuna (Gemini)
+  ✅ PASS: Personalization: Seeker 2 Lagna summary identifies correct ascendant Dhanu (Sagittarius)
+  ✅ PASS: Personalization: Preserves Seeker 1 name in consultation
+  ✅ PASS: Personalization: Preserves Seeker 2 name in consultation
+Suite Results: 45/45 passed
+
+
+--- Running Ascendant (Lagna) Astronomical Verification ---
+  ✅ PASS: [REF-01] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-01] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-01] Kundali lagna object valid
+  ✅ PASS: [REF-01] Kundali lagna rashi correctly matches sidereal 3 (got 3 Gemini)
+  ✅ PASS: [REF-02] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-02] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-02] Kundali lagna object valid
+  ✅ PASS: [REF-02] Kundali lagna rashi correctly matches sidereal 6 (got 6 Virgo)
+  ✅ PASS: [REF-03] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-03] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-03] Kundali lagna object valid
+  ✅ PASS: [REF-03] Kundali lagna rashi correctly matches sidereal 3 (got 3 Gemini)
+  ✅ PASS: [REF-04] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-04] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-04] Kundali lagna object valid
+  ✅ PASS: [REF-04] Kundali lagna rashi correctly matches sidereal 5 (got 5 Leo)
+  ✅ PASS: [REF-05] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-05] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-05] Kundali lagna object valid
+  ✅ PASS: [REF-05] Kundali lagna rashi correctly matches sidereal 6 (got 6 Virgo)
+  ✅ PASS: [REF-06] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-06] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-06] Kundali lagna object valid
+  ✅ PASS: [REF-06] Kundali lagna rashi correctly matches sidereal 5 (got 5 Leo)
+  ✅ PASS: [REF-07] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-07] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-07] Kundali lagna object valid
+  ✅ PASS: [REF-07] Kundali lagna rashi correctly matches sidereal 7 (got 7 Libra)
+  ✅ PASS: [REF-08] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-08] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-08] Kundali lagna object valid
+  ✅ PASS: [REF-08] Kundali lagna rashi correctly matches sidereal 10 (got 10 Capricorn)
+  ✅ PASS: [REF-09] calculateAscendant matches independent IAU reference within 0.01 arcmin (0.0000')
+  ✅ PASS: [REF-09] Ascendant is NOT inverted by 180° (anti-Descendant guard)
+  ✅ PASS: [REF-09] Kundali lagna object valid
+  ✅ PASS: [REF-09] Kundali lagna rashi correctly matches sidereal 9 (got 9 Sagittarius)
+  ✅ PASS: [Sunrise Test] Ascendant is conjunct rising Sun at sunrise (delta: 0.96° < 2.0°)
+  ✅ PASS: [Southern Hemisphere] Sydney ascendant properly evaluates to Virgo (rashi 6)
+  ✅ PASS: [Southern Hemisphere] Longitude in [0, 360) range
+  ✅ PASS: [Boundary Normalization] Equator/Greenwich in [0, 360) (88.63°)
+  ✅ PASS: [Boundary Normalization] Extreme south/east in [0, 360) (335.86°)
+  ✅ PASS: [Boundary Normalization] Extreme north/west in [0, 360) (203.70°)
+Suite Results: 42/42 passed
+
+
+--- Running Geocentric Planetary Longitude Verification (Phase 4B.2) ---
+  ✅ PASS: [REF-01] Mercury longitude matches JPL within 9' (err: +0.0874°, 5.2')
+  ✅ PASS: [REF-01] Venus longitude matches JPL within 30' (err: +0.0148°, 0.9')
+  ✅ PASS: [REF-01] Mars longitude matches JPL within 9' (err: -0.0435°, 2.6')
+  ✅ PASS: [REF-01] Jupiter longitude matches JPL within 36' (err: -0.0059°, 0.4')
+  ✅ PASS: [REF-01] Saturn longitude matches JPL within 30' (err: +0.1133°, 6.8')
+  ✅ PASS: [REF-02] Mercury longitude matches JPL within 9' (err: +0.0359°, 2.2')
+  ✅ PASS: [REF-02] Venus longitude matches JPL within 30' (err: +0.0127°, 0.8')
+  ✅ PASS: [REF-02] Mars longitude matches JPL within 9' (err: +0.0095°, 0.6')
+  ✅ PASS: [REF-02] Jupiter longitude matches JPL within 36' (err: -0.0269°, 1.6')
+  ✅ PASS: [REF-02] Saturn longitude matches JPL within 30' (err: +0.1093°, 6.6')
+  ✅ PASS: [REF-03] Mercury longitude matches JPL within 9' (err: +0.0875°, 5.2')
+  ✅ PASS: [REF-03] Venus longitude matches JPL within 30' (err: +0.0148°, 0.9')
+  ✅ PASS: [REF-03] Mars longitude matches JPL within 9' (err: -0.0434°, 2.6')
+  ✅ PASS: [REF-03] Jupiter longitude matches JPL within 36' (err: -0.0059°, 0.4')
+  ✅ PASS: [REF-03] Saturn longitude matches JPL within 30' (err: +0.1133°, 6.8')
+  ✅ PASS: [REF-04] Mercury longitude matches JPL within 9' (err: -0.0674°, 4.0')
+  ✅ PASS: [REF-04] Venus longitude matches JPL within 30' (err: +0.0138°, 0.8')
+  ✅ PASS: [REF-04] Mars longitude matches JPL within 9' (err: +0.0092°, 0.6')
+  ✅ PASS: [REF-04] Jupiter longitude matches JPL within 36' (err: -0.0269°, 1.6')
+  ✅ PASS: [REF-04] Saturn longitude matches JPL within 30' (err: +0.1172°, 7.0')
+  ✅ PASS: [REF-05] Mercury longitude matches JPL within 9' (err: -0.0306°, 1.8')
+  ✅ PASS: [REF-05] Venus longitude matches JPL within 30' (err: -0.0648°, 3.9')
+  ✅ PASS: [REF-05] Mars longitude matches JPL within 9' (err: -0.0495°, 3.0')
+  ✅ PASS: [REF-05] Jupiter longitude matches JPL within 36' (err: -0.3067°, 18.4')
+  ✅ PASS: [REF-05] Saturn longitude matches JPL within 30' (err: -0.2272°, 13.6')
+  ✅ PASS: [REF-06] Mercury longitude matches JPL within 9' (err: -0.0730°, 4.4')
+  ✅ PASS: [REF-06] Venus longitude matches JPL within 30' (err: +0.0879°, 5.3')
+  ✅ PASS: [REF-06] Mars longitude matches JPL within 9' (err: +0.0010°, 0.1')
+  ✅ PASS: [REF-06] Jupiter longitude matches JPL within 36' (err: -0.3501°, 21.0')
+  ✅ PASS: [REF-06] Saturn longitude matches JPL within 30' (err: -0.2941°, 17.6')
+  ✅ PASS: [REF-07] Mercury longitude matches JPL within 9' (err: -0.0862°, 5.2')
+  ✅ PASS: [REF-07] Venus longitude matches JPL within 30' (err: -0.1193°, 7.2')
+  ✅ PASS: [REF-07] Mars longitude matches JPL within 9' (err: -0.0121°, 0.7')
+  ✅ PASS: [REF-07] Jupiter longitude matches JPL within 36' (err: -0.4564°, 27.4')
+  ✅ PASS: [REF-07] Saturn longitude matches JPL within 30' (err: -0.2244°, 13.5')
+  ✅ PASS: [REF-08] Mercury longitude matches JPL within 9' (err: -0.0408°, 2.4')
+  ✅ PASS: [REF-08] Venus longitude matches JPL within 30' (err: +0.3319°, 19.9')
+  ✅ PASS: [REF-08] Mars longitude matches JPL within 9' (err: -0.0085°, 0.5')
+  ✅ PASS: [REF-08] Jupiter longitude matches JPL within 36' (err: -0.2370°, 14.2')
+  ✅ PASS: [REF-08] Saturn longitude matches JPL within 30' (err: -0.2163°, 13.0')
+  ✅ PASS: [REF-09] Mercury longitude matches JPL within 9' (err: +0.0287°, 1.7')
+  ✅ PASS: [REF-09] Venus longitude matches JPL within 30' (err: +0.0142°, 0.9')
+  ✅ PASS: [REF-09] Mars longitude matches JPL within 9' (err: -0.0005°, 0.0')
+  ✅ PASS: [REF-09] Jupiter longitude matches JPL within 36' (err: -0.0351°, 2.1')
+  ✅ PASS: [REF-09] Saturn longitude matches JPL within 30' (err: +0.1241°, 7.4')
+  ✅ PASS: [Defect Guard] Mercury calculation rejects defective heliocentric longitude (divergence 167.2° > 100°)
+  ✅ PASS: [Defect Guard] Venus calculation rejects defective heliocentric longitude (divergence 28.4° > 25°)
+  ✅ PASS: [REF-01] Mercury normalized in [0, 360): 352.22°
+  ✅ PASS: [REF-01] Venus normalized in [0, 360): 41.85°
+  ✅ PASS: [REF-01] Mars normalized in [0, 360): 221.57°
+  ✅ PASS: [REF-01] Jupiter normalized in [0, 360): 10.10°
+  ✅ PASS: [REF-01] Saturn normalized in [0, 360): 33.09°
+  ✅ PASS: [REF-02] Mercury normalized in [0, 360): 0.76°
+  ✅ PASS: [REF-02] Venus normalized in [0, 360): 8.29°
+  ✅ PASS: [REF-02] Mars normalized in [0, 360): 45.58°
+  ✅ PASS: [REF-02] Jupiter normalized in [0, 360): 42.01°
+  ✅ PASS: [REF-02] Saturn normalized in [0, 360): 47.09°
+  ✅ PASS: [REF-03] Mercury normalized in [0, 360): 352.24°
+  ✅ PASS: [REF-03] Venus normalized in [0, 360): 41.81°
+  ✅ PASS: [REF-03] Mars normalized in [0, 360): 221.58°
+  ✅ PASS: [REF-03] Jupiter normalized in [0, 360): 10.09°
+  ✅ PASS: [REF-03] Saturn normalized in [0, 360): 33.08°
+  ✅ PASS: [REF-04] Mercury normalized in [0, 360): 342.44°
+  ✅ PASS: [REF-04] Venus normalized in [0, 360): 313.97°
+  ✅ PASS: [REF-04] Mars normalized in [0, 360): 13.23°
+  ✅ PASS: [REF-04] Jupiter normalized in [0, 360): 32.55°
+  ✅ PASS: [REF-04] Saturn normalized in [0, 360): 42.48°
+  ✅ PASS: [REF-05] Mercury normalized in [0, 360): 203.29°
+  ✅ PASS: [REF-05] Venus normalized in [0, 360): 137.23°
+  ✅ PASS: [REF-05] Mars normalized in [0, 360): 27.05°
+  ✅ PASS: [REF-05] Jupiter normalized in [0, 360): 287.22°
+  ✅ PASS: [REF-05] Saturn normalized in [0, 360): 295.15°
+  ✅ PASS: [REF-06] Mercury normalized in [0, 360): 78.64°
+  ✅ PASS: [REF-06] Venus normalized in [0, 360): 134.19°
+  ✅ PASS: [REF-06] Mars normalized in [0, 360): 138.68°
+  ✅ PASS: [REF-06] Jupiter normalized in [0, 360): 37.24°
+  ✅ PASS: [REF-06] Saturn normalized in [0, 360): 336.90°
+  ✅ PASS: [REF-07] Mercury normalized in [0, 360): 211.91°
+  ✅ PASS: [REF-07] Venus normalized in [0, 360): 219.50°
+  ✅ PASS: [REF-07] Mars normalized in [0, 360): 85.60°
+  ✅ PASS: [REF-07] Jupiter normalized in [0, 360): 359.31°
+  ✅ PASS: [REF-07] Saturn normalized in [0, 360): 318.42°
+  ✅ PASS: [REF-08] Mercury normalized in [0, 360): 241.86°
+  ✅ PASS: [REF-08] Venus normalized in [0, 360): 209.51°
+  ✅ PASS: [REF-08] Mars normalized in [0, 360): 249.38°
+  ✅ PASS: [REF-08] Jupiter normalized in [0, 360): 353.38°
+  ✅ PASS: [REF-08] Saturn normalized in [0, 360): 192.29°
+  ✅ PASS: [REF-09] Mercury normalized in [0, 360): 271.25°
+  ✅ PASS: [REF-09] Venus normalized in [0, 360): 241.06°
+  ✅ PASS: [REF-09] Mars normalized in [0, 360): 327.63°
+  ✅ PASS: [REF-09] Jupiter normalized in [0, 360): 25.20°
+  ✅ PASS: [REF-09] Saturn normalized in [0, 360): 40.53°
+  ✅ PASS: [Wraparound] Mercury near 0° wraps properly without negative or >=360 values (0.7613°)
+  ✅ PASS: [Wraparound] Jupiter near 360° wraps properly without overflow (359.3131°)
+  ✅ PASS: [Ascendant Guard] Phase 4B.1 calculateAscendant is 100% preserved on REF-01 (delta: 0.0001')
+  ✅ PASS: [Ascendant Guard] Phase 4B.1 calculateAscendant is 100% preserved on REF-02 (delta: 0.0015')
+  ✅ PASS: Kundali: returns valid planets array
+  ✅ PASS: Kundali: contains planet Mercury
+  ✅ PASS: Kundali: Mercury longitude is numeric
+  ✅ PASS: Kundali: Mercury placed in correct sidereal Rashi 11 (got 11 Aquarius)
+  ✅ PASS: Kundali: contains planet Venus
+  ✅ PASS: Kundali: Venus longitude is numeric
+  ✅ PASS: Kundali: Venus placed in correct sidereal Rashi 1 (got 1 Aries)
+  ✅ PASS: Kundali: contains planet Mars
+  ✅ PASS: Kundali: Mars longitude is numeric
+  ✅ PASS: Kundali: Mars placed in correct sidereal Rashi 7 (got 7 Libra)
+  ✅ PASS: Kundali: contains planet Jupiter
+  ✅ PASS: Kundali: Jupiter longitude is numeric
+  ✅ PASS: Kundali: Jupiter placed in correct sidereal Rashi 12 (got 12 Pisces)
+  ✅ PASS: Kundali: contains planet Saturn
+  ✅ PASS: Kundali: Saturn longitude is numeric
+  ✅ PASS: Kundali: Saturn placed in correct sidereal Rashi 1 (got 1 Aries)
+Suite Results: 112/112 passed
+
+
+--- Running Planetary Retrograde & Velocity Verification (Phase 4B.3) ---
+  ✅ PASS: [Direct Motion] Mercury on REF-02 correctly classified DIRECT (vel: +1.5317°/d, JPL: +1.5394°/d)
+  ✅ PASS: [Direct Motion] Venus on REF-01 correctly classified DIRECT (vel: +1.1976°/d, JPL: +1.1971°/d)
+  ✅ PASS: [Direct Motion] Mars on REF-02 correctly classified DIRECT (vel: +0.7181°/d, JPL: +0.7178°/d)
+  ✅ PASS: [Direct Motion] Jupiter on REF-01 correctly classified DIRECT (vel: +0.2419°/d, JPL: +0.2420°/d)
+  ✅ PASS: [Direct Motion] Saturn on REF-02 correctly classified DIRECT (vel: +0.1219°/d, JPL: +0.1223°/d)
+  ✅ PASS: [Direct Motion] Sun on REF-01 correctly classified DIRECT (vel: +0.9894°/d, JPL: +0.9889°/d)
+  ✅ PASS: [Direct Motion] Moon on REF-01 correctly classified DIRECT (vel: +12.8825°/d, JPL: +12.7816°/d)
+  ✅ PASS: [Retrograde Motion] Mercury on REF-01 correctly classified RETROGRADE (vel: -0.4955°/d, JPL: -0.4445°/d)
+  ✅ PASS: [Retrograde Motion] Venus on REF-08 correctly classified RETROGRADE (vel: -0.3576°/d, JPL: -0.3290°/d)
+  ✅ PASS: [Retrograde Motion] Mars on REF-01 correctly classified RETROGRADE (vel: -0.1224°/d, JPL: -0.1283°/d)
+  ✅ PASS: [Retrograde Motion] Jupiter on REF-07 correctly classified RETROGRADE (vel: -0.0776°/d, JPL: -0.0773°/d)
+  ✅ PASS: [Retrograde Motion] Saturn on REF-05 correctly classified RETROGRADE (vel: -0.0115°/d, JPL: -0.0113°/d)
+  ✅ PASS: [Retrograde Motion] Rahu on REF-01 correctly classified RETROGRADE (vel: -0.0529°/d, JPL: -0.0530°/d)
+  ✅ PASS: [Retrograde Motion] Ketu on REF-01 correctly classified RETROGRADE (vel: -0.0529°/d, JPL: -0.0530°/d)
+  ✅ PASS: [Station Handling] Saturn on REF-06 near retrograde station correctly detected (vel: -0.0069°/d, JPL: -0.0074°/d)
+  ✅ PASS: [Station Handling] Mars on REF-07 near retrograde station correctly detected (vel: -0.0061°/d, JPL: -0.0135°/d)
+  ✅ PASS: [Station Utility] isPlanetStationary returns boolean contract (false)
+  ✅ PASS: [Wraparound Stability] Retrograde Jupiter near 360° wraps smoothly without discontinuity (-0.0776°/d)
+  ✅ PASS: [Wraparound Stability] Direct Mercury near 0° wraps smoothly without discontinuity (+1.5317°/d)
+  ✅ PASS: [REF-01] Mercury retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-01] Mercury velocity within 0.08°/d (got -0.4955°/d, JPL: -0.4445°/d, diff: 0.0510°/d)
+  ✅ PASS: [REF-01] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-01] Venus velocity within 0.03°/d (got +1.1976°/d, JPL: +1.1971°/d, diff: 0.0005°/d)
+  ✅ PASS: [REF-01] Mars retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-01] Mars velocity within 0.03°/d (got -0.1224°/d, JPL: -0.1283°/d, diff: 0.0059°/d)
+  ✅ PASS: [REF-01] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-01] Jupiter velocity within 0.03°/d (got +0.2419°/d, JPL: +0.2420°/d, diff: 0.0001°/d)
+  ✅ PASS: [REF-01] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-01] Saturn velocity within 0.03°/d (got +0.1192°/d, JPL: +0.1197°/d, diff: 0.0005°/d)
+  ✅ PASS: [REF-02] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-02] Mercury velocity within 0.08°/d (got +1.5317°/d, JPL: +1.5394°/d, diff: 0.0077°/d)
+  ✅ PASS: [REF-02] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-02] Venus velocity within 0.03°/d (got +1.2332°/d, JPL: +1.2330°/d, diff: 0.0002°/d)
+  ✅ PASS: [REF-02] Mars retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-02] Mars velocity within 0.03°/d (got +0.7181°/d, JPL: +0.7178°/d, diff: 0.0003°/d)
+  ✅ PASS: [REF-02] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-02] Jupiter velocity within 0.03°/d (got +0.2328°/d, JPL: +0.2330°/d, diff: 0.0002°/d)
+  ✅ PASS: [REF-02] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-02] Saturn velocity within 0.03°/d (got +0.1219°/d, JPL: +0.1223°/d, diff: 0.0004°/d)
+  ✅ PASS: [REF-03] Mercury retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-03] Mercury velocity within 0.08°/d (got -0.4985°/d, JPL: -0.4477°/d, diff: 0.0508°/d)
+  ✅ PASS: [REF-03] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-03] Venus velocity within 0.03°/d (got +1.1977°/d, JPL: +1.1971°/d, diff: 0.0006°/d)
+  ✅ PASS: [REF-03] Mars retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-03] Mars velocity within 0.03°/d (got -0.1219°/d, JPL: -0.1278°/d, diff: 0.0059°/d)
+  ✅ PASS: [REF-03] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-03] Jupiter velocity within 0.03°/d (got +0.2419°/d, JPL: +0.2420°/d, diff: 0.0001°/d)
+  ✅ PASS: [REF-03] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-03] Saturn velocity within 0.03°/d (got +0.1192°/d, JPL: +0.1197°/d, diff: 0.0005°/d)
+  ✅ PASS: [REF-04] Mercury retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-04] Mercury velocity within 0.08°/d (got -1.0177°/d, JPL: -1.0261°/d, diff: 0.0084°/d)
+  ✅ PASS: [REF-04] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-04] Venus velocity within 0.03°/d (got +1.2353°/d, JPL: +1.2356°/d, diff: 0.0003°/d)
+  ✅ PASS: [REF-04] Mars retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-04] Mars velocity within 0.03°/d (got +0.7520°/d, JPL: +0.7516°/d, diff: 0.0004°/d)
+  ✅ PASS: [REF-04] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-04] Jupiter velocity within 0.03°/d (got +0.1893°/d, JPL: +0.1900°/d, diff: 0.0007°/d)
+  ✅ PASS: [REF-04] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-04] Saturn velocity within 0.03°/d (got +0.0813°/d, JPL: +0.0822°/d, diff: 0.0009°/d)
+  ✅ PASS: [REF-05] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-05] Mercury velocity within 0.08°/d (got +1.2892°/d, JPL: +1.2773°/d, diff: 0.0119°/d)
+  ✅ PASS: [REF-05] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-05] Venus velocity within 0.03°/d (got +1.1367°/d, JPL: +1.1390°/d, diff: 0.0023°/d)
+  ✅ PASS: [REF-05] Mars retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-05] Mars velocity within 0.03°/d (got -0.1703°/d, JPL: -0.1773°/d, diff: 0.0070°/d)
+  ✅ PASS: [REF-05] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-05] Jupiter velocity within 0.03°/d (got +0.0294°/d, JPL: +0.0300°/d, diff: 0.0006°/d)
+  ✅ PASS: [REF-05] Saturn retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-05] Saturn velocity within 0.03°/d (got -0.0115°/d, JPL: -0.0113°/d, diff: 0.0002°/d)
+  ✅ PASS: [REF-06] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-06] Mercury velocity within 0.08°/d (got +2.0360°/d, JPL: +2.0513°/d, diff: 0.0153°/d)
+  ✅ PASS: [REF-06] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-06] Venus velocity within 0.03°/d (got +0.7928°/d, JPL: +0.7798°/d, diff: 0.0130°/d)
+  ✅ PASS: [REF-06] Mars retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-06] Mars velocity within 0.03°/d (got +0.5952°/d, JPL: +0.5958°/d, diff: 0.0006°/d)
+  ✅ PASS: [REF-06] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-06] Jupiter velocity within 0.03°/d (got +0.1881°/d, JPL: +0.1881°/d, diff: 0.0000°/d)
+  ✅ PASS: [REF-06] Saturn retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-06] Saturn velocity within 0.03°/d (got -0.0069°/d, JPL: -0.0074°/d, diff: 0.0005°/d)
+  ✅ PASS: [REF-07] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-07] Mercury velocity within 0.08°/d (got +1.6616°/d, JPL: +1.6654°/d, diff: 0.0038°/d)
+  ✅ PASS: [REF-07] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-07] Venus velocity within 0.03°/d (got +1.2535°/d, JPL: +1.2536°/d, diff: 0.0001°/d)
+  ✅ PASS: [REF-07] Mars retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-07] Mars velocity within 0.03°/d (got -0.0061°/d, JPL: -0.0135°/d, diff: 0.0074°/d)
+  ✅ PASS: [REF-07] Jupiter retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-07] Jupiter velocity within 0.03°/d (got -0.0776°/d, JPL: -0.0773°/d, diff: 0.0003°/d)
+  ✅ PASS: [REF-07] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-07] Saturn velocity within 0.03°/d (got +0.0140°/d, JPL: +0.0144°/d, diff: 0.0004°/d)
+  ✅ PASS: [REF-08] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-08] Mercury velocity within 0.08°/d (got +1.4925°/d, JPL: +1.4875°/d, diff: 0.0050°/d)
+  ✅ PASS: [REF-08] Venus retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-08] Venus velocity within 0.03°/d (got -0.3576°/d, JPL: -0.3290°/d, diff: 0.0286°/d)
+  ✅ PASS: [REF-08] Mars retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-08] Mars velocity within 0.03°/d (got +0.7300°/d, JPL: +0.7306°/d, diff: 0.0006°/d)
+  ✅ PASS: [REF-08] Jupiter retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-08] Jupiter velocity within 0.03°/d (got -0.0283°/d, JPL: -0.0274°/d, diff: 0.0009°/d)
+  ✅ PASS: [REF-08] Saturn retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-08] Saturn velocity within 0.03°/d (got +0.1078°/d, JPL: +0.1080°/d, diff: 0.0002°/d)
+  ✅ PASS: [REF-09] Mercury retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-09] Mercury velocity within 0.08°/d (got +1.5486°/d, JPL: +1.5566°/d, diff: 0.0080°/d)
+  ✅ PASS: [REF-09] Venus retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-09] Venus velocity within 0.03°/d (got +1.2083°/d, JPL: +1.2091°/d, diff: 0.0008°/d)
+  ✅ PASS: [REF-09] Mars retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-09] Mars velocity within 0.03°/d (got +0.7759°/d, JPL: +0.7757°/d, diff: 0.0002°/d)
+  ✅ PASS: [REF-09] Jupiter retrograde flag matches JPL (DIRECT, JPL: DIRECT)
+  ✅ PASS: [REF-09] Jupiter velocity within 0.03°/d (got +0.0396°/d, JPL: +0.0410°/d, diff: 0.0014°/d)
+  ✅ PASS: [REF-09] Saturn retrograde flag matches JPL (RETRO, JPL: RETRO)
+  ✅ PASS: [REF-09] Saturn velocity within 0.03°/d (got -0.0207°/d, JPL: -0.0198°/d, diff: 0.0009°/d)
+  ✅ PASS: Kundali Integration: Mercury is correctly marked retrograde for 1999-03-28 seeker
+  ✅ PASS: Kundali Integration: Mars is correctly marked retrograde for 1999-03-28 seeker
+  ✅ PASS: Kundali Integration: Sun is marked direct (never retrograde)
+  ✅ PASS: Kundali Integration: Jupiter is marked direct
+  ✅ PASS: Kundali Integration: Rahu is marked retrograde (Vedic mean node convention)
+  ✅ PASS: Navamsha Integration: Mercury preserves retrograde flag in D-9 chart
+  ✅ PASS: Report Integration: Kannada report renders Vakra (ವಕ್ರ) for retrograde planets
+  ✅ PASS: Report Integration: HTML table renders red (R) badge for retrograde planets
+  ✅ PASS: Invariance Guard: Phase 4B.1 calculateAscendant is 100% unchanged
+  ✅ PASS: Invariance Guard: Phase 4B.2 geocentric planetary longitude is 100% unchanged
+Suite Results: 119/119 passed
+
+
+--- Sade Sati & Saturn Transit Dynamic Assessment (Phase 4C.2) ---
+
+[TEST GROUP 1] 144 Mathematical Sign Combinations & Parashari Distance Rules:
+  ✅ PASS: Distance 1 (Aries -> Aries): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Aries -> Taurus): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Aries -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Aries -> Cancer): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Aries -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Aries -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Aries -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Aries -> Scorpio): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Aries -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Aries -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Aries -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Aries -> Pisces): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 12 (Taurus -> Aries): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Taurus -> Taurus): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Taurus -> Gemini): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Taurus -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Taurus -> Leo): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Taurus -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Taurus -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Taurus -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Taurus -> Sagittarius): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Taurus -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Taurus -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Taurus -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Gemini -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Gemini -> Taurus): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Gemini -> Gemini): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Gemini -> Cancer): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Gemini -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Gemini -> Virgo): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Gemini -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Gemini -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Gemini -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Gemini -> Capricorn): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Gemini -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Gemini -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Cancer -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Cancer -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Cancer -> Gemini): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Cancer -> Cancer): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Cancer -> Leo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Cancer -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Cancer -> Libra): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Cancer -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Cancer -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Cancer -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Cancer -> Aquarius): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Cancer -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 9 (Leo -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Leo -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Leo -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Leo -> Cancer): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Leo -> Leo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Leo -> Virgo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Leo -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Leo -> Scorpio): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Leo -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Leo -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Leo -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Leo -> Pisces): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 8 (Virgo -> Aries): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Virgo -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Virgo -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Virgo -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Virgo -> Leo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Virgo -> Virgo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Virgo -> Libra): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Virgo -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Virgo -> Sagittarius): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Virgo -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Virgo -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Virgo -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Libra -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Libra -> Taurus): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Libra -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Libra -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Libra -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Libra -> Virgo): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Libra -> Libra): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Libra -> Scorpio): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Libra -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Libra -> Capricorn): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Libra -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Libra -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Scorpio -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Scorpio -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Scorpio -> Gemini): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Scorpio -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Scorpio -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Scorpio -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Scorpio -> Libra): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Scorpio -> Scorpio): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Scorpio -> Sagittarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Scorpio -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Scorpio -> Aquarius): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Scorpio -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 5 (Sagittarius -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Sagittarius -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Sagittarius -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Sagittarius -> Cancer): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Sagittarius -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Sagittarius -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Sagittarius -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Sagittarius -> Scorpio): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Sagittarius -> Sagittarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Sagittarius -> Capricorn): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Sagittarius -> Aquarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Sagittarius -> Pisces): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 4 (Capricorn -> Aries): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Capricorn -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Capricorn -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Capricorn -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Capricorn -> Leo): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Capricorn -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Capricorn -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Capricorn -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Capricorn -> Sagittarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Capricorn -> Capricorn): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Capricorn -> Aquarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Capricorn -> Pisces): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 3 (Aquarius -> Aries): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Aquarius -> Taurus): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Aquarius -> Gemini): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Aquarius -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Aquarius -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Aquarius -> Virgo): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Aquarius -> Libra): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Aquarius -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Aquarius -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Aquarius -> Capricorn): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Aquarius -> Aquarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Aquarius -> Pisces): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 2 (Pisces -> Aries): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 3 (Pisces -> Taurus): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 4 (Pisces -> Gemini): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 5 (Pisces -> Cancer): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 6 (Pisces -> Leo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 7 (Pisces -> Virgo): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 8 (Pisces -> Libra): Dhaiya is never classified as Sade Sati
+  ✅ PASS: Distance 9 (Pisces -> Scorpio): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 10 (Pisces -> Sagittarius): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 11 (Pisces -> Capricorn): Harmonics outside 12,1,2,4,8 are Sade Sati Free
+  ✅ PASS: Distance 12 (Pisces -> Aquarius): Sade Sati is never classified as Dhaiya
+  ✅ PASS: Distance 1 (Pisces -> Pisces): Sade Sati is never classified as Dhaiya
+
+[TEST GROUP 2] Real Ephemeris Assessment Dates Across Saturn Signs:
+  ✅ PASS: Transit check on 2021-06-15 returned valid result
+  ✅ PASS: Transit on 2021-06-15: Saturn is in Capricorn (got Capricorn)
+  ✅ PASS: Transit on 2021-06-15: Saturn Rashi is 10
+  ✅ PASS: Transit check on 2024-06-15 returned valid result
+  ✅ PASS: Transit on 2024-06-15: Saturn is in Aquarius (got Aquarius)
+  ✅ PASS: Transit on 2024-06-15: Saturn Rashi is 11
+  ✅ PASS: Transit check on 2026-06-15 returned valid result
+  ✅ PASS: Transit on 2026-06-15: Saturn is in Pisces (got Pisces)
+  ✅ PASS: Transit on 2026-06-15: Saturn Rashi is 12
+  ✅ PASS: Transit check on 2029-06-15 returned valid result
+  ✅ PASS: Transit on 2029-06-15: Saturn is in Aries (got Aries)
+  ✅ PASS: Transit on 2029-06-15: Saturn Rashi is 1
+
+[TEST GROUP 3] Pisces / Aries Zodiac Boundary Wraparound:
+  ✅ PASS: Pisces Saturn to Aries Moon: Sign distance is 12 (wraparound)
+  ✅ PASS: Pisces Saturn to Aries Moon: Classified as Sade Sati Rising
+  ✅ PASS: Pisces Saturn to Pisces Moon: Sign distance is 1
+  ✅ PASS: Pisces Saturn to Pisces Moon: Classified as Sade Sati Peak
+  ✅ PASS: Pisces Saturn to Aquarius Moon: Sign distance is 2
+  ✅ PASS: Pisces Saturn to Aquarius Moon: Classified as Sade Sati Setting
+  ✅ PASS: Aries Saturn to Pisces Moon: Sign distance is 2 (wraparound)
+  ✅ PASS: Aries Saturn to Pisces Moon: Classified as Sade Sati Setting
+  ✅ PASS: Aries Saturn to Taurus Moon: Sign distance is 12
+  ✅ PASS: Aries Saturn to Taurus Moon: Classified as Sade Sati Rising
+
+[TEST GROUP 4] Dhaiya Disaggregation (Kantaka & Ashtama Shani):
+  ✅ PASS: Pisces Saturn to Sagittarius Moon: Sign distance is 4
+  ✅ PASS: Sagittarius Moon: isDhaiya is true
+  ✅ PASS: Sagittarius Moon: isSadeSati is FALSE (Kantaka Shani is not Sade Sati)
+  ✅ PASS: Sagittarius Moon: phaseCode is KANTAKA
+  ✅ PASS: Pisces Saturn to Leo Moon: Sign distance is 8
+  ✅ PASS: Leo Moon: isDhaiya is true
+  ✅ PASS: Leo Moon: isSadeSati is FALSE (Ashtama Shani is not Sade Sati)
+  ✅ PASS: Leo Moon: phaseCode is ASHTAMA
+  ✅ PASS: Pisces Saturn to Cancer Moon: Sign distance is 9
+  ✅ PASS: Cancer Moon: isSadeSati is false
+  ✅ PASS: Cancer Moon: isDhaiya is false
+  ✅ PASS: Cancer Moon: isAffected is false
+  ✅ PASS: Cancer Moon: phaseCode is FREE
+
+[TEST GROUP 5] Elimination of Natal Saturn Trap:
+  ✅ PASS: Natal Trap Test: dosha evaluation includes shani_influence
+  ✅ PASS: Natal Trap Resolved: Despite natal Moon conjunct natal Saturn, 2021 transit is present: false
+  ✅ PASS: Natal Trap Resolved: isSadeSati is false
+  ✅ PASS: Natal Trap Resolved: Sign distance is 6 (Leo to Capricorn)
+  ✅ PASS: Natal Trap Resolved: Phase is FREE
+
+[TEST GROUP 6] Dynamic Detection when Natal Saturn is in Amicable/Distant House:
+  ✅ PASS: Natal Opposed Seeker: Successfully detects active transit on 2024-06-15
+  ✅ PASS: Natal Opposed Seeker: isSadeSati is true
+  ✅ PASS: Natal Opposed Seeker: Phase is PEAK (transiting over Aquarius)
+  ✅ PASS: Natal Opposed Seeker: Sign distance is 1
+
+[TEST GROUP 7] Temporal Transit Boundary Crossing:
+  ✅ PASS: Boundary Crossing: Mid-2024 Pisces Moon is in RISING phase (Saturn in Aquarius)
+  ✅ PASS: Boundary Crossing: Mid-2026 Pisces Moon progresses to PEAK phase (Saturn in Pisces)
+  ✅ PASS: Boundary Crossing: 2024 transit sign is Aquarius
+  ✅ PASS: Boundary Crossing: 2026 transit sign is Pisces
+
+[TEST GROUP 8] Cross-Engine Concordance (dosha.js vs predictions.js):
+  ✅ PASS: Engine Agreement (Aries on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Aries on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Aries on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Aries on 2021-06-15): signDistance matches (10)
+  ✅ PASS: Engine Agreement (Aries on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Aries on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Aries on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Aries on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Aries on 2024-06-15): signDistance matches (11)
+  ✅ PASS: Engine Agreement (Aries on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Aries on 2026-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Aries on 2026-06-15): phase matches ('Rising Phase (प्रथम चरण / सिर काल)')
+  ✅ PASS: Engine Agreement (Aries on 2026-06-15): phaseCode matches ('RISING')
+  ✅ PASS: Engine Agreement (Aries on 2026-06-15): signDistance matches (12)
+  ✅ PASS: Engine Agreement (Aries on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Aries on 2029-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Aries on 2029-06-15): phase matches ('Peak Phase (द्वितीय चरण / हृदय काल)')
+  ✅ PASS: Engine Agreement (Aries on 2029-06-15): phaseCode matches ('PEAK')
+  ✅ PASS: Engine Agreement (Aries on 2029-06-15): signDistance matches (1)
+  ✅ PASS: Engine Agreement (Aries on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Taurus on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Taurus on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Taurus on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Taurus on 2021-06-15): signDistance matches (9)
+  ✅ PASS: Engine Agreement (Taurus on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Taurus on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Taurus on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Taurus on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Taurus on 2024-06-15): signDistance matches (10)
+  ✅ PASS: Engine Agreement (Taurus on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Taurus on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Taurus on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Taurus on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Taurus on 2026-06-15): signDistance matches (11)
+  ✅ PASS: Engine Agreement (Taurus on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Taurus on 2029-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Taurus on 2029-06-15): phase matches ('Rising Phase (प्रथम चरण / सिर काल)')
+  ✅ PASS: Engine Agreement (Taurus on 2029-06-15): phaseCode matches ('RISING')
+  ✅ PASS: Engine Agreement (Taurus on 2029-06-15): signDistance matches (12)
+  ✅ PASS: Engine Agreement (Taurus on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Gemini on 2021-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Gemini on 2021-06-15): phase matches ('Ashtama Shani (अष्टम ढैया)')
+  ✅ PASS: Engine Agreement (Gemini on 2021-06-15): phaseCode matches ('ASHTAMA')
+  ✅ PASS: Engine Agreement (Gemini on 2021-06-15): signDistance matches (8)
+  ✅ PASS: Engine Agreement (Gemini on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Gemini on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Gemini on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Gemini on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Gemini on 2024-06-15): signDistance matches (9)
+  ✅ PASS: Engine Agreement (Gemini on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Gemini on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Gemini on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Gemini on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Gemini on 2026-06-15): signDistance matches (10)
+  ✅ PASS: Engine Agreement (Gemini on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Gemini on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Gemini on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Gemini on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Gemini on 2029-06-15): signDistance matches (11)
+  ✅ PASS: Engine Agreement (Gemini on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Cancer on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Cancer on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Cancer on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Cancer on 2021-06-15): signDistance matches (7)
+  ✅ PASS: Engine Agreement (Cancer on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Cancer on 2024-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Cancer on 2024-06-15): phase matches ('Ashtama Shani (अष्टम ढैया)')
+  ✅ PASS: Engine Agreement (Cancer on 2024-06-15): phaseCode matches ('ASHTAMA')
+  ✅ PASS: Engine Agreement (Cancer on 2024-06-15): signDistance matches (8)
+  ✅ PASS: Engine Agreement (Cancer on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Cancer on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Cancer on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Cancer on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Cancer on 2026-06-15): signDistance matches (9)
+  ✅ PASS: Engine Agreement (Cancer on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Cancer on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Cancer on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Cancer on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Cancer on 2029-06-15): signDistance matches (10)
+  ✅ PASS: Engine Agreement (Cancer on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Leo on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Leo on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Leo on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Leo on 2021-06-15): signDistance matches (6)
+  ✅ PASS: Engine Agreement (Leo on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Leo on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Leo on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Leo on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Leo on 2024-06-15): signDistance matches (7)
+  ✅ PASS: Engine Agreement (Leo on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Leo on 2026-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Leo on 2026-06-15): phase matches ('Ashtama Shani (अष्टम ढैया)')
+  ✅ PASS: Engine Agreement (Leo on 2026-06-15): phaseCode matches ('ASHTAMA')
+  ✅ PASS: Engine Agreement (Leo on 2026-06-15): signDistance matches (8)
+  ✅ PASS: Engine Agreement (Leo on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Leo on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Leo on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Leo on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Leo on 2029-06-15): signDistance matches (9)
+  ✅ PASS: Engine Agreement (Leo on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Virgo on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Virgo on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Virgo on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Virgo on 2021-06-15): signDistance matches (5)
+  ✅ PASS: Engine Agreement (Virgo on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Virgo on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Virgo on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Virgo on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Virgo on 2024-06-15): signDistance matches (6)
+  ✅ PASS: Engine Agreement (Virgo on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Virgo on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Virgo on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Virgo on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Virgo on 2026-06-15): signDistance matches (7)
+  ✅ PASS: Engine Agreement (Virgo on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Virgo on 2029-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Virgo on 2029-06-15): phase matches ('Ashtama Shani (अष्टम ढैया)')
+  ✅ PASS: Engine Agreement (Virgo on 2029-06-15): phaseCode matches ('ASHTAMA')
+  ✅ PASS: Engine Agreement (Virgo on 2029-06-15): signDistance matches (8)
+  ✅ PASS: Engine Agreement (Virgo on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Libra on 2021-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Libra on 2021-06-15): phase matches ('Kantaka Shani (चतुर्थ ढैया)')
+  ✅ PASS: Engine Agreement (Libra on 2021-06-15): phaseCode matches ('KANTAKA')
+  ✅ PASS: Engine Agreement (Libra on 2021-06-15): signDistance matches (4)
+  ✅ PASS: Engine Agreement (Libra on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Libra on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Libra on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Libra on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Libra on 2024-06-15): signDistance matches (5)
+  ✅ PASS: Engine Agreement (Libra on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Libra on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Libra on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Libra on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Libra on 2026-06-15): signDistance matches (6)
+  ✅ PASS: Engine Agreement (Libra on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Libra on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Libra on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Libra on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Libra on 2029-06-15): signDistance matches (7)
+  ✅ PASS: Engine Agreement (Libra on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Scorpio on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Scorpio on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Scorpio on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Scorpio on 2021-06-15): signDistance matches (3)
+  ✅ PASS: Engine Agreement (Scorpio on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Scorpio on 2024-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Scorpio on 2024-06-15): phase matches ('Kantaka Shani (चतुर्थ ढैया)')
+  ✅ PASS: Engine Agreement (Scorpio on 2024-06-15): phaseCode matches ('KANTAKA')
+  ✅ PASS: Engine Agreement (Scorpio on 2024-06-15): signDistance matches (4)
+  ✅ PASS: Engine Agreement (Scorpio on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Scorpio on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Scorpio on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Scorpio on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Scorpio on 2026-06-15): signDistance matches (5)
+  ✅ PASS: Engine Agreement (Scorpio on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Scorpio on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Scorpio on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Scorpio on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Scorpio on 2029-06-15): signDistance matches (6)
+  ✅ PASS: Engine Agreement (Scorpio on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Sagittarius on 2021-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Sagittarius on 2021-06-15): phase matches ('Setting Phase (तृतीय चरण / चरण मुक्ति काल)')
+  ✅ PASS: Engine Agreement (Sagittarius on 2021-06-15): phaseCode matches ('SETTING')
+  ✅ PASS: Engine Agreement (Sagittarius on 2021-06-15): signDistance matches (2)
+  ✅ PASS: Engine Agreement (Sagittarius on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Sagittarius on 2024-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Sagittarius on 2024-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Sagittarius on 2024-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Sagittarius on 2024-06-15): signDistance matches (3)
+  ✅ PASS: Engine Agreement (Sagittarius on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Sagittarius on 2026-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Sagittarius on 2026-06-15): phase matches ('Kantaka Shani (चतुर्थ ढैया)')
+  ✅ PASS: Engine Agreement (Sagittarius on 2026-06-15): phaseCode matches ('KANTAKA')
+  ✅ PASS: Engine Agreement (Sagittarius on 2026-06-15): signDistance matches (4)
+  ✅ PASS: Engine Agreement (Sagittarius on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Sagittarius on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Sagittarius on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Sagittarius on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Sagittarius on 2029-06-15): signDistance matches (5)
+  ✅ PASS: Engine Agreement (Sagittarius on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Capricorn on 2021-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Capricorn on 2021-06-15): phase matches ('Peak Phase (द्वितीय चरण / हृदय काल)')
+  ✅ PASS: Engine Agreement (Capricorn on 2021-06-15): phaseCode matches ('PEAK')
+  ✅ PASS: Engine Agreement (Capricorn on 2021-06-15): signDistance matches (1)
+  ✅ PASS: Engine Agreement (Capricorn on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Capricorn on 2024-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Capricorn on 2024-06-15): phase matches ('Setting Phase (तृतीय चरण / चरण मुक्ति काल)')
+  ✅ PASS: Engine Agreement (Capricorn on 2024-06-15): phaseCode matches ('SETTING')
+  ✅ PASS: Engine Agreement (Capricorn on 2024-06-15): signDistance matches (2)
+  ✅ PASS: Engine Agreement (Capricorn on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Capricorn on 2026-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Capricorn on 2026-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Capricorn on 2026-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Capricorn on 2026-06-15): signDistance matches (3)
+  ✅ PASS: Engine Agreement (Capricorn on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Capricorn on 2029-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Capricorn on 2029-06-15): phase matches ('Kantaka Shani (चतुर्थ ढैया)')
+  ✅ PASS: Engine Agreement (Capricorn on 2029-06-15): phaseCode matches ('KANTAKA')
+  ✅ PASS: Engine Agreement (Capricorn on 2029-06-15): signDistance matches (4)
+  ✅ PASS: Engine Agreement (Capricorn on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Aquarius on 2021-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Aquarius on 2021-06-15): phase matches ('Rising Phase (प्रथम चरण / सिर काल)')
+  ✅ PASS: Engine Agreement (Aquarius on 2021-06-15): phaseCode matches ('RISING')
+  ✅ PASS: Engine Agreement (Aquarius on 2021-06-15): signDistance matches (12)
+  ✅ PASS: Engine Agreement (Aquarius on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Aquarius on 2024-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Aquarius on 2024-06-15): phase matches ('Peak Phase (द्वितीय चरण / हृदय काल)')
+  ✅ PASS: Engine Agreement (Aquarius on 2024-06-15): phaseCode matches ('PEAK')
+  ✅ PASS: Engine Agreement (Aquarius on 2024-06-15): signDistance matches (1)
+  ✅ PASS: Engine Agreement (Aquarius on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Aquarius on 2026-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Aquarius on 2026-06-15): phase matches ('Setting Phase (तृतीय चरण / चरण मुक्ति काल)')
+  ✅ PASS: Engine Agreement (Aquarius on 2026-06-15): phaseCode matches ('SETTING')
+  ✅ PASS: Engine Agreement (Aquarius on 2026-06-15): signDistance matches (2)
+  ✅ PASS: Engine Agreement (Aquarius on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Aquarius on 2029-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Aquarius on 2029-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Aquarius on 2029-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Aquarius on 2029-06-15): signDistance matches (3)
+  ✅ PASS: Engine Agreement (Aquarius on 2029-06-15): transitSaturnSign matches (Aries)
+  ✅ PASS: Engine Agreement (Pisces on 2021-06-15): present (false) === isAffected (false)
+  ✅ PASS: Engine Agreement (Pisces on 2021-06-15): phase matches ('Sade Sati Free (शुभ गोचर)')
+  ✅ PASS: Engine Agreement (Pisces on 2021-06-15): phaseCode matches ('FREE')
+  ✅ PASS: Engine Agreement (Pisces on 2021-06-15): signDistance matches (11)
+  ✅ PASS: Engine Agreement (Pisces on 2021-06-15): transitSaturnSign matches (Capricorn)
+  ✅ PASS: Engine Agreement (Pisces on 2024-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Pisces on 2024-06-15): phase matches ('Rising Phase (प्रथम चरण / सिर काल)')
+  ✅ PASS: Engine Agreement (Pisces on 2024-06-15): phaseCode matches ('RISING')
+  ✅ PASS: Engine Agreement (Pisces on 2024-06-15): signDistance matches (12)
+  ✅ PASS: Engine Agreement (Pisces on 2024-06-15): transitSaturnSign matches (Aquarius)
+  ✅ PASS: Engine Agreement (Pisces on 2026-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Pisces on 2026-06-15): phase matches ('Peak Phase (द्वितीय चरण / हृदय काल)')
+  ✅ PASS: Engine Agreement (Pisces on 2026-06-15): phaseCode matches ('PEAK')
+  ✅ PASS: Engine Agreement (Pisces on 2026-06-15): signDistance matches (1)
+  ✅ PASS: Engine Agreement (Pisces on 2026-06-15): transitSaturnSign matches (Pisces)
+  ✅ PASS: Engine Agreement (Pisces on 2029-06-15): present (true) === isAffected (true)
+  ✅ PASS: Engine Agreement (Pisces on 2029-06-15): phase matches ('Setting Phase (तृतीय चरण / चरण मुक्ति काल)')
+  ✅ PASS: Engine Agreement (Pisces on 2029-06-15): phaseCode matches ('SETTING')
+  ✅ PASS: Engine Agreement (Pisces on 2029-06-15): signDistance matches (2)
+  ✅ PASS: Engine Agreement (Pisces on 2029-06-15): transitSaturnSign matches (Aries)
+
+[TEST GROUP 9] Input Resilience & Fault Tolerance:
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: null
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: undefined
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: 0
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: 13
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: -1
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: "InvalidSignName"
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: {}
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid input: {"planets":[]}
+  ✅ PASS: Invalid input returns isAffected: false without crashing
+  ✅ PASS: Invalid input returns phaseCode: UNAVAILABLE without crashing
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid date: invalid-date
+  ✅ PASS: Invalid date returns isAffected: false
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid date: 2025-99-99
+  ✅ PASS: Invalid date returns isAffected: false
+  ✅ PASS: calculateSaturnTransit gracefully handles invalid date: NaN
+  ✅ PASS: Invalid date returns isAffected: false
+  ✅ PASS: Default assessment date (omitted) resolves cleanly to current time
+  ✅ PASS: Default date yields valid Saturn sign
+  ✅ PASS: analyzeDoshas(kundali) with single argument returns shani_influence
+  ✅ PASS: shani_influence.present is boolean
+  ✅ PASS: shani_influence.details is string
+  ✅ PASS: generateAdvancedAstroSolutions(kundali) returns sadeSati
+  ✅ PASS: sadeSati.isAffected is boolean
+  ✅ PASS: sadeSati.detail is backward-compatible string
+  ✅ PASS: sadeSati.details is string
+
+[TEST GROUP 10] Non-Regression Invariance Guards:
+  ✅ PASS: Phase 4B.1 Guard: Ascendant remains Gemini for baseline chart
+  ✅ PASS: Phase 4B.1 Guard: Ascendant longitude remains ~63.59°
+  ✅ PASS: Phase 4B.2 Guard: Geocentric Mercury remains Aquarius (328.29°)
+  ✅ PASS: Phase 4B.2 Guard: Geocentric Mars remains Libra (197.77°)
+  ✅ PASS: Phase 4B.3 Guard: Mercury remains retrograde for baseline chart
+  ✅ PASS: Phase 4B.3 Guard: Mars remains retrograde for baseline chart
+Suite Results: 477/477 passed
+
+
+--- Phase 4D Targeted Saturn Transit Presentation & Input Safety ---
+
+[TEST GROUP 1] getRashi Longitude Normalization & Safety:
+  ✅ PASS: getRashi(0) === 1 (Aries)
+  ✅ PASS: getRashi(0.0) === 1 (Aries)
+  ✅ PASS: getRashi(360) === 1 (Aries, not 13)
+  ✅ PASS: getRashi(360.0) === 1 (Aries)
+  ✅ PASS: getRashi(720) === 1 (Aries)
+  ✅ PASS: getRashi(29.9999) === 1 (Aries end)
+  ✅ PASS: getRashi(30.0) === 2 (Taurus start)
+  ✅ PASS: getRashi(-0.0001) === 12 (Pisces end)
+  ✅ PASS: getRashi(-30) === 12 (Pisces start)
+  ✅ PASS: getRashi(-30.0001) === 11 (Aquarius end)
+  ✅ PASS: getRashi(-360) === 1 (Aries)
+  ✅ PASS: getRashi(-390) === 12 (Pisces)
+  ✅ PASS: getRashi(390) === 2 (Taurus)
+  ✅ PASS: getRashi(750) === 2 (Taurus)
+  ✅ PASS: getRashi(NaN) returns null safely
+  ✅ PASS: getRashi(Infinity) returns null safely
+  ✅ PASS: getRashi(-Infinity) returns null safely
+  ✅ PASS: getRashi(null) returns null safely
+  ✅ PASS: getRashi(undefined) returns null safely
+  ✅ PASS: getRashi('360') non-number returns null safely
+  ✅ PASS: getRashi({}) object returns null safely
+  ✅ PASS: getRashi([120]) array returns null safely
+
+[TEST GROUP 2] Dhaiya vs Sade Sati Distinct Localized Labels:
+  ✅ PASS: [en] activeStatus exists
+  ✅ PASS: [en] activeDhaiyaStatus exists
+  ✅ PASS: [en] unavailableStatus exists
+  ✅ PASS: [en] activeStatus !== activeDhaiyaStatus
+  ✅ PASS: [hi] activeStatus exists
+  ✅ PASS: [hi] activeDhaiyaStatus exists
+  ✅ PASS: [hi] unavailableStatus exists
+  ✅ PASS: [hi] activeStatus !== activeDhaiyaStatus
+  ✅ PASS: [kn] activeStatus exists
+  ✅ PASS: [kn] activeDhaiyaStatus exists
+  ✅ PASS: [kn] unavailableStatus exists
+  ✅ PASS: [kn] activeStatus !== activeDhaiyaStatus
+  ✅ PASS: [mr] activeStatus exists
+  ✅ PASS: [mr] activeDhaiyaStatus exists
+  ✅ PASS: [mr] unavailableStatus exists
+  ✅ PASS: [mr] activeStatus !== activeDhaiyaStatus
+  ✅ PASS: [te] activeStatus exists
+  ✅ PASS: [te] activeDhaiyaStatus exists
+  ✅ PASS: [te] unavailableStatus exists
+  ✅ PASS: [te] activeStatus !== activeDhaiyaStatus
+  ✅ PASS: Leo Moon 2026: isDhaiya === true
+  ✅ PASS: Leo Moon 2026: isSadeSati === false
+  ✅ PASS: Leo Moon 2026: phaseCode === ASHTAMA
+  ✅ PASS: Sagittarius Moon 2026: isDhaiya === true
+  ✅ PASS: Sagittarius Moon 2026: isSadeSati === false
+  ✅ PASS: Sagittarius Moon 2026: phaseCode === KANTAKA
+  ✅ PASS: predictions.js: status is Active Dhaiya for Leo (Ashtama)
+  ✅ PASS: predictions.js: Ashtama Dhaiya is never labeled Active Sade Sati
+  ✅ PASS: predictions.js: status is Active Dhaiya for Sagittarius (Kantaka)
+  ✅ PASS: predictions.js: Kantaka Dhaiya is never labeled Active Sade Sati
+  ✅ PASS: [en] Report HTML renders distinct Dhaiya label: Active Dhaiya (Kantaka / Ashtama Shani)
+  ✅ PASS: [en] Report HTML NEVER renders Sade Sati label for Dhaiya native
+  ✅ PASS: [hi] Report HTML renders distinct Dhaiya label: शनि ढैया सक्रिय (कंटक / अष्टम)
+  ✅ PASS: [hi] Report HTML NEVER renders Sade Sati label for Dhaiya native
+  ✅ PASS: [kn] Report HTML renders distinct Dhaiya label: ಶನಿ ಧೈಯ್ಯಾ ಸಕ್ರಿಯ (ಕಂಟಕ / ಅಷ್ಟಮ)
+  ✅ PASS: [kn] Report HTML NEVER renders Sade Sati label for Dhaiya native
+  ✅ PASS: [mr] Report HTML renders distinct Dhaiya label: शनी ढिय्या सक्रिय (कंटक / अष्टम)
+  ✅ PASS: [mr] Report HTML NEVER renders Sade Sati label for Dhaiya native
+  ✅ PASS: [te] Report HTML renders distinct Dhaiya label: శని ధైయ్యా క్రియాశీలం (కంటక / అష్టమ)
+  ✅ PASS: [te] Report HTML NEVER renders Sade Sati label for Dhaiya native
+
+[TEST GROUP 3] Sade Sati Retains Correct Localized Labels:
+  ✅ PASS: Pisces Moon 2026: isSadeSati === true
+  ✅ PASS: Pisces Moon 2026: isDhaiya === false
+  ✅ PASS: Pisces Moon 2026: phaseCode === PEAK
+  ✅ PASS: [en] Report HTML renders correct Sade Sati label: Active Sade Sati
+  ✅ PASS: [hi] Report HTML renders correct Sade Sati label: साढ़ेसाती सक्रिय
+  ✅ PASS: [kn] Report HTML renders correct Sade Sati label: ಸಾಡೇ ಸಾತಿ ಸಕ್ರಿಯ (Active)
+  ✅ PASS: [mr] Report HTML renders correct Sade Sati label: साडेसाती सक्रिय (Active)
+  ✅ PASS: [te] Report HTML renders correct Sade Sati label: ఏలినాటి శని క్రియాశీలం (Active)
+
+[TEST GROUP 4] Invalid Transit Data Resilience & Non-Favorable Contract:
+  ✅ PASS: invalid-date: valid === false
+  ✅ PASS: invalid-date: classification === UNAVAILABLE
+  ✅ PASS: invalid-date: phaseCode === UNAVAILABLE
+  ✅ PASS: invalid-date: isAffected === false
+  ✅ PASS: 2025-99-99: valid === false
+  ✅ PASS: 2025-99-99: classification === UNAVAILABLE
+  ✅ PASS: null moon: valid === false
+  ✅ PASS: null moon: classification === UNAVAILABLE
+  ✅ PASS: Missing Moon: dosha valid === false
+  ✅ PASS: Missing Moon: intensity === Data Unavailable
+  ✅ PASS: Missing Moon: phaseCode === UNAVAILABLE
+  ✅ PASS: Missing Moon: present === false
+  ✅ PASS: predictions.js: invalid date valid === false
+  ✅ PASS: predictions.js: status is Transit Data Unavailable
+  ✅ PASS: predictions.js: invalid date NEVER yields Favorable / Inactive
+  ✅ PASS: [en] Shani card found in report
+  ✅ PASS: [en] Report renders localized unavailable status: Assessment Unavailable
+  ✅ PASS: [en] Shani card NEVER renders Clear/Favorable status for invalid data
+  ✅ PASS: [en] Report uses slate-gray (#64748B) badge for unavailable state
+  ✅ PASS: [hi] Shani card found in report
+  ✅ PASS: [hi] Report renders localized unavailable status: विवरण अनुपलब्ध
+  ✅ PASS: [hi] Shani card NEVER renders Clear/Favorable status for invalid data
+  ✅ PASS: [hi] Report uses slate-gray (#64748B) badge for unavailable state
+  ✅ PASS: [kn] Shani card found in report
+  ✅ PASS: [kn] Report renders localized unavailable status: ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ
+  ✅ PASS: [kn] Shani card NEVER renders Clear/Favorable status for invalid data
+  ✅ PASS: [kn] Report uses slate-gray (#64748B) badge for unavailable state
+  ✅ PASS: [mr] Shani card found in report
+  ✅ PASS: [mr] Report renders localized unavailable status: माहिती उपलब्ध नाही
+  ✅ PASS: [mr] Shani card NEVER renders Clear/Favorable status for invalid data
+  ✅ PASS: [mr] Report uses slate-gray (#64748B) badge for unavailable state
+  ✅ PASS: [te] Shani card found in report
+  ✅ PASS: [te] Report renders localized unavailable status: సమాచారం అందుబాటులో లేదు
+  ✅ PASS: [te] Shani card NEVER renders Clear/Favorable status for invalid data
+  ✅ PASS: [te] Report uses slate-gray (#64748B) badge for unavailable state
+
+[TEST GROUP 5] Transit Assessment Date Consistency & Display:
+  ✅ PASS: shani_influence.assessmentDate matches input date
+  ✅ PASS: Transit assessment date !== birth date (1999-03-28)
+  ✅ PASS: [en] Report HTML displays assessment date: 2026-10-22
+  ✅ PASS: [en] Report HTML includes localized assessment date label: Transit assessment date
+  ✅ PASS: [hi] Report HTML displays assessment date: 2026-10-22
+  ✅ PASS: [hi] Report HTML includes localized assessment date label: गोचर आकलन तिथि
+  ✅ PASS: [kn] Report HTML displays assessment date: 2026-10-22
+  ✅ PASS: [kn] Report HTML includes localized assessment date label: ಗೋಚಾರ ಪರಿಶೀಲನಾ ದಿನಾಂಕ
+  ✅ PASS: [mr] Report HTML displays assessment date: 2026-10-22
+  ✅ PASS: [mr] Report HTML includes localized assessment date label: गोचर मूल्यांकन तारीख
+  ✅ PASS: [te] Report HTML displays assessment date: 2026-10-22
+  ✅ PASS: [te] Report HTML includes localized assessment date label: గోచార పరిశీలన తేదీ
+  ✅ PASS: AstroGuru advisor context preserves transitDate
+  ✅ PASS: AstroGuru dosha assessmentDate matches input
+  ✅ PASS: Omitted transitDate defaults to ISO date string
+  ✅ PASS: Omitted transitDate NEVER defaults to birth date
+
+Phase 4D Suite Results: 121/121 passed
+
+
+===========================================================
+📊 REGRESSION TEST EXECUTION SUMMARY
+===========================================================
+✅ PASS | Janampatrika 9-Page Report & Multilingual Integration | 98/98 passed
+✅ PASS | North & South Indian Chart SVG Rendering           | 29/29 passed
+✅ PASS | Astrology Baseline Contracts & Sade Sati Reference | 27/27 passed
+✅ PASS | AstroGuru Conversational AI & Chart Awareness      | 45/45 passed
+✅ PASS | Ascendant (Lagna) Astronomical Verification        | 42/42 passed
+✅ PASS | Geocentric Planetary Longitude Verification (Phase 4B.2) | 112/112 passed
+✅ PASS | Planetary Retrograde & Velocity Verification (Phase 4B.3) | 119/119 passed
+✅ PASS | Sade Sati & Saturn Transit Dynamic Assessment (Phase 4C.2) | 477/477 passed
+✅ PASS | Phase 4D Targeted Saturn Transit Presentation & Input Safety | 121/121 passed
+-----------------------------------------------------------
+TOTAL ASSERTIONS: 1070 | PASSED: 1070 | FAILED: 0 | DURATION: 0.17s
+===========================================================
+
+🌟 ALL REGRESSION TESTS PASSED CLEANLY (100% SUCCESS) 🌟
+

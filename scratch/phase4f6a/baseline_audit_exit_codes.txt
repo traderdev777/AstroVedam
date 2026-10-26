@@ -1,0 +1,3 @@
+node scratch/run_astronomical_benchmark.js exit_code: 0
+npm test exit_code: 0
+npm run build exit_code: 0

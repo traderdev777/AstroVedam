@@ -1,0 +1,3360 @@
+{
+  "metadata": {
+    "title": "Independently Derived 108 Navamsa Reference Table",
+    "standard": "Brihat Parashara Hora Shastra (BPHS) elemental triplicity rule",
+    "formula": "Fire signs (1,5,9) start Aries(1); Earth (2,6,10) start Capricorn(10); Air (3,7,11) start Libra(7); Water (4,8,12) start Cancer(4)",
+    "totalDivisions": 108,
+    "allPassed": true,
+    "timestamp": "2026-10-24T09:19:03.565Z"
+  },
+  "divisions": [
+    {
+      "divisionIndex": 0,
+      "padaNumber": 1,
+      "rangeDMS": "0°00′ - 3°20′",
+      "startLongitude": 0,
+      "midpointLongitude": 1.6666666666666667,
+      "endLongitude": 3.3333333333333335,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 1,
+        "name": "Ashwini",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 1,
+      "padaNumber": 2,
+      "rangeDMS": "3°20′ - 6°40′",
+      "startLongitude": 3.3333333333333335,
+      "midpointLongitude": 5,
+      "endLongitude": 6.666666666666667,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 1,
+        "name": "Ashwini",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 2,
+      "padaNumber": 3,
+      "rangeDMS": "6°40′ - 10°00′",
+      "startLongitude": 6.666666666666667,
+      "midpointLongitude": 8.333333333333334,
+      "endLongitude": 10,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 1,
+        "name": "Ashwini",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 3,
+      "padaNumber": 4,
+      "rangeDMS": "10°00′ - 13°20′",
+      "startLongitude": 10,
+      "midpointLongitude": 11.666666666666668,
+      "endLongitude": 13.333333333333334,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 1,
+        "name": "Ashwini",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 4,
+      "padaNumber": 5,
+      "rangeDMS": "13°20′ - 16°40′",
+      "startLongitude": 13.333333333333334,
+      "midpointLongitude": 15,
+      "endLongitude": 16.666666666666668,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 2,
+        "name": "Bharani",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 5,
+      "padaNumber": 6,
+      "rangeDMS": "16°40′ - 20°00′",
+      "startLongitude": 16.666666666666668,
+      "midpointLongitude": 18.333333333333336,
+      "endLongitude": 20,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 2,
+        "name": "Bharani",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 6,
+      "padaNumber": 7,
+      "rangeDMS": "20°00′ - 23°20′",
+      "startLongitude": 20,
+      "midpointLongitude": 21.666666666666664,
+      "endLongitude": 23.333333333333332,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 2,
+        "name": "Bharani",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 7,
+      "padaNumber": 8,
+      "rangeDMS": "23°20′ - 26°40′",
+      "startLongitude": 23.333333333333332,
+      "midpointLongitude": 25,
+      "endLongitude": 26.666666666666668,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 2,
+        "name": "Bharani",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 8,
+      "padaNumber": 9,
+      "rangeDMS": "26°40′ - 30°00′",
+      "startLongitude": 26.666666666666668,
+      "midpointLongitude": 28.333333333333336,
+      "endLongitude": 30,
+      "rashi": {
+        "index": 1,
+        "name": "Aries"
+      },
+      "nakshatra": {
+        "index": 3,
+        "name": "Krittika",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 9,
+      "padaNumber": 10,
+      "rangeDMS": "30°00′ - 33°20′",
+      "startLongitude": 30,
+      "midpointLongitude": 31.666666666666668,
+      "endLongitude": 33.333333333333336,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 3,
+        "name": "Krittika",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 10,
+      "padaNumber": 11,
+      "rangeDMS": "33°20′ - 36°40′",
+      "startLongitude": 33.333333333333336,
+      "midpointLongitude": 35,
+      "endLongitude": 36.666666666666664,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 3,
+        "name": "Krittika",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 11,
+      "padaNumber": 12,
+      "rangeDMS": "36°40′ - 40°00′",
+      "startLongitude": 36.666666666666664,
+      "midpointLongitude": 38.33333333333333,
+      "endLongitude": 40,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 3,
+        "name": "Krittika",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 12,
+      "padaNumber": 13,
+      "rangeDMS": "40°00′ - 43°20′",
+      "startLongitude": 40,
+      "midpointLongitude": 41.66666666666667,
+      "endLongitude": 43.333333333333336,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 4,
+        "name": "Rohini",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 13,
+      "padaNumber": 14,
+      "rangeDMS": "43°20′ - 46°40′",
+      "startLongitude": 43.333333333333336,
+      "midpointLongitude": 45,
+      "endLongitude": 46.666666666666664,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 4,
+        "name": "Rohini",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 14,
+      "padaNumber": 15,
+      "rangeDMS": "46°40′ - 50°00′",
+      "startLongitude": 46.666666666666664,
+      "midpointLongitude": 48.33333333333333,
+      "endLongitude": 50,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 4,
+        "name": "Rohini",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 15,
+      "padaNumber": 16,
+      "rangeDMS": "50°00′ - 53°20′",
+      "startLongitude": 50,
+      "midpointLongitude": 51.66666666666667,
+      "endLongitude": 53.333333333333336,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 4,
+        "name": "Rohini",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 16,
+      "padaNumber": 17,
+      "rangeDMS": "53°20′ - 56°40′",
+      "startLongitude": 53.333333333333336,
+      "midpointLongitude": 55,
+      "endLongitude": 56.666666666666664,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 5,
+        "name": "Mrigashirsha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 17,
+      "padaNumber": 18,
+      "rangeDMS": "56°40′ - 60°00′",
+      "startLongitude": 56.666666666666664,
+      "midpointLongitude": 58.33333333333333,
+      "endLongitude": 60,
+      "rashi": {
+        "index": 2,
+        "name": "Taurus"
+      },
+      "nakshatra": {
+        "index": 5,
+        "name": "Mrigashirsha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 18,
+      "padaNumber": 19,
+      "rangeDMS": "60°00′ - 63°20′",
+      "startLongitude": 60,
+      "midpointLongitude": 61.66666666666667,
+      "endLongitude": 63.333333333333336,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 5,
+        "name": "Mrigashirsha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 19,
+      "padaNumber": 20,
+      "rangeDMS": "63°20′ - 66°40′",
+      "startLongitude": 63.333333333333336,
+      "midpointLongitude": 65,
+      "endLongitude": 66.66666666666667,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 5,
+        "name": "Mrigashirsha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 20,
+      "padaNumber": 21,
+      "rangeDMS": "66°40′ - 70°00′",
+      "startLongitude": 66.66666666666667,
+      "midpointLongitude": 68.33333333333334,
+      "endLongitude": 70,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 6,
+        "name": "Ardra",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 21,
+      "padaNumber": 22,
+      "rangeDMS": "70°00′ - 73°20′",
+      "startLongitude": 70,
+      "midpointLongitude": 71.66666666666666,
+      "endLongitude": 73.33333333333333,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 6,
+        "name": "Ardra",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 22,
+      "padaNumber": 23,
+      "rangeDMS": "73°20′ - 76°40′",
+      "startLongitude": 73.33333333333333,
+      "midpointLongitude": 75,
+      "endLongitude": 76.66666666666667,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 6,
+        "name": "Ardra",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 23,
+      "padaNumber": 24,
+      "rangeDMS": "76°40′ - 80°00′",
+      "startLongitude": 76.66666666666667,
+      "midpointLongitude": 78.33333333333334,
+      "endLongitude": 80,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 6,
+        "name": "Ardra",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 24,
+      "padaNumber": 25,
+      "rangeDMS": "80°00′ - 83°20′",
+      "startLongitude": 80,
+      "midpointLongitude": 81.66666666666666,
+      "endLongitude": 83.33333333333333,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 7,
+        "name": "Punarvasu",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 25,
+      "padaNumber": 26,
+      "rangeDMS": "83°20′ - 86°40′",
+      "startLongitude": 83.33333333333333,
+      "midpointLongitude": 85,
+      "endLongitude": 86.66666666666667,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 7,
+        "name": "Punarvasu",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 26,
+      "padaNumber": 27,
+      "rangeDMS": "86°40′ - 90°00′",
+      "startLongitude": 86.66666666666667,
+      "midpointLongitude": 88.33333333333334,
+      "endLongitude": 90,
+      "rashi": {
+        "index": 3,
+        "name": "Gemini"
+      },
+      "nakshatra": {
+        "index": 7,
+        "name": "Punarvasu",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 27,
+      "padaNumber": 28,
+      "rangeDMS": "90°00′ - 93°20′",
+      "startLongitude": 90,
+      "midpointLongitude": 91.66666666666666,
+      "endLongitude": 93.33333333333333,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 7,
+        "name": "Punarvasu",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 28,
+      "padaNumber": 29,
+      "rangeDMS": "93°20′ - 96°40′",
+      "startLongitude": 93.33333333333333,
+      "midpointLongitude": 95,
+      "endLongitude": 96.66666666666667,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 8,
+        "name": "Pushya",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 29,
+      "padaNumber": 30,
+      "rangeDMS": "96°40′ - 100°00′",
+      "startLongitude": 96.66666666666667,
+      "midpointLongitude": 98.33333333333334,
+      "endLongitude": 100,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 8,
+        "name": "Pushya",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 30,
+      "padaNumber": 31,
+      "rangeDMS": "100°00′ - 103°20′",
+      "startLongitude": 100,
+      "midpointLongitude": 101.66666666666666,
+      "endLongitude": 103.33333333333333,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 8,
+        "name": "Pushya",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 31,
+      "padaNumber": 32,
+      "rangeDMS": "103°20′ - 106°40′",
+      "startLongitude": 103.33333333333333,
+      "midpointLongitude": 105,
+      "endLongitude": 106.66666666666667,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 8,
+        "name": "Pushya",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 32,
+      "padaNumber": 33,
+      "rangeDMS": "106°40′ - 110°00′",
+      "startLongitude": 106.66666666666667,
+      "midpointLongitude": 108.33333333333334,
+      "endLongitude": 110,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 9,
+        "name": "Ashlesha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 33,
+      "padaNumber": 34,
+      "rangeDMS": "110°00′ - 113°20′",
+      "startLongitude": 110,
+      "midpointLongitude": 111.66666666666666,
+      "endLongitude": 113.33333333333333,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 9,
+        "name": "Ashlesha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 34,
+      "padaNumber": 35,
+      "rangeDMS": "113°20′ - 116°40′",
+      "startLongitude": 113.33333333333333,
+      "midpointLongitude": 115,
+      "endLongitude": 116.66666666666667,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 9,
+        "name": "Ashlesha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 35,
+      "padaNumber": 36,
+      "rangeDMS": "116°40′ - 120°00′",
+      "startLongitude": 116.66666666666667,
+      "midpointLongitude": 118.33333333333334,
+      "endLongitude": 120,
+      "rashi": {
+        "index": 4,
+        "name": "Cancer"
+      },
+      "nakshatra": {
+        "index": 9,
+        "name": "Ashlesha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 36,
+      "padaNumber": 37,
+      "rangeDMS": "120°00′ - 123°20′",
+      "startLongitude": 120,
+      "midpointLongitude": 121.66666666666666,
+      "endLongitude": 123.33333333333333,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 10,
+        "name": "Magha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 37,
+      "padaNumber": 38,
+      "rangeDMS": "123°20′ - 126°40′",
+      "startLongitude": 123.33333333333333,
+      "midpointLongitude": 125,
+      "endLongitude": 126.66666666666667,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 10,
+        "name": "Magha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 38,
+      "padaNumber": 39,
+      "rangeDMS": "126°40′ - 130°00′",
+      "startLongitude": 126.66666666666667,
+      "midpointLongitude": 128.33333333333334,
+      "endLongitude": 130,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 10,
+        "name": "Magha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 39,
+      "padaNumber": 40,
+      "rangeDMS": "130°00′ - 133°20′",
+      "startLongitude": 130,
+      "midpointLongitude": 131.66666666666669,
+      "endLongitude": 133.33333333333334,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 10,
+        "name": "Magha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 40,
+      "padaNumber": 41,
+      "rangeDMS": "133°20′ - 136°40′",
+      "startLongitude": 133.33333333333334,
+      "midpointLongitude": 135,
+      "endLongitude": 136.66666666666666,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 41,
+      "padaNumber": 42,
+      "rangeDMS": "136°40′ - 140°00′",
+      "startLongitude": 136.66666666666666,
+      "midpointLongitude": 138.33333333333331,
+      "endLongitude": 140,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 42,
+      "padaNumber": 43,
+      "rangeDMS": "140°00′ - 143°20′",
+      "startLongitude": 140,
+      "midpointLongitude": 141.66666666666669,
+      "endLongitude": 143.33333333333334,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 43,
+      "padaNumber": 44,
+      "rangeDMS": "143°20′ - 146°40′",
+      "startLongitude": 143.33333333333334,
+      "midpointLongitude": 145,
+      "endLongitude": 146.66666666666666,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 44,
+      "padaNumber": 45,
+      "rangeDMS": "146°40′ - 150°00′",
+      "startLongitude": 146.66666666666666,
+      "midpointLongitude": 148.33333333333331,
+      "endLongitude": 150,
+      "rashi": {
+        "index": 5,
+        "name": "Leo"
+      },
+      "nakshatra": {
+        "index": 12,
+        "name": "Uttara Phalguni",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 45,
+      "padaNumber": 46,
+      "rangeDMS": "150°00′ - 153°20′",
+      "startLongitude": 150,
+      "midpointLongitude": 151.66666666666669,
+      "endLongitude": 153.33333333333334,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 12,
+        "name": "Uttara Phalguni",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 46,
+      "padaNumber": 47,
+      "rangeDMS": "153°20′ - 156°40′",
+      "startLongitude": 153.33333333333334,
+      "midpointLongitude": 155,
+      "endLongitude": 156.66666666666666,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 12,
+        "name": "Uttara Phalguni",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 47,
+      "padaNumber": 48,
+      "rangeDMS": "156°40′ - 160°00′",
+      "startLongitude": 156.66666666666666,
+      "midpointLongitude": 158.33333333333331,
+      "endLongitude": 160,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 12,
+        "name": "Uttara Phalguni",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 48,
+      "padaNumber": 49,
+      "rangeDMS": "160°00′ - 163°20′",
+      "startLongitude": 160,
+      "midpointLongitude": 161.66666666666669,
+      "endLongitude": 163.33333333333334,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 13,
+        "name": "Hasta",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 49,
+      "padaNumber": 50,
+      "rangeDMS": "163°20′ - 166°40′",
+      "startLongitude": 163.33333333333334,
+      "midpointLongitude": 165,
+      "endLongitude": 166.66666666666666,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 13,
+        "name": "Hasta",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 50,
+      "padaNumber": 51,
+      "rangeDMS": "166°40′ - 170°00′",
+      "startLongitude": 166.66666666666666,
+      "midpointLongitude": 168.33333333333331,
+      "endLongitude": 170,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 13,
+        "name": "Hasta",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 51,
+      "padaNumber": 52,
+      "rangeDMS": "170°00′ - 173°20′",
+      "startLongitude": 170,
+      "midpointLongitude": 171.66666666666669,
+      "endLongitude": 173.33333333333334,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 13,
+        "name": "Hasta",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 52,
+      "padaNumber": 53,
+      "rangeDMS": "173°20′ - 176°40′",
+      "startLongitude": 173.33333333333334,
+      "midpointLongitude": 175,
+      "endLongitude": 176.66666666666666,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 14,
+        "name": "Chitra",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 53,
+      "padaNumber": 54,
+      "rangeDMS": "176°40′ - 180°00′",
+      "startLongitude": 176.66666666666666,
+      "midpointLongitude": 178.33333333333331,
+      "endLongitude": 180,
+      "rashi": {
+        "index": 6,
+        "name": "Virgo"
+      },
+      "nakshatra": {
+        "index": 14,
+        "name": "Chitra",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 54,
+      "padaNumber": 55,
+      "rangeDMS": "180°00′ - 183°20′",
+      "startLongitude": 180,
+      "midpointLongitude": 181.66666666666669,
+      "endLongitude": 183.33333333333334,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 14,
+        "name": "Chitra",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 55,
+      "padaNumber": 56,
+      "rangeDMS": "183°20′ - 186°40′",
+      "startLongitude": 183.33333333333334,
+      "midpointLongitude": 185,
+      "endLongitude": 186.66666666666666,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 14,
+        "name": "Chitra",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 56,
+      "padaNumber": 57,
+      "rangeDMS": "186°40′ - 190°00′",
+      "startLongitude": 186.66666666666666,
+      "midpointLongitude": 188.33333333333331,
+      "endLongitude": 190,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 15,
+        "name": "Swati",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 57,
+      "padaNumber": 58,
+      "rangeDMS": "190°00′ - 193°20′",
+      "startLongitude": 190,
+      "midpointLongitude": 191.66666666666669,
+      "endLongitude": 193.33333333333334,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 15,
+        "name": "Swati",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 58,
+      "padaNumber": 59,
+      "rangeDMS": "193°20′ - 196°40′",
+      "startLongitude": 193.33333333333334,
+      "midpointLongitude": 195,
+      "endLongitude": 196.66666666666666,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 15,
+        "name": "Swati",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 59,
+      "padaNumber": 60,
+      "rangeDMS": "196°40′ - 200°00′",
+      "startLongitude": 196.66666666666666,
+      "midpointLongitude": 198.33333333333331,
+      "endLongitude": 200,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 15,
+        "name": "Swati",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 60,
+      "padaNumber": 61,
+      "rangeDMS": "200°00′ - 203°20′",
+      "startLongitude": 200,
+      "midpointLongitude": 201.66666666666669,
+      "endLongitude": 203.33333333333334,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 16,
+        "name": "Vishakha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 61,
+      "padaNumber": 62,
+      "rangeDMS": "203°20′ - 206°40′",
+      "startLongitude": 203.33333333333334,
+      "midpointLongitude": 205,
+      "endLongitude": 206.66666666666666,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 16,
+        "name": "Vishakha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 62,
+      "padaNumber": 63,
+      "rangeDMS": "206°40′ - 210°00′",
+      "startLongitude": 206.66666666666666,
+      "midpointLongitude": 208.33333333333331,
+      "endLongitude": 210,
+      "rashi": {
+        "index": 7,
+        "name": "Libra"
+      },
+      "nakshatra": {
+        "index": 16,
+        "name": "Vishakha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 63,
+      "padaNumber": 64,
+      "rangeDMS": "210°00′ - 213°20′",
+      "startLongitude": 210,
+      "midpointLongitude": 211.66666666666669,
+      "endLongitude": 213.33333333333334,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 16,
+        "name": "Vishakha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 64,
+      "padaNumber": 65,
+      "rangeDMS": "213°20′ - 216°40′",
+      "startLongitude": 213.33333333333334,
+      "midpointLongitude": 215,
+      "endLongitude": 216.66666666666666,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 17,
+        "name": "Anuradha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 65,
+      "padaNumber": 66,
+      "rangeDMS": "216°40′ - 220°00′",
+      "startLongitude": 216.66666666666666,
+      "midpointLongitude": 218.33333333333331,
+      "endLongitude": 220,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 17,
+        "name": "Anuradha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 66,
+      "padaNumber": 67,
+      "rangeDMS": "220°00′ - 223°20′",
+      "startLongitude": 220,
+      "midpointLongitude": 221.66666666666669,
+      "endLongitude": 223.33333333333334,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 17,
+        "name": "Anuradha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 67,
+      "padaNumber": 68,
+      "rangeDMS": "223°20′ - 226°40′",
+      "startLongitude": 223.33333333333334,
+      "midpointLongitude": 225,
+      "endLongitude": 226.66666666666666,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 17,
+        "name": "Anuradha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 68,
+      "padaNumber": 69,
+      "rangeDMS": "226°40′ - 230°00′",
+      "startLongitude": 226.66666666666666,
+      "midpointLongitude": 228.33333333333331,
+      "endLongitude": 230,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 18,
+        "name": "Jyeshtha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 69,
+      "padaNumber": 70,
+      "rangeDMS": "230°00′ - 233°20′",
+      "startLongitude": 230,
+      "midpointLongitude": 231.66666666666669,
+      "endLongitude": 233.33333333333334,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 18,
+        "name": "Jyeshtha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 70,
+      "padaNumber": 71,
+      "rangeDMS": "233°20′ - 236°40′",
+      "startLongitude": 233.33333333333334,
+      "midpointLongitude": 235,
+      "endLongitude": 236.66666666666666,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 18,
+        "name": "Jyeshtha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 71,
+      "padaNumber": 72,
+      "rangeDMS": "236°40′ - 240°00′",
+      "startLongitude": 236.66666666666666,
+      "midpointLongitude": 238.33333333333331,
+      "endLongitude": 240,
+      "rashi": {
+        "index": 8,
+        "name": "Scorpio"
+      },
+      "nakshatra": {
+        "index": 18,
+        "name": "Jyeshtha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 72,
+      "padaNumber": 73,
+      "rangeDMS": "240°00′ - 243°20′",
+      "startLongitude": 240,
+      "midpointLongitude": 241.66666666666669,
+      "endLongitude": 243.33333333333334,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 19,
+        "name": "Mula",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 73,
+      "padaNumber": 74,
+      "rangeDMS": "243°20′ - 246°40′",
+      "startLongitude": 243.33333333333334,
+      "midpointLongitude": 245,
+      "endLongitude": 246.66666666666666,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 19,
+        "name": "Mula",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 74,
+      "padaNumber": 75,
+      "rangeDMS": "246°40′ - 250°00′",
+      "startLongitude": 246.66666666666666,
+      "midpointLongitude": 248.33333333333331,
+      "endLongitude": 250,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 19,
+        "name": "Mula",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 75,
+      "padaNumber": 76,
+      "rangeDMS": "250°00′ - 253°20′",
+      "startLongitude": 250,
+      "midpointLongitude": 251.66666666666669,
+      "endLongitude": 253.33333333333334,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 19,
+        "name": "Mula",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 76,
+      "padaNumber": 77,
+      "rangeDMS": "253°20′ - 256°40′",
+      "startLongitude": 253.33333333333334,
+      "midpointLongitude": 255,
+      "endLongitude": 256.6666666666667,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 20,
+        "name": "Purva Ashadha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 77,
+      "padaNumber": 78,
+      "rangeDMS": "256°40′ - 260°00′",
+      "startLongitude": 256.6666666666667,
+      "midpointLongitude": 258.33333333333337,
+      "endLongitude": 260,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 20,
+        "name": "Purva Ashadha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 78,
+      "padaNumber": 79,
+      "rangeDMS": "260°00′ - 263°20′",
+      "startLongitude": 260,
+      "midpointLongitude": 261.66666666666663,
+      "endLongitude": 263.3333333333333,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 20,
+        "name": "Purva Ashadha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 79,
+      "padaNumber": 80,
+      "rangeDMS": "263°20′ - 266°40′",
+      "startLongitude": 263.3333333333333,
+      "midpointLongitude": 265,
+      "endLongitude": 266.6666666666667,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 20,
+        "name": "Purva Ashadha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 80,
+      "padaNumber": 81,
+      "rangeDMS": "266°40′ - 270°00′",
+      "startLongitude": 266.6666666666667,
+      "midpointLongitude": 268.33333333333337,
+      "endLongitude": 270,
+      "rashi": {
+        "index": 9,
+        "name": "Sagittarius"
+      },
+      "nakshatra": {
+        "index": 21,
+        "name": "Uttara Ashadha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Fire",
+        "startingSign": 1,
+        "startingSignName": "Aries",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 81,
+      "padaNumber": 82,
+      "rangeDMS": "270°00′ - 273°20′",
+      "startLongitude": 270,
+      "midpointLongitude": 271.66666666666663,
+      "endLongitude": 273.3333333333333,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 21,
+        "name": "Uttara Ashadha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 82,
+      "padaNumber": 83,
+      "rangeDMS": "273°20′ - 276°40′",
+      "startLongitude": 273.3333333333333,
+      "midpointLongitude": 275,
+      "endLongitude": 276.6666666666667,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 21,
+        "name": "Uttara Ashadha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 83,
+      "padaNumber": 84,
+      "rangeDMS": "276°40′ - 280°00′",
+      "startLongitude": 276.6666666666667,
+      "midpointLongitude": 278.33333333333337,
+      "endLongitude": 280,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 21,
+        "name": "Uttara Ashadha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 84,
+      "padaNumber": 85,
+      "rangeDMS": "280°00′ - 283°20′",
+      "startLongitude": 280,
+      "midpointLongitude": 281.66666666666663,
+      "endLongitude": 283.3333333333333,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 22,
+        "name": "Shravana",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 85,
+      "padaNumber": 86,
+      "rangeDMS": "283°20′ - 286°40′",
+      "startLongitude": 283.3333333333333,
+      "midpointLongitude": 285,
+      "endLongitude": 286.6666666666667,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 22,
+        "name": "Shravana",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 86,
+      "padaNumber": 87,
+      "rangeDMS": "286°40′ - 290°00′",
+      "startLongitude": 286.6666666666667,
+      "midpointLongitude": 288.33333333333337,
+      "endLongitude": 290,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 22,
+        "name": "Shravana",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 87,
+      "padaNumber": 88,
+      "rangeDMS": "290°00′ - 293°20′",
+      "startLongitude": 290,
+      "midpointLongitude": 291.66666666666663,
+      "endLongitude": 293.3333333333333,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 22,
+        "name": "Shravana",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 88,
+      "padaNumber": 89,
+      "rangeDMS": "293°20′ - 296°40′",
+      "startLongitude": 293.3333333333333,
+      "midpointLongitude": 295,
+      "endLongitude": 296.6666666666667,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 23,
+        "name": "Dhanishta",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 89,
+      "padaNumber": 90,
+      "rangeDMS": "296°40′ - 300°00′",
+      "startLongitude": 296.6666666666667,
+      "midpointLongitude": 298.33333333333337,
+      "endLongitude": 300,
+      "rashi": {
+        "index": 10,
+        "name": "Capricorn"
+      },
+      "nakshatra": {
+        "index": 23,
+        "name": "Dhanishta",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Earth",
+        "startingSign": 10,
+        "startingSignName": "Capricorn",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 90,
+      "padaNumber": 91,
+      "rangeDMS": "300°00′ - 303°20′",
+      "startLongitude": 300,
+      "midpointLongitude": 301.66666666666663,
+      "endLongitude": 303.3333333333333,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 23,
+        "name": "Dhanishta",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 91,
+      "padaNumber": 92,
+      "rangeDMS": "303°20′ - 306°40′",
+      "startLongitude": 303.3333333333333,
+      "midpointLongitude": 305,
+      "endLongitude": 306.6666666666667,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 23,
+        "name": "Dhanishta",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 92,
+      "padaNumber": 93,
+      "rangeDMS": "306°40′ - 310°00′",
+      "startLongitude": 306.6666666666667,
+      "midpointLongitude": 308.33333333333337,
+      "endLongitude": 310,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 24,
+        "name": "Shatabhisha",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 93,
+      "padaNumber": 94,
+      "rangeDMS": "310°00′ - 313°20′",
+      "startLongitude": 310,
+      "midpointLongitude": 311.66666666666663,
+      "endLongitude": 313.3333333333333,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 24,
+        "name": "Shatabhisha",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 94,
+      "padaNumber": 95,
+      "rangeDMS": "313°20′ - 316°40′",
+      "startLongitude": 313.3333333333333,
+      "midpointLongitude": 315,
+      "endLongitude": 316.6666666666667,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 24,
+        "name": "Shatabhisha",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 95,
+      "padaNumber": 96,
+      "rangeDMS": "316°40′ - 320°00′",
+      "startLongitude": 316.6666666666667,
+      "midpointLongitude": 318.33333333333337,
+      "endLongitude": 320,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 24,
+        "name": "Shatabhisha",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 96,
+      "padaNumber": 97,
+      "rangeDMS": "320°00′ - 323°20′",
+      "startLongitude": 320,
+      "midpointLongitude": 321.66666666666663,
+      "endLongitude": 323.3333333333333,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 25,
+        "name": "Purva Bhadrapada",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 1,
+        "expectedNavamsaName": "Aries"
+      },
+      "actualOutput": {
+        "atStart": 1,
+        "atMidpoint": 1,
+        "atNearEnd": 1
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 97,
+      "padaNumber": 98,
+      "rangeDMS": "323°20′ - 326°40′",
+      "startLongitude": 323.3333333333333,
+      "midpointLongitude": 325,
+      "endLongitude": 326.6666666666667,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 25,
+        "name": "Purva Bhadrapada",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 2,
+        "expectedNavamsaName": "Taurus"
+      },
+      "actualOutput": {
+        "atStart": 2,
+        "atMidpoint": 2,
+        "atNearEnd": 2
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 98,
+      "padaNumber": 99,
+      "rangeDMS": "326°40′ - 330°00′",
+      "startLongitude": 326.6666666666667,
+      "midpointLongitude": 328.33333333333337,
+      "endLongitude": 330,
+      "rashi": {
+        "index": 11,
+        "name": "Aquarius"
+      },
+      "nakshatra": {
+        "index": 25,
+        "name": "Purva Bhadrapada",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Air",
+        "startingSign": 7,
+        "startingSignName": "Libra",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 3,
+        "expectedNavamsaName": "Gemini"
+      },
+      "actualOutput": {
+        "atStart": 3,
+        "atMidpoint": 3,
+        "atNearEnd": 3
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 99,
+      "padaNumber": 100,
+      "rangeDMS": "330°00′ - 333°20′",
+      "startLongitude": 330,
+      "midpointLongitude": 331.66666666666663,
+      "endLongitude": 333.3333333333333,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 25,
+        "name": "Purva Bhadrapada",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 0,
+        "expectedNavamsaRashi": 4,
+        "expectedNavamsaName": "Cancer"
+      },
+      "actualOutput": {
+        "atStart": 4,
+        "atMidpoint": 4,
+        "atNearEnd": 4
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 100,
+      "padaNumber": 101,
+      "rangeDMS": "333°20′ - 336°40′",
+      "startLongitude": 333.3333333333333,
+      "midpointLongitude": 335,
+      "endLongitude": 336.6666666666667,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 1,
+        "expectedNavamsaRashi": 5,
+        "expectedNavamsaName": "Leo"
+      },
+      "actualOutput": {
+        "atStart": 5,
+        "atMidpoint": 5,
+        "atNearEnd": 5
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 101,
+      "padaNumber": 102,
+      "rangeDMS": "336°40′ - 340°00′",
+      "startLongitude": 336.6666666666667,
+      "midpointLongitude": 338.33333333333337,
+      "endLongitude": 340,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 2,
+        "expectedNavamsaRashi": 6,
+        "expectedNavamsaName": "Virgo"
+      },
+      "actualOutput": {
+        "atStart": 6,
+        "atMidpoint": 6,
+        "atNearEnd": 6
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 102,
+      "padaNumber": 103,
+      "rangeDMS": "340°00′ - 343°20′",
+      "startLongitude": 340,
+      "midpointLongitude": 341.66666666666663,
+      "endLongitude": 343.3333333333333,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 3,
+        "expectedNavamsaRashi": 7,
+        "expectedNavamsaName": "Libra"
+      },
+      "actualOutput": {
+        "atStart": 7,
+        "atMidpoint": 7,
+        "atNearEnd": 7
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 103,
+      "padaNumber": 104,
+      "rangeDMS": "343°20′ - 346°40′",
+      "startLongitude": 343.3333333333333,
+      "midpointLongitude": 345,
+      "endLongitude": 346.6666666666667,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 4,
+        "expectedNavamsaRashi": 8,
+        "expectedNavamsaName": "Scorpio"
+      },
+      "actualOutput": {
+        "atStart": 8,
+        "atMidpoint": 8,
+        "atNearEnd": 8
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 104,
+      "padaNumber": 105,
+      "rangeDMS": "346°40′ - 350°00′",
+      "startLongitude": 346.6666666666667,
+      "midpointLongitude": 348.33333333333337,
+      "endLongitude": 350,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 27,
+        "name": "Revati",
+        "pada": 1
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 5,
+        "expectedNavamsaRashi": 9,
+        "expectedNavamsaName": "Sagittarius"
+      },
+      "actualOutput": {
+        "atStart": 9,
+        "atMidpoint": 9,
+        "atNearEnd": 9
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 105,
+      "padaNumber": 106,
+      "rangeDMS": "350°00′ - 353°20′",
+      "startLongitude": 350,
+      "midpointLongitude": 351.66666666666663,
+      "endLongitude": 353.3333333333333,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 27,
+        "name": "Revati",
+        "pada": 2
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 6,
+        "expectedNavamsaRashi": 10,
+        "expectedNavamsaName": "Capricorn"
+      },
+      "actualOutput": {
+        "atStart": 10,
+        "atMidpoint": 10,
+        "atNearEnd": 10
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 106,
+      "padaNumber": 107,
+      "rangeDMS": "353°20′ - 356°40′",
+      "startLongitude": 353.3333333333333,
+      "midpointLongitude": 355,
+      "endLongitude": 356.6666666666667,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 27,
+        "name": "Revati",
+        "pada": 3
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 7,
+        "expectedNavamsaRashi": 11,
+        "expectedNavamsaName": "Aquarius"
+      },
+      "actualOutput": {
+        "atStart": 11,
+        "atMidpoint": 11,
+        "atNearEnd": 11
+      },
+      "passed": true
+    },
+    {
+      "divisionIndex": 107,
+      "padaNumber": 108,
+      "rangeDMS": "356°40′ - 360°00′",
+      "startLongitude": 356.6666666666667,
+      "midpointLongitude": 358.33333333333337,
+      "endLongitude": 360,
+      "rashi": {
+        "index": 12,
+        "name": "Pisces"
+      },
+      "nakshatra": {
+        "index": 27,
+        "name": "Revati",
+        "pada": 4
+      },
+      "classicalDerivation": {
+        "element": "Water",
+        "startingSign": 4,
+        "startingSignName": "Cancer",
+        "offsetInSign": 8,
+        "expectedNavamsaRashi": 12,
+        "expectedNavamsaName": "Pisces"
+      },
+      "actualOutput": {
+        "atStart": 12,
+        "atMidpoint": 12,
+        "atNearEnd": 12
+      },
+      "passed": true
+    }
+  ]
+}

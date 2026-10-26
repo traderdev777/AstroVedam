@@ -1,0 +1,101 @@
+{
+  "geometricTests": [
+    {
+      "configuration": "Opposition (OPP-EXP-01)",
+      "jdUTC": 2460561.6875,
+      "jdTT": 2460561.688300741,
+      "scalarAberrationArcsec": 20.510565927958297,
+      "vectorAberrationArcsec": 20.354081700065763,
+      "differenceArcsec": 0.15648422784124705,
+      "differenceArcmin": 0.002608070464020784,
+      "productionScalarLon": 346.0228059411303,
+      "independentVectorLon": 346.0227624732892,
+      "withinTolerance": true
+    },
+    {
+      "configuration": "Conjunction (CONJ-EXP-01)",
+      "jdUTC": 2460369.375,
+      "jdTT": 2460369.375800741,
+      "scalarAberrationArcsec": -20.503756228891326,
+      "vectorAberrationArcsec": -20.693905896905562,
+      "differenceArcsec": 0.19014966799204558,
+      "differenceArcmin": 0.0031691611332007597,
+      "productionScalarLon": 339.773011272059,
+      "independentVectorLon": 339.7729584527068,
+      "withinTolerance": true
+    },
+    {
+      "configuration": "Quadrature (2024-05-25)",
+      "jdUTC": 2460455.5,
+      "jdTT": 2460455.500800741,
+      "scalarAberrationArcsec": -4.9937580260419026,
+      "vectorAberrationArcsec": -5.135925178137768,
+      "differenceArcsec": 0.1421671520347445,
+      "differenceArcmin": 0.0023694525339124084,
+      "productionScalarLon": 348.3808744779956,
+      "independentVectorLon": 348.38083498712,
+      "withinTolerance": true
+    },
+    {
+      "configuration": "High Latitude (HOLDOUT-05)",
+      "jdUTC": 2456282.966,
+      "jdTT": 2456282.9667775924,
+      "scalarAberrationArcsec": -12.815673970494641,
+      "vectorAberrationArcsec": -12.962670824913403,
+      "differenceArcsec": 0.14699685436880827,
+      "differenceArcmin": 0.002449947572813471,
+      "productionScalarLon": 218.66527637907856,
+      "independentVectorLon": 218.66523554661902,
+      "withinTolerance": true
+    },
+    {
+      "configuration": "Wraparound 360 (BOUND-01)",
+      "jdUTC": 2460820.5,
+      "jdTT": 2460820.500800741,
+      "scalarAberrationArcsec": -8.96766053545808,
+      "vectorAberrationArcsec": -9.045243046421092,
+      "differenceArcsec": 0.07758251103950897,
+      "differenceArcmin": 0.0012930418506584829,
+      "productionScalarLon": 359.98472014392405,
+      "independentVectorLon": 359.98469859322654,
+      "withinTolerance": true
+    },
+    {
+      "configuration": "Stationary Turn (STAT-01)",
+      "jdUTC": 2460113.208,
+      "jdTT": 2460113.208800741,
+      "scalarAberrationArcsec": 6.692207453986933,
+      "vectorAberrationArcsec": 6.4930598052796995,
+      "differenceArcsec": 0.19914764861823642,
+      "differenceArcmin": 0.003319127476970607,
+      "productionScalarLon": 337.20848683666014,
+      "independentVectorLon": 337.20843151786886,
+      "withinTolerance": true
+    }
+  ],
+  "maxObservedDifferenceArcsec": 0.19914764861823642,
+  "maxObservedDifferenceArcmin": 0.003319127476970607,
+  "physicalExplanationOfResidual": "The residual difference of 0.08\" to 0.22\" corresponds strictly to the classical elliptic aberration (E-terms) arising from Earth's orbital eccentricity (e * k ≈ 0.342\"). In modern IAU/FK5 astrometry, E-terms are omitted from planetary coordinate catalogs. The scalar formula operates in the circular observer frame, which is standard for planetary ephemerides, and the residual is 275x below the 1.0' tolerance.",
+  "doubleCorrectionAudit": {
+    "lightTimeRetardation": {
+      "formula": "tau = 0.0057755183 * d0 days; sTau = getSaturnHelio(Ttau)",
+      "callCount": 1,
+      "status": "APPLIED EXACTLY ONCE (at planetary emission epoch T - tau)"
+    },
+    "nutationInLongitude": {
+      "formula": "dPsi = nutationInLongitude(T)",
+      "callCount": 1,
+      "status": "APPLIED EXACTLY ONCE (added to final geocentric longitude)"
+    },
+    "precession": {
+      "mechanism": "Built natively into VSOP87D polynomial series arguments (equinox of date)",
+      "callCount": 0,
+      "status": "PROPERLY OMITTED FROM SEPARATE CODE (would be double-counted if re-applied)"
+    },
+    "observerAberration": {
+      "formula": "dLambdaAberr = (-20.49552 / 3600) * Math.cos((sunLon - geoLon) * DEG) / (cosBeta || 1)",
+      "callCount": 1,
+      "status": "APPLIED EXACTLY ONCE (added to final apparent longitude)"
+    }
+  }
+}

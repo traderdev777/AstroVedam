@@ -1,0 +1,171 @@
+{
+  "manifestVersion": "1.0.0",
+  "phase": "Phase 5B - Surgical Remediation & Verified Regression Closure",
+  "timestamp": "2026-10-24T07:17:28.428Z",
+  "environment": {
+    "nodeVersion": "v20.20.2",
+    "platform": "darwin",
+    "arch": "x64",
+    "workingDirectory": "/Users/supreeththakur/.gemini/antigravity-ide/brain/841fc7ef-3339-408c-81d2-565fe6d2f4d4/browser/astroveda",
+    "gitRepository": false,
+    "gitNote": "Local workspace directory does not contain .git repository; content integrity tracked via SHA-256 hashes"
+  },
+  "findingsScoped": [
+    "SEC-01",
+    "SEC-02",
+    "SEC-03",
+    "DEF-01",
+    "DEF-02",
+    "DEF-03"
+  ],
+  "verdict": "PASS",
+  "testSummary": {
+    "totalSuites": 18,
+    "totalAssertions": 1584,
+    "passedAssertions": 1584,
+    "failedAssertions": 0,
+    "newPhase5bAssertions": 106,
+    "durationSeconds": 0.2
+  },
+  "buildSummary": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "bundler": "vite v5.4.21",
+    "distFiles": {
+      "dist/index.html": {
+        "sizeBytes": 7970,
+        "gzipSizeBytes": 1920
+      },
+      "dist/assets/index-CFPN4POS.css": {
+        "sizeBytes": 36170,
+        "gzipSizeBytes": 7890
+      },
+      "dist/assets/purify.es-CAi2OJFm.js": {
+        "sizeBytes": 30470,
+        "gzipSizeBytes": 11730
+      },
+      "dist/assets/index.es-DQs--M5z.js": {
+        "sizeBytes": 151030,
+        "gzipSizeBytes": 51650
+      },
+      "dist/assets/index-Clnqe9Tg.js": {
+        "sizeBytes": 1183090,
+        "gzipSizeBytes": 378280
+      }
+    }
+  },
+  "commandsExecuted": [
+    {
+      "command": "node tests/regression/phase5b_security_xss.test.js",
+      "exitCode": 0,
+      "description": "Verifies HTML tag, attribute breakout, script injection, and Unicode handling for SEC-01, SEC-02, SEC-03",
+      "outputFile": "scratch/phase5b/security_regression_results.txt"
+    },
+    {
+      "command": "node tests/regression/phase5b_input_safety.test.js",
+      "exitCode": 0,
+      "description": "Verifies timezone validation (missing, null, NaN, ranges) and safe lookup guards for DEF-01, DEF-02",
+      "outputFile": "scratch/phase5b/input_validation_results.txt"
+    },
+    {
+      "command": "node tests/regression/phase5b_angle_normalization.test.js",
+      "exitCode": 0,
+      "description": "Verifies periodic equivalence, negative angles, >360 angles, sign and pada boundaries, and invalid value rejections for DEF-03",
+      "outputFile": "scratch/phase5b/angle_boundary_results.json"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "description": "Full test harness across all 18 test suites",
+      "outputFile": "scratch/phase5b/test_and_build_results.txt"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "description": "Vite production bundle build",
+      "outputFile": "scratch/phase5b/test_and_build_results.txt"
+    }
+  ],
+  "fileIntegrityHashes": {
+    "src/utils/sanitizer.js": {
+      "sha256": "ed42c423270ade7d9ef98305e350ede86af7774790760557035ef53e73446b93",
+      "sizeBytes": 606,
+      "lastModified": "2026-10-24T07:00:52.710Z"
+    },
+    "src/components/reports/FullPatrikaReport.js": {
+      "sha256": "9c3bb9e719a03adc6ab7e9f6d97bc16f2503dff651796abf64683c91ab6149dd",
+      "sizeBytes": 76012,
+      "lastModified": "2026-10-22T08:47:27.470Z"
+    },
+    "src/pages/Kundali.js": {
+      "sha256": "870f1bd39e56dce5e87d6f211ac810621ea1403371ded520eeb7a7e816a9fef3",
+      "sizeBytes": 34611,
+      "lastModified": "2026-10-24T07:07:55.963Z"
+    },
+    "src/pages/Matching.js": {
+      "sha256": "3399384ccbb73bc20e24389a5b8e72eaad240918b46b4275ee97be0a1ee8a2ac",
+      "sizeBytes": 24017,
+      "lastModified": "2026-10-24T07:08:32.200Z"
+    },
+    "src/pages/Numerology.js": {
+      "sha256": "6f335f4222c59eb6e17f09ff634a842f41567a3326716701ad9bea340a30d5d4",
+      "sizeBytes": 31593,
+      "lastModified": "2026-10-24T07:09:04.440Z"
+    },
+    "src/engines/astrology/kundali.js": {
+      "sha256": "583b0d70a616e446ecf806f32b9ceac4216b937bb27b3ab8f0d808f40bdc6171",
+      "sizeBytes": 7966,
+      "lastModified": "2026-10-24T07:11:12.498Z"
+    },
+    "src/engines/astrology/ephemeris.js": {
+      "sha256": "bbe08066da4454a50ea860ac7e8ae34531c1094d381dca6892bffb56141558af",
+      "sizeBytes": 55103,
+      "lastModified": "2026-10-24T07:11:12.484Z"
+    },
+    "tests/regression/phase5b_security_xss.test.js": {
+      "sha256": "acbf4935bd4b9fee75d16d086a4c27d49d018cb0ad56a785a96622012bf6c36d",
+      "sizeBytes": 5099,
+      "lastModified": "2026-10-24T07:13:03.571Z"
+    },
+    "tests/regression/phase5b_input_safety.test.js": {
+      "sha256": "17195907edde82458e14cf937830db0d93b017c0b0a7546c5823f4606e10d333",
+      "sizeBytes": 6234,
+      "lastModified": "2026-10-24T07:13:03.588Z"
+    },
+    "tests/regression/phase5b_angle_normalization.test.js": {
+      "sha256": "3f8b0d0a0ea6fd69f3659a4d3ae5d73497e166535131dcb724fa982337f6d512",
+      "sizeBytes": 6474,
+      "lastModified": "2026-10-24T07:13:03.589Z"
+    },
+    "tests/run_all_tests.js": {
+      "sha256": "9ad723f967d943dfcf62cb280789fda6584b6f7833d0be1696dffe69f56ca25f",
+      "sizeBytes": 3959,
+      "lastModified": "2026-10-24T07:10:24.330Z"
+    },
+    "scratch/phase5b/security_regression_results.txt": {
+      "sha256": "53a1bec5837c6652cc506107d38553ce0d004762667d01638b989a22934c3aaf",
+      "sizeBytes": 1252,
+      "lastModified": "2026-10-24T07:13:54.169Z"
+    },
+    "scratch/phase5b/input_validation_results.txt": {
+      "sha256": "02f6b85774840b7168bf63bdd89ce9144a867a5b64c9967c6914843fbb32c14e",
+      "sizeBytes": 1878,
+      "lastModified": "2026-10-24T07:13:54.285Z"
+    },
+    "scratch/phase5b/angle_boundary_results.json": {
+      "sha256": "0a470c6b4470c96a7d649a1a939682b95fbf13537d25b1832108bd7f111eea2d",
+      "sizeBytes": 13111,
+      "lastModified": "2026-10-24T07:14:16.847Z"
+    },
+    "scratch/phase5b/test_and_build_results.txt": {
+      "sha256": "7bd3bc322718403039e47002bb2a4366d561a9b97451d6564d2a09faf7bc4fb9",
+      "sizeBytes": 128916,
+      "lastModified": "2026-10-24T07:14:50.407Z"
+    },
+    "scratch/phase5b/phase5b_remediation_report.md": {
+      "sha256": "e6dc40794e11117492c110c43808909d41e2a3767eadf6b8e9d8fc098edfa73f",
+      "sizeBytes": 13123,
+      "lastModified": "2026-10-24T07:17:13.426Z"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "HIST-EXP-01",
+    "name": "19th Century Deep Historical",
+    "regime": "Historical",
+    "dateUTC": "1850-01-01 00:00",
+    "refTropLon": 1.8658084,
+    "refTropLat": -2.3900037,
+    "filename": "HIST-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "16e198ee3c1ed613d318c9122eedd9d6dca031ceba9e47996598547a335e0072"
+  },
+  {
+    "id": "HIST-EXP-02",
+    "name": "Turn of 20th Century (1900)",
+    "regime": "Historical",
+    "dateUTC": "1900-01-01 00:00",
+    "refTropLon": 267.7167387,
+    "refTropLat": 1.0076898,
+    "filename": "HIST-EXP-02_Saturn_expanded_raw.json",
+    "sha256": "e8917d7617fd853760fc89dad8ce39bf3c4b49b013629a5c2f323dab1870046d"
+  },
+  {
+    "id": "HIST-EXP-03",
+    "name": "Mid 20th Century (1960)",
+    "regime": "Historical",
+    "dateUTC": "1960-06-01 00:00",
+    "refTropLon": 287.5137604,
+    "refTropLat": 0.437839,
+    "filename": "HIST-EXP-03_Saturn_expanded_raw.json",
+    "sha256": "74169dd5e8965cd8087e70f0ca0e8db68ac7e28808db7421e89acc6c5eb6240e"
+  },
+  {
+    "id": "HIST-EXP-04",
+    "name": "Halley Era (1985)",
+    "regime": "Historical",
+    "dateUTC": "1985-11-20 00:00",
+    "refTropLon": 240.3459955,
+    "refTropLat": 1.8048372,
+    "filename": "HIST-EXP-04_Saturn_expanded_raw.json",
+    "sha256": "a67827c1b229ffe38ee00c2756bfc6f6cd963b89d9cda4e4abaab7e8c3e0018b"
+  },
+  {
+    "id": "FUT-EXP-01",
+    "name": "Mid 2030s Cycle (2035)",
+    "regime": "Future",
+    "dateUTC": "2035-08-15 00:00",
+    "refTropLon": 130.6954446,
+    "refTropLat": 0.5984014,
+    "filename": "FUT-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "e870e32623a3feb0a7d5576887cf6000d708ca05299743329d5bb7e147155183"
+  },
+  {
+    "id": "FUT-EXP-02",
+    "name": "Late 2060s Cycle (2065)",
+    "regime": "Future",
+    "dateUTC": "2065-03-30 00:00",
+    "refTropLon": 126.8972357,
+    "refTropLat": 0.8250474,
+    "filename": "FUT-EXP-02_Saturn_expanded_raw.json",
+    "sha256": "fcc6aab84beeb59d97cbf74bfc697101092ec96682127f4058d81ed55c4b905e"
+  },
+  {
+    "id": "FUT-EXP-03",
+    "name": "22nd Century Boundary (2100)",
+    "regime": "Future",
+    "dateUTC": "2100-01-01 00:00",
+    "refTropLon": 205.6316625,
+    "refTropLat": 2.4222185,
+    "filename": "FUT-EXP-03_Saturn_expanded_raw.json",
+    "sha256": "747faa166ded57e65e4cc6c8505cd2d06a929e6209666b56b9f7833a2ab570f0"
+  },
+  {
+    "id": "STAT-EXP-01",
+    "name": "Saturn Stationary Retrograde 2024",
+    "regime": "Stationary Retrograde",
+    "dateUTC": "2024-06-29 19:00",
+    "refTropLon": 349.4280309,
+    "refTropLat": -1.9777386,
+    "filename": "STAT-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "15becdc9ccc4b293208cd794b78062a6ccac53c985b3537055b2d992ca3364ba"
+  },
+  {
+    "id": "STAT-EXP-02",
+    "name": "Saturn Stationary Direct 2024",
+    "regime": "Stationary Direct",
+    "dateUTC": "2024-11-15 14:00",
+    "refTropLon": 342.6925891,
+    "refTropLat": -2.1009115,
+    "filename": "STAT-EXP-02_Saturn_expanded_raw.json",
+    "sha256": "f11f34b048d3049cd568f84f9a8d0dd0cf973ef895629ec5556eae7ef94d4450"
+  },
+  {
+    "id": "OPP-EXP-01",
+    "name": "Saturn Opposition with Sun 2024",
+    "regime": "Opposition",
+    "dateUTC": "2024-09-08 04:30",
+    "refTropLon": 346.0277182,
+    "refTropLat": -2.1911571,
+    "filename": "OPP-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "bd8309aa4de488f755b053987260e6d35ef32b5a318dfbe7671d6f8752248351"
+  },
+  {
+    "id": "CONJ-EXP-01",
+    "name": "Saturn Solar Conjunction 2024",
+    "regime": "Conjunction",
+    "dateUTC": "2024-02-28 21:00",
+    "refTropLon": 339.7757792,
+    "refTropLat": -1.6205838,
+    "filename": "CONJ-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "bdc572a1cb5676a12c143e3f3aabab82e0ffb031aff0c13eab040fe4312ca437"
+  },
+  {
+    "id": "BOUND-EXP-01",
+    "name": "Saturn Taurus-Gemini 60° Ingress",
+    "regime": "Sign Boundary",
+    "dateUTC": "2028-04-13 18:00",
+    "refTropLon": 30.075866,
+    "refTropLat": -2.2292153,
+    "filename": "BOUND-EXP-01_Saturn_expanded_raw.json",
+    "sha256": "d3c27079a2ff5f0e87b8b6eaf59d27eedfd3f13e58b26f6ad880a7695f4565bf"
+  }
+]

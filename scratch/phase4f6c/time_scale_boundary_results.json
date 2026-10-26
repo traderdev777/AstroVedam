@@ -1,0 +1,428 @@
+{
+  "j2000Analysis": {
+    "epochName": "J2000.0 Standard Epoch",
+    "jdTT": 2451545,
+    "calendarTT": "2000-01-01 12:00:00.000 TT",
+    "jdUTC": 2451544.9992571296,
+    "calendarUTC": "2000-01-01 11:58:55.816 UTC",
+    "jdUT1": 2451544.9992612437,
+    "calendarUT1": "2000-01-01 11:58:56.171 UT1",
+    "TT_minus_UTC_seconds": 64.184,
+    "DUT1_seconds": 0.35547,
+    "DeltaT_astronomical_seconds": 63.82853,
+    "statementAudit": {
+      "claim": "J2000.0 Delta-T is exactly 64.184s",
+      "verdict": "CONTEXTUALLY TRUE FOR TT - UTC; FALSE FOR ASTRONOMICAL DELTA-T (TT - UT1)",
+      "explanation": "64.184s is exactly TT - UTC (32s leap + 32.184s TT-TAI). Astronomical Delta-T = TT - UT1 was 63.8285s due to DUT1 = +0.355s."
+    }
+  },
+  "baselineVerification": {
+    "effectiveDate": "1972-01-01 00:00:00 UTC",
+    "jd": 2441317.5,
+    "initialTAIOffset": 10,
+    "natureOfEntry": "INITIAL SYNCHRONIZATION BASELINE (NOT a leap-second insertion)",
+    "deltaT_modern": 42.184,
+    "deltaT_pre1972_polynomial": 42.247061775127435,
+    "continuityStepSeconds": -0.06306177512743716,
+    "saturnLongitudeDiscontinuityArcsec": 0.00008759280565201022
+  },
+  "leapSecondsVerification": [
+    {
+      "index": 0,
+      "date": "1972-01-01",
+      "type": "INITIAL_BASELINE",
+      "expectedJD": 2441317.5,
+      "actualJD": 2441317.5,
+      "expectedOffset": 10,
+      "actualOffset": 10,
+      "match": true
+    },
+    {
+      "index": 1,
+      "date": "1972-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2441499.5,
+      "actualJD": 2441499.5,
+      "expectedOffset": 11,
+      "actualOffset": 11,
+      "match": true
+    },
+    {
+      "index": 2,
+      "date": "1973-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2441683.5,
+      "actualJD": 2441683.5,
+      "expectedOffset": 12,
+      "actualOffset": 12,
+      "match": true
+    },
+    {
+      "index": 3,
+      "date": "1974-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2442048.5,
+      "actualJD": 2442048.5,
+      "expectedOffset": 13,
+      "actualOffset": 13,
+      "match": true
+    },
+    {
+      "index": 4,
+      "date": "1975-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2442413.5,
+      "actualJD": 2442413.5,
+      "expectedOffset": 14,
+      "actualOffset": 14,
+      "match": true
+    },
+    {
+      "index": 5,
+      "date": "1976-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2442778.5,
+      "actualJD": 2442778.5,
+      "expectedOffset": 15,
+      "actualOffset": 15,
+      "match": true
+    },
+    {
+      "index": 6,
+      "date": "1977-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2443144.5,
+      "actualJD": 2443144.5,
+      "expectedOffset": 16,
+      "actualOffset": 16,
+      "match": true
+    },
+    {
+      "index": 7,
+      "date": "1978-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2443509.5,
+      "actualJD": 2443509.5,
+      "expectedOffset": 17,
+      "actualOffset": 17,
+      "match": true
+    },
+    {
+      "index": 8,
+      "date": "1979-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2443874.5,
+      "actualJD": 2443874.5,
+      "expectedOffset": 18,
+      "actualOffset": 18,
+      "match": true
+    },
+    {
+      "index": 9,
+      "date": "1980-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2444239.5,
+      "actualJD": 2444239.5,
+      "expectedOffset": 19,
+      "actualOffset": 19,
+      "match": true
+    },
+    {
+      "index": 10,
+      "date": "1981-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2444786.5,
+      "actualJD": 2444786.5,
+      "expectedOffset": 20,
+      "actualOffset": 20,
+      "match": true
+    },
+    {
+      "index": 11,
+      "date": "1982-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2445151.5,
+      "actualJD": 2445151.5,
+      "expectedOffset": 21,
+      "actualOffset": 21,
+      "match": true
+    },
+    {
+      "index": 12,
+      "date": "1983-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2445516.5,
+      "actualJD": 2445516.5,
+      "expectedOffset": 22,
+      "actualOffset": 22,
+      "match": true
+    },
+    {
+      "index": 13,
+      "date": "1985-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2446247.5,
+      "actualJD": 2446247.5,
+      "expectedOffset": 23,
+      "actualOffset": 23,
+      "match": true
+    },
+    {
+      "index": 14,
+      "date": "1988-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2447161.5,
+      "actualJD": 2447161.5,
+      "expectedOffset": 24,
+      "actualOffset": 24,
+      "match": true
+    },
+    {
+      "index": 15,
+      "date": "1990-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2447892.5,
+      "actualJD": 2447892.5,
+      "expectedOffset": 25,
+      "actualOffset": 25,
+      "match": true
+    },
+    {
+      "index": 16,
+      "date": "1991-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2448257.5,
+      "actualJD": 2448257.5,
+      "expectedOffset": 26,
+      "actualOffset": 26,
+      "match": true
+    },
+    {
+      "index": 17,
+      "date": "1992-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2448804.5,
+      "actualJD": 2448804.5,
+      "expectedOffset": 27,
+      "actualOffset": 27,
+      "match": true
+    },
+    {
+      "index": 18,
+      "date": "1993-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2449169.5,
+      "actualJD": 2449169.5,
+      "expectedOffset": 28,
+      "actualOffset": 28,
+      "match": true
+    },
+    {
+      "index": 19,
+      "date": "1994-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2449534.5,
+      "actualJD": 2449534.5,
+      "expectedOffset": 29,
+      "actualOffset": 29,
+      "match": true
+    },
+    {
+      "index": 20,
+      "date": "1996-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2450083.5,
+      "actualJD": 2450083.5,
+      "expectedOffset": 30,
+      "actualOffset": 30,
+      "match": true
+    },
+    {
+      "index": 21,
+      "date": "1997-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2450630.5,
+      "actualJD": 2450630.5,
+      "expectedOffset": 31,
+      "actualOffset": 31,
+      "match": true
+    },
+    {
+      "index": 22,
+      "date": "1999-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2451179.5,
+      "actualJD": 2451179.5,
+      "expectedOffset": 32,
+      "actualOffset": 32,
+      "match": true
+    },
+    {
+      "index": 23,
+      "date": "2006-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2453736.5,
+      "actualJD": 2453736.5,
+      "expectedOffset": 33,
+      "actualOffset": 33,
+      "match": true
+    },
+    {
+      "index": 24,
+      "date": "2009-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2454832.5,
+      "actualJD": 2454832.5,
+      "expectedOffset": 34,
+      "actualOffset": 34,
+      "match": true
+    },
+    {
+      "index": 25,
+      "date": "2012-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2456109.5,
+      "actualJD": 2456109.5,
+      "expectedOffset": 35,
+      "actualOffset": 35,
+      "match": true
+    },
+    {
+      "index": 26,
+      "date": "2015-07-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2457204.5,
+      "actualJD": 2457204.5,
+      "expectedOffset": 36,
+      "actualOffset": 36,
+      "match": true
+    },
+    {
+      "index": 27,
+      "date": "2017-01-01",
+      "type": "LEAP_SECOND_INSERTION",
+      "expectedJD": 2457754.5,
+      "actualJD": 2457754.5,
+      "expectedOffset": 37,
+      "actualOffset": 37,
+      "match": true
+    }
+  ],
+  "futureDatePolicy": {
+    "policy": "CONSTANT_OFFSET_HOLD",
+    "heldOffset": 69.184,
+    "referenceStandard": "NASA JPL Horizons On-Line Solar System Data Service operational rule",
+    "bulletinCStatus": "No leap seconds inserted between 2017 and 2026 (IERS Bulletins C 67, 68, 69)",
+    "natureOfPolicy": "Operational continuity assumption (NOT a prediction of future Earth rotational deceleration)",
+    "horizonAnalysis": {
+      "year2050_assumedOffset": 69.184,
+      "year2100_assumedOffset": 69.184,
+      "estimatedTrueDriftPerDecadeSeconds": "1.0 to 1.5 s",
+      "maxDriftAt2050Seconds": "approx 5 s",
+      "saturnAngularErrorAt2050Arcmin": 0.00011575,
+      "benchmarkToleranceArcmin": 1,
+      "safetyFactorAt2050": 8639.308855291578
+    }
+  },
+  "invalidInputs": [
+    {
+      "input": "NaN",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    },
+    {
+      "input": "null",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    },
+    {
+      "input": "undefined",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    },
+    {
+      "input": "string 'invalid_string'",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    },
+    {
+      "input": "Infinity",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    },
+    {
+      "input": "-Infinity",
+      "getDeltaT_result": 0,
+      "utcToTT_result": "NaN",
+      "ttToUTC_result": "NaN",
+      "safe": true
+    }
+  ],
+  "invertibility": [
+    {
+      "epoch": "J2000.0 (2000-01-01)",
+      "jdOriginal": 2451545,
+      "jdTT": 2451545.0007428704,
+      "jdInverted": 2451545,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    },
+    {
+      "epoch": "Mid Modern UTC (1982)",
+      "jdOriginal": 2445000,
+      "jdTT": 2445000.0006039813,
+      "jdInverted": 2445000,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    },
+    {
+      "epoch": "Mid 20th Century (1941)",
+      "jdOriginal": 2430000,
+      "jdTT": 2430000.0002868054,
+      "jdInverted": 2430000,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    },
+    {
+      "epoch": "Turn of Century (1900)",
+      "jdOriginal": 2415020.5,
+      "jdTT": 2415020.4999687197,
+      "jdInverted": 2415020.5,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    },
+    {
+      "epoch": "Industrial Era (1800)",
+      "jdOriginal": 2378497,
+      "jdTT": 2378497.000158791,
+      "jdInverted": 2378497,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    },
+    {
+      "epoch": "Gregorian Reform (1582)",
+      "jdOriginal": 2299160.5,
+      "jdTT": 2299160.5008350564,
+      "jdInverted": 2299160.5,
+      "diffDays": 0,
+      "diffMs": 0,
+      "pass": true
+    }
+  ],
+  "boundaryDiscontinuities": []
+}

@@ -1,0 +1,632 @@
+{
+  "timestamp": "2026-10-24T08:57:27.346Z",
+  "toleranceValue": 1e-12,
+  "toleranceExplanation": "1e-12 degrees corresponds to 3.6e-9 arcseconds (sub-picometer orbital angle). It compensates for IEEE 754 division underflow on 25 non-binary-exact boundaries without perturbing real astronomical coordinates.",
+  "signBoundaries": [
+    {
+      "boundaryDeg": 0,
+      "exact": {
+        "angle": 0,
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "precedingFloat": {
+        "angle": 360,
+        "delta": -360,
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "followingFloat": {
+        "angle": 5e-324,
+        "delta": 5e-324,
+        "rashi": 1,
+        "degreeInRashi": 5e-324,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      }
+    },
+    {
+      "boundaryDeg": 30,
+      "exact": {
+        "angle": 30,
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "precedingFloat": {
+        "angle": 29.999999999999996,
+        "delta": 3.552713678800501e-15,
+        "rashi": 1,
+        "degreeInRashi": 29.999999999999996,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "followingFloat": {
+        "angle": 30.000000000000004,
+        "delta": 3.552713678800501e-15,
+        "rashi": 2,
+        "degreeInRashi": 3.552713678800501e-15,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      }
+    },
+    {
+      "boundaryDeg": 60,
+      "exact": {
+        "angle": 60,
+        "rashi": 3,
+        "degreeInRashi": 0,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "precedingFloat": {
+        "angle": 59.99999999999999,
+        "delta": 7.105427357601002e-15,
+        "rashi": 2,
+        "degreeInRashi": 29.999999999999993,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "followingFloat": {
+        "angle": 60.00000000000001,
+        "delta": 7.105427357601002e-15,
+        "rashi": 3,
+        "degreeInRashi": 7.105427357601002e-15,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      }
+    },
+    {
+      "boundaryDeg": 90,
+      "exact": {
+        "angle": 90,
+        "rashi": 4,
+        "degreeInRashi": 0,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "precedingFloat": {
+        "angle": 89.99999999999999,
+        "delta": 1.4210854715202004e-14,
+        "rashi": 3,
+        "degreeInRashi": 29.999999999999986,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "followingFloat": {
+        "angle": 90.00000000000001,
+        "delta": 1.4210854715202004e-14,
+        "rashi": 4,
+        "degreeInRashi": 1.4210854715202004e-14,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      }
+    },
+    {
+      "boundaryDeg": 120,
+      "exact": {
+        "angle": 120,
+        "rashi": 5,
+        "degreeInRashi": 0,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "precedingFloat": {
+        "angle": 119.99999999999999,
+        "delta": 1.4210854715202004e-14,
+        "rashi": 4,
+        "degreeInRashi": 29.999999999999986,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "followingFloat": {
+        "angle": 120.00000000000001,
+        "delta": 1.4210854715202004e-14,
+        "rashi": 5,
+        "degreeInRashi": 1.4210854715202004e-14,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      }
+    },
+    {
+      "boundaryDeg": 150,
+      "exact": {
+        "angle": 150,
+        "rashi": 6,
+        "degreeInRashi": 0,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "precedingFloat": {
+        "angle": 149.99999999999997,
+        "delta": 2.842170943040401e-14,
+        "rashi": 5,
+        "degreeInRashi": 29.99999999999997,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "followingFloat": {
+        "angle": 150.00000000000003,
+        "delta": 2.842170943040401e-14,
+        "rashi": 6,
+        "degreeInRashi": 2.842170943040401e-14,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      }
+    },
+    {
+      "boundaryDeg": 180,
+      "exact": {
+        "angle": 180,
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "precedingFloat": {
+        "angle": 179.99999999999997,
+        "delta": 2.842170943040401e-14,
+        "rashi": 6,
+        "degreeInRashi": 29.99999999999997,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "followingFloat": {
+        "angle": 180.00000000000003,
+        "delta": 2.842170943040401e-14,
+        "rashi": 7,
+        "degreeInRashi": 2.842170943040401e-14,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      }
+    },
+    {
+      "boundaryDeg": 210,
+      "exact": {
+        "angle": 210,
+        "rashi": 8,
+        "degreeInRashi": 0,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "precedingFloat": {
+        "angle": 209.99999999999997,
+        "delta": 2.842170943040401e-14,
+        "rashi": 7,
+        "degreeInRashi": 29.99999999999997,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "followingFloat": {
+        "angle": 210.00000000000003,
+        "delta": 2.842170943040401e-14,
+        "rashi": 8,
+        "degreeInRashi": 2.842170943040401e-14,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      }
+    },
+    {
+      "boundaryDeg": 240,
+      "exact": {
+        "angle": 240,
+        "rashi": 9,
+        "degreeInRashi": 0,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "precedingFloat": {
+        "angle": 239.99999999999997,
+        "delta": 2.842170943040401e-14,
+        "rashi": 8,
+        "degreeInRashi": 29.99999999999997,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "followingFloat": {
+        "angle": 240.00000000000003,
+        "delta": 2.842170943040401e-14,
+        "rashi": 9,
+        "degreeInRashi": 2.842170943040401e-14,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      }
+    },
+    {
+      "boundaryDeg": 270,
+      "exact": {
+        "angle": 270,
+        "rashi": 10,
+        "degreeInRashi": 0,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "precedingFloat": {
+        "angle": 269.99999999999994,
+        "delta": 5.684341886080802e-14,
+        "rashi": 9,
+        "degreeInRashi": 29.999999999999943,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "followingFloat": {
+        "angle": 270.00000000000006,
+        "delta": 5.684341886080802e-14,
+        "rashi": 10,
+        "degreeInRashi": 5.684341886080802e-14,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      }
+    },
+    {
+      "boundaryDeg": 300,
+      "exact": {
+        "angle": 300,
+        "rashi": 11,
+        "degreeInRashi": 0,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "precedingFloat": {
+        "angle": 299.99999999999994,
+        "delta": 5.684341886080802e-14,
+        "rashi": 10,
+        "degreeInRashi": 29.999999999999943,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "followingFloat": {
+        "angle": 300.00000000000006,
+        "delta": 5.684341886080802e-14,
+        "rashi": 11,
+        "degreeInRashi": 5.684341886080802e-14,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      }
+    },
+    {
+      "boundaryDeg": 330,
+      "exact": {
+        "angle": 330,
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "precedingFloat": {
+        "angle": 329.99999999999994,
+        "delta": 5.684341886080802e-14,
+        "rashi": 11,
+        "degreeInRashi": 29.999999999999943,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "followingFloat": {
+        "angle": 330.00000000000006,
+        "delta": 5.684341886080802e-14,
+        "rashi": 12,
+        "degreeInRashi": 5.684341886080802e-14,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      }
+    },
+    {
+      "boundaryDeg": 360,
+      "exact": {
+        "angle": 360,
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "precedingFloat": {
+        "angle": 359.99999999999994,
+        "delta": 5.684341886080802e-14,
+        "rashi": 12,
+        "degreeInRashi": 29.999999999999943,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "followingFloat": {
+        "angle": 360.00000000000006,
+        "delta": 5.684341886080802e-14,
+        "rashi": 1,
+        "degreeInRashi": 5.684341886080802e-14,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      }
+    }
+  ],
+  "deltaAnalysis": [
+    {
+      "delta": 0.0001,
+      "angle": 29.9999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 1,
+      "navamsa": 9,
+      "inPrecedingSegment": true,
+      "arcsecondsFromBoundary": 0.36000000000000004
+    },
+    {
+      "delta": 0.000001,
+      "angle": 29.999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 1,
+      "navamsa": 9,
+      "inPrecedingSegment": true,
+      "arcsecondsFromBoundary": 0.0036
+    },
+    {
+      "delta": 1e-8,
+      "angle": 29.99999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 1,
+      "navamsa": 9,
+      "inPrecedingSegment": true,
+      "arcsecondsFromBoundary": 0.000036
+    },
+    {
+      "delta": 1e-10,
+      "angle": 29.9999999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 1,
+      "navamsa": 9,
+      "inPrecedingSegment": true,
+      "arcsecondsFromBoundary": 3.6e-7
+    },
+    {
+      "delta": 1e-11,
+      "angle": 29.99999999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 1,
+      "navamsa": 9,
+      "inPrecedingSegment": true,
+      "arcsecondsFromBoundary": 3.6e-8
+    },
+    {
+      "delta": 1e-12,
+      "angle": 29.999999999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 2,
+      "navamsa": 10,
+      "inPrecedingSegment": false,
+      "arcsecondsFromBoundary": 3.6e-9
+    },
+    {
+      "delta": 1e-13,
+      "angle": 29.9999999999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 2,
+      "navamsa": 10,
+      "inPrecedingSegment": false,
+      "arcsecondsFromBoundary": 3.6e-10
+    },
+    {
+      "delta": 1e-14,
+      "angle": 29.99999999999999,
+      "rashi": 1,
+      "nakshatra": 3,
+      "pada": 2,
+      "navamsa": 10,
+      "inPrecedingSegment": false,
+      "arcsecondsFromBoundary": 3.6e-11
+    }
+  ],
+  "periodicEquivalence": [
+    {
+      "input": 0,
+      "base": {
+        "rashi": 1,
+        "nak": 1,
+        "pada": 1,
+        "nav": 1
+      },
+      "r360": {
+        "rashi": 1,
+        "nak": 1,
+        "pada": 1,
+        "nav": 1
+      },
+      "r720": {
+        "rashi": 1,
+        "nak": 1,
+        "pada": 1,
+        "nav": 1
+      },
+      "rNeg360": {
+        "rashi": 1,
+        "nak": 1,
+        "pada": 1,
+        "nav": 1
+      },
+      "rNeg720": {
+        "rashi": 1,
+        "nak": 1,
+        "pada": 1,
+        "nav": 1
+      },
+      "equivalent": true
+    },
+    {
+      "input": 30,
+      "base": {
+        "rashi": 2,
+        "nak": 3,
+        "pada": 2,
+        "nav": 10
+      },
+      "r360": {
+        "rashi": 2,
+        "nak": 3,
+        "pada": 2,
+        "nav": 10
+      },
+      "r720": {
+        "rashi": 2,
+        "nak": 3,
+        "pada": 2,
+        "nav": 10
+      },
+      "rNeg360": {
+        "rashi": 2,
+        "nak": 3,
+        "pada": 2,
+        "nav": 10
+      },
+      "rNeg720": {
+        "rashi": 2,
+        "nak": 3,
+        "pada": 2,
+        "nav": 10
+      },
+      "equivalent": true
+    },
+    {
+      "input": 13.333333333333334,
+      "base": {
+        "rashi": 1,
+        "nak": 2,
+        "pada": 1,
+        "nav": 5
+      },
+      "r360": {
+        "rashi": 1,
+        "nak": 2,
+        "pada": 1,
+        "nav": 5
+      },
+      "r720": {
+        "rashi": 1,
+        "nak": 2,
+        "pada": 1,
+        "nav": 5
+      },
+      "rNeg360": {
+        "rashi": 1,
+        "nak": 2,
+        "pada": 1,
+        "nav": 5
+      },
+      "rNeg720": {
+        "rashi": 1,
+        "nak": 2,
+        "pada": 1,
+        "nav": 5
+      },
+      "equivalent": true
+    }
+  ],
+  "invalidInputs": [
+    {
+      "input": "NaN",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    },
+    {
+      "input": "Infinity",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    },
+    {
+      "input": "-Infinity",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    },
+    {
+      "input": "invalid",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    },
+    {
+      "input": "null",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    },
+    {
+      "input": "undefined",
+      "rashi": null,
+      "degreeInRashi": "NaN",
+      "nakshatra": null,
+      "pada": null,
+      "navamsa": null,
+      "safelyRejected": true
+    }
+  ],
+  "summary": {
+    "signBoundariesTested": 13,
+    "deltaLevelsTested": 8,
+    "periodicEquivalencePass": true,
+    "invalidInputsSafelyRejected": true
+  }
+}

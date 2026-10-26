@@ -1,0 +1,60 @@
+{
+  "pipelineTrace": {
+    "inputLocalTimestamp": "1999-03-28 11:25",
+    "inputTimezone": 5.5,
+    "step1_localToGreenwich": "utcHour = hour (11) - timezone (5.5) = 5.5",
+    "step2_greenwichToJD": "dateToJD(1999, 3, 28, 5.5, 25, 0) = 2451265.746527778",
+    "step3_civilToDynamical": "utcToTT(2451265.746527778) = 2451265.746527778 + 64.184s / 86400 = 2451265.7472706484"
+  },
+  "inputClassification": "Category 3: Local civil timestamp with user-specified numerical timezone offset",
+  "historicalCases": [
+    {
+      "caseName": "1890 Varanasi Birth (Pre-IST)",
+      "date": "1890-08-15",
+      "time": "06:00",
+      "assumedStandardIST_Tz": 5.5,
+      "trueLMT_Tz": 5.531333333333333,
+      "timezoneDifferenceMinutes": 1.880000000000006,
+      "saturnLon_IST": 132.988444665041,
+      "saturnLon_LMT": 132.98828252959458,
+      "saturnDifferenceArcsec": 0.5836876070475228,
+      "saturnDifferenceArcmin": 0.00972812678412538,
+      "withinBenchmarkTolerance": true
+    }
+  ],
+  "missingTimezoneCases": [
+    {
+      "timezoneInput": "undefined",
+      "threwError": true,
+      "errorMessage": "Cannot read properties of undefined (reading 'en')",
+      "finding": "Calling generateKundali with non-numeric timezone propagates NaN into dateToJD and RASHIS indexing, causing TypeError: Cannot read properties of undefined (reading 'en').",
+      "recommendedSafeHandling": "Input validation in public API: if (typeof timezone !== 'number' || !Number.isFinite(timezone)) throw new TypeError('Invalid timezone specified'); or fallback to longitude / 15.0 for LMT."
+    },
+    {
+      "timezoneInput": "null",
+      "threwError": false,
+      "errorMessage": "",
+      "finding": "Calling generateKundali with non-numeric timezone propagates NaN into dateToJD and RASHIS indexing, causing TypeError: Cannot read properties of undefined (reading 'en').",
+      "recommendedSafeHandling": "Input validation in public API: if (typeof timezone !== 'number' || !Number.isFinite(timezone)) throw new TypeError('Invalid timezone specified'); or fallback to longitude / 15.0 for LMT."
+    },
+    {
+      "timezoneInput": "NaN",
+      "threwError": true,
+      "errorMessage": "Cannot read properties of undefined (reading 'en')",
+      "finding": "Calling generateKundali with non-numeric timezone propagates NaN into dateToJD and RASHIS indexing, causing TypeError: Cannot read properties of undefined (reading 'en').",
+      "recommendedSafeHandling": "Input validation in public API: if (typeof timezone !== 'number' || !Number.isFinite(timezone)) throw new TypeError('Invalid timezone specified'); or fallback to longitude / 15.0 for LMT."
+    },
+    {
+      "timezoneInput": "string 'invalid'",
+      "threwError": true,
+      "errorMessage": "Cannot read properties of undefined (reading 'en')",
+      "finding": "Calling generateKundali with non-numeric timezone propagates NaN into dateToJD and RASHIS indexing, causing TypeError: Cannot read properties of undefined (reading 'en').",
+      "recommendedSafeHandling": "Input validation in public API: if (typeof timezone !== 'number' || !Number.isFinite(timezone)) throw new TypeError('Invalid timezone specified'); or fallback to longitude / 15.0 for LMT."
+    }
+  ],
+  "conceptualProof": {
+    "premise": "Does a Delta-T polynomial perform local-time-to-UT1 conversion?",
+    "answer": "STRICTLY NO",
+    "proof": "Delta-T is defined astronomically as TT - UT1. It accounts exclusively for the Earth's rotational deceleration relative to atomic/dynamical clocks. The conversion from Local Civil Time to Greenwich Mean Time (UT1/UTC) is performed strictly by subtracting the geographical/civil timezone offset (or longitude in hours for Local Mean Time). Applying Delta-T to uncorrected local clock time would erroneously confuse geographical longitude offset with Earth deceleration."
+  }
+}

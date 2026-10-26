@@ -1,0 +1,594 @@
+{
+  "results": {
+    "normal": [
+      {
+        "id": "REF-01",
+        "diffArcmin": 0.06838645550686806,
+        "absDiffArcmin": 0.06838645550686806,
+        "pass": true
+      },
+      {
+        "id": "REF-02",
+        "diffArcmin": 0.2264961252198816,
+        "absDiffArcmin": 0.2264961252198816,
+        "pass": true
+      },
+      {
+        "id": "REF-03",
+        "diffArcmin": 0.06834874527939405,
+        "absDiffArcmin": 0.06834874527939405,
+        "pass": true
+      },
+      {
+        "id": "REF-04",
+        "diffArcmin": 0.22469393219296308,
+        "absDiffArcmin": 0.22469393219296308,
+        "pass": true
+      },
+      {
+        "id": "REF-05",
+        "diffArcmin": 0.1450562717707271,
+        "absDiffArcmin": 0.1450562717707271,
+        "pass": true
+      },
+      {
+        "id": "REF-06",
+        "diffArcmin": -0.1352611617880939,
+        "absDiffArcmin": 0.1352611617880939,
+        "pass": true
+      },
+      {
+        "id": "REF-07",
+        "diffArcmin": -0.004826223240570471,
+        "absDiffArcmin": 0.004826223240570471,
+        "pass": true
+      },
+      {
+        "id": "REF-08",
+        "diffArcmin": 0.26631867945923204,
+        "absDiffArcmin": 0.26631867945923204,
+        "pass": true
+      },
+      {
+        "id": "REF-09",
+        "diffArcmin": 0.1843887592018234,
+        "absDiffArcmin": 0.1843887592018234,
+        "pass": true
+      },
+      {
+        "id": "HIST-01",
+        "diffArcmin": -0.10394975328210876,
+        "absDiffArcmin": 0.10394975328210876,
+        "pass": true
+      },
+      {
+        "id": "HIST-02",
+        "diffArcmin": 0.34170871926335167,
+        "absDiffArcmin": 0.34170871926335167,
+        "pass": true
+      },
+      {
+        "id": "HIST-03",
+        "diffArcmin": 0.006581663726876741,
+        "absDiffArcmin": 0.006581663726876741,
+        "pass": true
+      },
+      {
+        "id": "HIST-04",
+        "diffArcmin": 0.0006591229373498209,
+        "absDiffArcmin": 0.0006591229373498209,
+        "pass": true
+      },
+      {
+        "id": "HIST-05",
+        "diffArcmin": 0.26666432956403696,
+        "absDiffArcmin": 0.26666432956403696,
+        "pass": true
+      },
+      {
+        "id": "STAT-01",
+        "diffArcmin": -0.13427774988258534,
+        "absDiffArcmin": 0.13427774988258534,
+        "pass": true
+      },
+      {
+        "id": "STAT-02",
+        "diffArcmin": -0.19699765580980966,
+        "absDiffArcmin": 0.19699765580980966,
+        "pass": true
+      },
+      {
+        "id": "RETRO-01",
+        "diffArcmin": -0.1642113363993758,
+        "absDiffArcmin": 0.1642113363993758,
+        "pass": true
+      },
+      {
+        "id": "BOUND-01",
+        "diffArcmin": -0.23696136455782835,
+        "absDiffArcmin": 0.23696136455782835,
+        "pass": true
+      },
+      {
+        "id": "BOUND-02",
+        "diffArcmin": 0.0019976236353613785,
+        "absDiffArcmin": 0.0019976236353613785,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-01",
+        "diffArcmin": -0.10849856011370118,
+        "absDiffArcmin": 0.10849856011370118,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-02",
+        "diffArcmin": -0.11811072218392837,
+        "absDiffArcmin": 0.11811072218392837,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-03",
+        "diffArcmin": -0.1387185265377866,
+        "absDiffArcmin": 0.1387185265377866,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-04",
+        "diffArcmin": -0.20086472526656962,
+        "absDiffArcmin": 0.20086472526656962,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-01",
+        "diffArcmin": 0.3454709137105283,
+        "absDiffArcmin": 0.3454709137105283,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-02",
+        "diffArcmin": -0.787371732633062,
+        "absDiffArcmin": 0.787371732633062,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-03",
+        "diffArcmin": -0.02072965447553088,
+        "absDiffArcmin": 0.02072965447553088,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-01",
+        "diffArcmin": -0.26569526865614534,
+        "absDiffArcmin": 0.26569526865614534,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-02",
+        "diffArcmin": -0.28483438690841467,
+        "absDiffArcmin": 0.28483438690841467,
+        "pass": true
+      },
+      {
+        "id": "OPP-EXP-01",
+        "diffArcmin": -0.2947355321816758,
+        "absDiffArcmin": 0.2947355321816758,
+        "pass": true
+      },
+      {
+        "id": "CONJ-EXP-01",
+        "diffArcmin": -0.16607567646133248,
+        "absDiffArcmin": 0.16607567646133248,
+        "pass": true
+      },
+      {
+        "id": "BOUND-EXP-01",
+        "diffArcmin": -0.07118337008073183,
+        "absDiffArcmin": 0.07118337008073183,
+        "pass": true
+      }
+    ],
+    "disabled": [
+      {
+        "id": "REF-01",
+        "diffArcmin": 0.37577161089771494,
+        "absDiffArcmin": 0.37577161089771494,
+        "pass": true
+      },
+      {
+        "id": "REF-02",
+        "diffArcmin": 0.5406282022254061,
+        "absDiffArcmin": 0.5406282022254061,
+        "pass": true
+      },
+      {
+        "id": "REF-03",
+        "diffArcmin": 0.3756553056180678,
+        "absDiffArcmin": 0.3756553056180678,
+        "pass": true
+      },
+      {
+        "id": "REF-04",
+        "diffArcmin": 0.38422447012692373,
+        "absDiffArcmin": 0.38422447012692373,
+        "pass": true
+      },
+      {
+        "id": "REF-05",
+        "diffArcmin": -0.005204005715313542,
+        "absDiffArcmin": 0.005204005715313542,
+        "pass": true
+      },
+      {
+        "id": "REF-06",
+        "diffArcmin": -0.2678664821576149,
+        "absDiffArcmin": 0.2678664821576149,
+        "pass": true
+      },
+      {
+        "id": "REF-07",
+        "diffArcmin": -0.0705824186911741,
+        "absDiffArcmin": 0.0705824186911741,
+        "pass": true
+      },
+      {
+        "id": "REF-08",
+        "diffArcmin": 0.5453462944757348,
+        "absDiffArcmin": 0.5453462944757348,
+        "pass": true
+      },
+      {
+        "id": "REF-09",
+        "diffArcmin": 0.011171300288452812,
+        "absDiffArcmin": 0.011171300288452812,
+        "pass": true
+      },
+      {
+        "id": "HIST-01",
+        "diffArcmin": -0.1692369181984077,
+        "absDiffArcmin": 0.1692369181984077,
+        "pass": true
+      },
+      {
+        "id": "HIST-02",
+        "diffArcmin": 0.22172359398950903,
+        "absDiffArcmin": 0.22172359398950903,
+        "pass": true
+      },
+      {
+        "id": "HIST-03",
+        "diffArcmin": 0.3406439461548416,
+        "absDiffArcmin": 0.3406439461548416,
+        "pass": true
+      },
+      {
+        "id": "HIST-04",
+        "diffArcmin": 0.32763038044095083,
+        "absDiffArcmin": 0.32763038044095083,
+        "pass": true
+      },
+      {
+        "id": "HIST-05",
+        "diffArcmin": 0.16998163143625789,
+        "absDiffArcmin": 0.16998163143625789,
+        "pass": true
+      },
+      {
+        "id": "STAT-01",
+        "diffArcmin": -0.24577737509957842,
+        "absDiffArcmin": 0.24577737509957842,
+        "pass": true
+      },
+      {
+        "id": "STAT-02",
+        "diffArcmin": -0.30772611563861574,
+        "absDiffArcmin": 0.30772611563861574,
+        "pass": true
+      },
+      {
+        "id": "RETRO-01",
+        "diffArcmin": -0.5058033181865085,
+        "absDiffArcmin": 0.5058033181865085,
+        "pass": true
+      },
+      {
+        "id": "BOUND-01",
+        "diffArcmin": -0.0876112609523716,
+        "absDiffArcmin": 0.0876112609523716,
+        "pass": true
+      },
+      {
+        "id": "BOUND-02",
+        "diffArcmin": 0.3061659344984946,
+        "absDiffArcmin": 0.3061659344984946,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-01",
+        "diffArcmin": -0.05845806987886171,
+        "absDiffArcmin": 0.05845806987886171,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-02",
+        "diffArcmin": 0.2154630056179485,
+        "absDiffArcmin": 0.2154630056179485,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-03",
+        "diffArcmin": -0.4114760508514337,
+        "absDiffArcmin": 0.4114760508514337,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-04",
+        "diffArcmin": 0.14033863289000692,
+        "absDiffArcmin": 0.14033863289000692,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-01",
+        "diffArcmin": 0.6803996740887897,
+        "absDiffArcmin": 0.6803996740887897,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-02",
+        "diffArcmin": -0.9426111870678255,
+        "absDiffArcmin": 0.9426111870678255,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-03",
+        "diffArcmin": 0.0678235551151829,
+        "absDiffArcmin": 0.0678235551151829,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-01",
+        "diffArcmin": -0.3774097655434616,
+        "absDiffArcmin": 0.3774097655434616,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-02",
+        "diffArcmin": -0.3959602010581875,
+        "absDiffArcmin": 0.3959602010581875,
+        "pass": true
+      },
+      {
+        "id": "OPP-EXP-01",
+        "diffArcmin": -0.6363275317960415,
+        "absDiffArcmin": 0.6363275317960415,
+        "pass": true
+      },
+      {
+        "id": "CONJ-EXP-01",
+        "diffArcmin": 0.1755163203461052,
+        "absDiffArcmin": 0.1755163203461052,
+        "pass": true
+      },
+      {
+        "id": "BOUND-EXP-01",
+        "diffArcmin": 0.2686946091963449,
+        "absDiffArcmin": 0.2686946091963449,
+        "pass": true
+      }
+    ],
+    "reversed": [
+      {
+        "id": "REF-01",
+        "diffArcmin": 0.6831567662889881,
+        "absDiffArcmin": 0.6831567662889881,
+        "pass": true
+      },
+      {
+        "id": "REF-02",
+        "diffArcmin": 0.8547602792305042,
+        "absDiffArcmin": 0.8547602792305042,
+        "pass": true
+      },
+      {
+        "id": "REF-03",
+        "diffArcmin": 0.6829618659567416,
+        "absDiffArcmin": 0.6829618659567416,
+        "pass": true
+      },
+      {
+        "id": "REF-04",
+        "diffArcmin": 0.5437550080608844,
+        "absDiffArcmin": 0.5437550080608844,
+        "pass": true
+      },
+      {
+        "id": "REF-05",
+        "diffArcmin": -0.1554642831979436,
+        "absDiffArcmin": 0.1554642831979436,
+        "pass": true
+      },
+      {
+        "id": "REF-06",
+        "diffArcmin": -0.4004718025271359,
+        "absDiffArcmin": 0.4004718025271359,
+        "pass": true
+      },
+      {
+        "id": "REF-07",
+        "diffArcmin": -0.13633861414177773,
+        "absDiffArcmin": 0.13633861414177773,
+        "pass": true
+      },
+      {
+        "id": "REF-08",
+        "diffArcmin": 0.8243739094922375,
+        "absDiffArcmin": 0.8243739094922375,
+        "pass": true
+      },
+      {
+        "id": "REF-09",
+        "diffArcmin": -0.1620461586253441,
+        "absDiffArcmin": 0.1620461586253441,
+        "pass": true
+      },
+      {
+        "id": "HIST-01",
+        "diffArcmin": -0.23452408311641193,
+        "absDiffArcmin": 0.23452408311641193,
+        "pass": true
+      },
+      {
+        "id": "HIST-02",
+        "diffArcmin": 0.10173846871566639,
+        "absDiffArcmin": 0.10173846871566639,
+        "pass": true
+      },
+      {
+        "id": "HIST-03",
+        "diffArcmin": 0.6747062285836591,
+        "absDiffArcmin": 0.6747062285836591,
+        "pass": true
+      },
+      {
+        "id": "HIST-04",
+        "diffArcmin": 0.6546016379445518,
+        "absDiffArcmin": 0.6546016379445518,
+        "pass": true
+      },
+      {
+        "id": "HIST-05",
+        "diffArcmin": 0.07329893331188941,
+        "absDiffArcmin": 0.07329893331188941,
+        "pass": true
+      },
+      {
+        "id": "STAT-01",
+        "diffArcmin": -0.3572770003131609,
+        "absDiffArcmin": 0.3572770003131609,
+        "pass": true
+      },
+      {
+        "id": "STAT-02",
+        "diffArcmin": -0.4184545754640112,
+        "absDiffArcmin": 0.4184545754640112,
+        "pass": true
+      },
+      {
+        "id": "RETRO-01",
+        "diffArcmin": -0.8473952999702306,
+        "absDiffArcmin": 0.8473952999702306,
+        "pass": true
+      },
+      {
+        "id": "BOUND-01",
+        "diffArcmin": 0.06173884264967455,
+        "absDiffArcmin": 0.06173884264967455,
+        "pass": true
+      },
+      {
+        "id": "BOUND-02",
+        "diffArcmin": 0.6103342453616278,
+        "absDiffArcmin": 0.6103342453616278,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-01",
+        "diffArcmin": -0.008417579644022233,
+        "absDiffArcmin": 0.008417579644022233,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-02",
+        "diffArcmin": 0.5490367334198254,
+        "absDiffArcmin": 0.5490367334198254,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-03",
+        "diffArcmin": -0.6842335751650808,
+        "absDiffArcmin": 0.6842335751650808,
+        "pass": true
+      },
+      {
+        "id": "HIST-EXP-04",
+        "diffArcmin": 0.48154199104487816,
+        "absDiffArcmin": 0.48154199104487816,
+        "pass": true
+      },
+      {
+        "id": "FUT-EXP-01",
+        "diffArcmin": 1.0153284344653457,
+        "absDiffArcmin": 1.0153284344653457,
+        "pass": false
+      },
+      {
+        "id": "FUT-EXP-02",
+        "diffArcmin": -1.097850641502589,
+        "absDiffArcmin": 1.097850641502589,
+        "pass": false
+      },
+      {
+        "id": "FUT-EXP-03",
+        "diffArcmin": 0.15637676470419137,
+        "absDiffArcmin": 0.15637676470419137,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-01",
+        "diffArcmin": -0.4891242624273673,
+        "absDiffArcmin": 0.4891242624273673,
+        "pass": true
+      },
+      {
+        "id": "STAT-EXP-02",
+        "diffArcmin": -0.507086015211371,
+        "absDiffArcmin": 0.507086015211371,
+        "pass": true
+      },
+      {
+        "id": "OPP-EXP-01",
+        "diffArcmin": -0.9779195314069966,
+        "absDiffArcmin": 0.9779195314069966,
+        "pass": true
+      },
+      {
+        "id": "CONJ-EXP-01",
+        "diffArcmin": 0.5171083171535429,
+        "absDiffArcmin": 0.5171083171535429,
+        "pass": true
+      },
+      {
+        "id": "BOUND-EXP-01",
+        "diffArcmin": 0.6085725884734217,
+        "absDiffArcmin": 0.6085725884734217,
+        "pass": true
+      }
+    ]
+  },
+  "stats": {
+    "normal": {
+      "maxArcmin": 0.787371732633062,
+      "maxArcsec": 47.24230395798372,
+      "maeArcmin": 0.18000241102992404,
+      "maeArcsec": 10.800144661795443,
+      "biasArcmin": -0.04150103416099538,
+      "fails": 0
+    },
+    "disabled": {
+      "maxArcmin": 0.9426111870678255,
+      "maxArcsec": 56.55667122406953,
+      "maeArcmin": 0.3106202957497461,
+      "maeArcsec": 18.637217744984767,
+      "biasArcmin": 0.021455734405526974,
+      "fails": 0
+    },
+    "reversed": {
+      "maxArcmin": 1.097850641502589,
+      "maxArcsec": 65.87103849015534,
+      "maeArcmin": 0.5022578850829378,
+      "maeArcsec": 30.135473104976267,
+      "biasArcmin": 0.08441250297239314,
+      "fails": 2
+    }
+  }
+}

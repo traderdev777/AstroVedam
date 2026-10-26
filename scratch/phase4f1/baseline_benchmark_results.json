@@ -1,0 +1,1116 @@
+{
+  "timestamp": "2026-10-22T09:54:34.454Z",
+  "referenceSource": "NASA JPL Horizons (DE440/441)",
+  "totalChecks": 135,
+  "passedChecks": 104,
+  "failedChecks": 31,
+  "results": [
+    {
+      "id": "REF-01",
+      "name": "Normal Indian Birth Chart",
+      "utcInstant": "1999-03-28T05:55:00.000Z",
+      "ayanamsa": 23.8423,
+      "jd": 2451265.746527778,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 343.269897,
+          "avSid": 343.2723147354644,
+          "delta": 0.0024177354644052684,
+          "deltaArc": 0.1450641278643161,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 120.4585529,
+          "avSid": 120.43404004346458,
+          "delta": -0.024512856535423566,
+          "deltaArc": -1.470771392125414,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 328.291945,
+          "avSid": 328.3792809522657,
+          "delta": 0.08733595226567559,
+          "deltaArc": 5.240157135940535,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 17.9958246,
+          "avSid": 18.01060134860662,
+          "delta": 0.014776748606621481,
+          "deltaArc": 0.8866049163972889,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 197.7746514,
+          "avSid": 197.73119680534808,
+          "delta": -0.043454594651933576,
+          "deltaArc": -2.6072756791160145,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 346.2616837,
+          "avSid": 346.25579605807974,
+          "delta": -0.0058876419202533725,
+          "deltaArc": -0.35325851521520235,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 9.1322009,
+          "avSid": 9.245460394637973,
+          "delta": 0.11325949463797258,
+          "deltaArc": 6.795569678278355,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 63.59029910562953,
+          "avSid": 63.59026864141538,
+          "delta": -0.000030464214155756508,
+          "deltaArc": -0.0018278528493453905,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-02",
+      "name": "Confirmed Sign Boundary (Mesha Ingress)",
+      "utcInstant": "2000-04-13T11:45:00.000Z",
+      "ayanamsa": 23.8569,
+      "jd": 2451647.9895833335,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 359.9948827,
+          "avSid": 359.9954600317578,
+          "delta": 0.0005773317577677517,
+          "deltaArc": 0.0346399054660651,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 114.94331389999999,
+          "avSid": 114.9004872557366,
+          "delta": -0.04282664426338556,
+          "deltaArc": -2.5695986558031336,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 336.8685462,
+          "avSid": 336.9043410211664,
+          "delta": 0.035794821166348356,
+          "deltaArc": 2.1476892699809014,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 344.4249814,
+          "avSid": 344.4376953100711,
+          "delta": 0.012713910071113332,
+          "deltaArc": 0.7628346042667999,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 21.718129200000003,
+          "avSid": 21.727543816996953,
+          "delta": 0.009414616996949121,
+          "deltaArc": 0.5648770198169473,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 18.183424900000002,
+          "avSid": 18.156496992817754,
+          "delta": -0.026927907182248134,
+          "deltaArc": -1.615674430934888,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 23.123034,
+          "avSid": 23.23226255030111,
+          "delta": 0.10922855030111123,
+          "deltaArc": 6.553713018066674,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 159.82952559591226,
+          "avSid": 159.8294906366217,
+          "delta": -0.000034959290559299916,
+          "deltaArc": -0.002097557433557995,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-03",
+      "name": "Confirmed Nakshatra/Pada Boundary (Ashlesha 4 to Magha 1)",
+      "utcInstant": "1999-03-28T05:05:00.000Z",
+      "ayanamsa": 23.8423,
+      "jd": 2451265.7118055555,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 343.2355493,
+          "avSid": 343.2379619151738,
+          "delta": 0.0024126151737959844,
+          "deltaArc": 0.14475691042775907,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 120.0111484,
+          "avSid": 119.98660974542156,
+          "delta": -0.024538654578435626,
+          "deltaArc": -1.4723192747061375,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 328.3090612,
+          "avSid": 328.3965397210376,
+          "delta": 0.08747852103761034,
+          "deltaArc": 5.24871126225662,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 17.954234999999997,
+          "avSid": 17.96901685342209,
+          "delta": 0.01478185342209315,
+          "deltaArc": 0.886911205325589,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 197.7788768,
+          "avSid": 197.7354396350303,
+          "delta": -0.043437164969702735,
+          "deltaArc": -2.606229898182164,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 346.253282,
+          "avSid": 346.24739738337274,
+          "delta": -0.005884616627270134,
+          "deltaArc": -0.35307699763620803,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 9.128054599999999,
+          "avSid": 9.241321969174471,
+          "delta": 0.11326736917447278,
+          "deltaArc": 6.796042150468367,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 62.68350947448625,
+          "avSid": 62.68348033691626,
+          "delta": -0.0000291375699887908,
+          "deltaArc": -0.001748254199327448,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-04",
+      "name": "Century Leap-Day Rollover",
+      "utcInstant": "2000-02-29T12:00:00.000Z",
+      "ayanamsa": 23.8553,
+      "jd": 2451604,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 316.3505271,
+          "avSid": 316.35459449085874,
+          "delta": 0.0040673908587223195,
+          "deltaArc": 0.24404345152333917,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 251.68090990000002,
+          "avSid": 251.68890024398038,
+          "delta": 0.007990343980367243,
+          "deltaArc": 0.47942063882203456,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 318.6511927,
+          "avSid": 318.58383927095645,
+          "delta": -0.06735342904357822,
+          "deltaArc": -4.041205742614693,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 290.1012554,
+          "avSid": 290.1151472307272,
+          "delta": 0.013891830727175147,
+          "deltaArc": 0.8335098436305088,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 349.3662498,
+          "avSid": 349.3754435719179,
+          "delta": 0.009193771917921367,
+          "deltaArc": 0.551626315075282,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 8.721801800000001,
+          "avSid": 8.694963216379051,
+          "delta": -0.026838583620950374,
+          "deltaArc": -1.6103150172570224,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 18.510472200000002,
+          "avSid": 18.62772851730213,
+          "delta": 0.11725631730212882,
+          "deltaArc": 7.035379038127729,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 126.22230529120742,
+          "avSid": 126.22235105742345,
+          "delta": 0.00004576621603291642,
+          "deltaArc": 0.002745972961974985,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-05",
+      "name": "Southern-Hemisphere Ascendant (Sydney)",
+      "utcInstant": "2020-09-21T20:00:00.000Z",
+      "ayanamsa": 24.1422,
+      "jd": 2459114.3333333335,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 155.1438643,
+          "avSid": 155.14483061388697,
+          "delta": 0.0009663138869768773,
+          "deltaArc": 0.057978833218612635,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 216.1404859,
+          "avSid": 216.13659976512045,
+          "delta": -0.0038861348795364847,
+          "deltaArc": -0.23316809277218908,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 179.1785219,
+          "avSid": 179.1478651330447,
+          "delta": -0.030656766955303283,
+          "deltaArc": -1.839406017318197,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 113.1486194,
+          "avSid": 113.08375115364078,
+          "delta": -0.06486824635922517,
+          "deltaArc": -3.89209478155351,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 2.9622407000000024,
+          "avSid": 2.9127385380801734,
+          "delta": -0.049502161919829035,
+          "deltaArc": -2.970129715189742,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 263.3892941,
+          "avSid": 263.0825605449493,
+          "delta": -0.3067335550506982,
+          "deltaArc": -18.404013303041893,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 271.2395726,
+          "avSid": 271.01241329086605,
+          "delta": -0.22715930913392413,
+          "deltaArc": -13.629558548035448,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 159.489194617171,
+          "avSid": 159.48919043205422,
+          "delta": -0.000004185116779353848,
+          "deltaArc": -0.0002511070067612309,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-06",
+      "name": "Daylight Saving Time (New York EDT UTC-4)",
+      "utcInstant": "2023-06-21T16:00:00.000Z",
+      "ayanamsa": 24.1805,
+      "jd": 2460117.1666666665,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 65.8607011,
+          "avSid": 65.85673173003455,
+          "delta": -0.00396936996544639,
+          "deltaArc": -0.2381621979267834,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 104.7579864,
+          "avSid": 104.74412286746295,
+          "delta": -0.01386353253704442,
+          "deltaArc": -0.8318119522226652,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 54.53345110000001,
+          "avSid": 54.460461864426534,
+          "delta": -0.07298923557347337,
+          "deltaArc": -4.379354134408402,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 109.91805529999999,
+          "avSid": 110.00602893751855,
+          "delta": 0.08797363751855869,
+          "deltaArc": 5.278418251113521,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 114.49623220000001,
+          "avSid": 114.49720520075655,
+          "delta": 0.0009730007565451615,
+          "deltaArc": 0.05838004539270969,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 13.408936999999998,
+          "avSid": 13.058803594385946,
+          "delta": -0.35013340561405215,
+          "deltaArc": -21.00800433684313,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 313.0173519,
+          "avSid": 312.72330717161606,
+          "delta": -0.2940447283839376,
+          "deltaArc": -17.642683703036255,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 144.38818051588868,
+          "avSid": 144.388160724337,
+          "delta": -0.00001979155166509372,
+          "deltaArc": -0.0011874930999056232,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-07",
+      "name": "Verified Retrograde Motion (Mars & Jupiter)",
+      "utcInstant": "2022-10-31T00:00:00.000Z",
+      "ayanamsa": 24.1716,
+      "jd": 2459883.5,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 193.37060119999998,
+          "avSid": 193.37028761870374,
+          "delta": -0.0003135812962398177,
+          "deltaArc": -0.01881487777438906,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 266.4938151,
+          "avSid": 266.5190754103303,
+          "delta": 0.025260310330281754,
+          "deltaArc": 1.5156186198169053,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 187.8231162,
+          "avSid": 187.73690829620176,
+          "delta": -0.08620790379822552,
+          "deltaArc": -5.172474227893531,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 195.4430507,
+          "avSid": 195.32378176676272,
+          "delta": -0.11926893323726517,
+          "deltaArc": -7.15613599423591,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 61.4409567,
+          "avSid": 61.42886773163032,
+          "delta": -0.012088968369681652,
+          "deltaArc": -0.7253381021808991,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 335.5978829,
+          "avSid": 335.1414653763653,
+          "delta": -0.45641752363468413,
+          "deltaArc": -27.385051418081048,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 294.4698327,
+          "avSid": 294.245456322317,
+          "delta": -0.22437637768297236,
+          "deltaArc": -13.462582660978342,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 182.24463876101046,
+          "avSid": 182.24464675410593,
+          "delta": 0.000007993095465508304,
+          "deltaArc": 0.00047958572793049825,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-08",
+      "name": "Navamsha Boundary Case (Pada 1 to 2 transition)",
+      "utcInstant": "2010-11-10T06:15:00.000Z",
+      "ayanamsa": 24.0045,
+      "jd": 2455510.7604166665,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 203.7386876,
+          "avSid": 203.7382571010999,
+          "delta": -0.0004304989001013837,
+          "deltaArc": -0.025829934006083022,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 254.97414349999997,
+          "avSid": 254.95881700042486,
+          "delta": -0.01532649957511012,
+          "deltaArc": -0.9195899745066072,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 217.8978919,
+          "avSid": 217.85712618973474,
+          "delta": -0.04076571026524789,
+          "deltaArc": -2.4459426159148734,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 185.1716768,
+          "avSid": 185.50360538491032,
+          "delta": 0.3319285849103153,
+          "deltaArc": 19.915715094618918,
+          "tolerance": 0.03333333333333333,
+          "pass": false
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 225.3814191,
+          "avSid": 225.37289851298357,
+          "delta": -0.008520587016420222,
+          "deltaArc": -0.5112352209852133,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 329.6132099,
+          "avSid": 329.37622155190434,
+          "delta": -0.2369883480956787,
+          "deltaArc": -14.219300885740722,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 168.5047816,
+          "avSid": 168.288431980206,
+          "delta": -0.2163496197939878,
+          "deltaArc": -12.980977187639269,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 278.626330861336,
+          "avSid": 278.6263096560774,
+          "delta": -0.000021205258576628694,
+          "deltaArc": -0.0012723155145977216,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "REF-09",
+      "name": "Sunrise Ascendant Defect Validation",
+      "utcInstant": "2000-01-01T01:44:00.000Z",
+      "ayanamsa": 23.853,
+      "jd": 2451544.572222222,
+      "comparisons": [
+        {
+          "factor": "Sun",
+          "refSid": 256.0798273,
+          "avSid": 256.0835616312857,
+          "delta": 0.0037343312857274213,
+          "deltaArc": 0.22405987714364528,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Sun Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Moon",
+          "refSid": 194.3139737,
+          "avSid": 194.31510671807152,
+          "delta": 0.0011330180715276583,
+          "deltaArc": 0.0679810842916595,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Moon Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mercury",
+          "refSid": 247.3710198,
+          "avSid": 247.39970268452987,
+          "delta": 0.028682884529871444,
+          "deltaArc": 1.7209730717922866,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Mercury Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Venus",
+          "refSid": 217.1956828,
+          "avSid": 217.20990982221758,
+          "delta": 0.014227022217596641,
+          "deltaArc": 0.8536213330557985,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        },
+        {
+          "factor": "Venus Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Mars",
+          "refSid": 303.778479,
+          "avSid": 303.7780433628366,
+          "delta": -0.00043563716337757796,
+          "deltaArc": -0.026138229802654678,
+          "tolerance": 0.016666666666666666,
+          "pass": true
+        },
+        {
+          "factor": "Mars Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Jupiter",
+          "refSid": 1.3829396999999979,
+          "avSid": 1.3477686596115284,
+          "delta": -0.03517104038846952,
+          "deltaArc": -2.1102624233081713,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Jupiter Retrograde",
+          "refValue": false,
+          "avValue": false,
+          "pass": true
+        },
+        {
+          "factor": "Saturn",
+          "refSid": 16.551335699999996,
+          "avSid": 16.675460125652386,
+          "delta": 0.1241244256523899,
+          "deltaArc": 7.447465539143394,
+          "tolerance": 0.016666666666666666,
+          "pass": false
+        },
+        {
+          "factor": "Saturn Retrograde",
+          "refValue": true,
+          "avValue": true,
+          "pass": true
+        },
+        {
+          "factor": "Ascendant",
+          "refSid": 255.12362664575141,
+          "avSid": 255.12364299000774,
+          "delta": 0.000016344256323463924,
+          "deltaArc": 0.0009806553794078354,
+          "tolerance": 0.03333333333333333,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "manifestVersion": "2.0.0",
+  "phase": "Phase 5B.1 - Evidence Closure & Precision Hardening",
+  "timestamp": "2026-10-24T08:59:19.135Z",
+  "environment": {
+    "nodeVersion": "v20.20.2",
+    "platform": "darwin",
+    "arch": "x64",
+    "workingDirectory": "/Users/supreeththakur/.gemini/antigravity-ide/brain/841fc7ef-3339-408c-81d2-565fe6d2f4d4/browser/astroveda",
+    "gitRepository": false,
+    "gitNote": "Local workspace sandbox does not contain .git repository; content integrity tracked via SHA-256 hashes"
+  },
+  "findingsScoped": [
+    "SEC-01",
+    "SEC-02",
+    "SEC-03",
+    "DEF-01",
+    "DEF-02",
+    "DEF-03"
+  ],
+  "verdict": "PASS",
+  "testSummary": {
+    "totalSuites": 19,
+    "totalAssertions": 1651,
+    "passedAssertions": 1651,
+    "failedAssertions": 0,
+    "durationSeconds": 0.37
+  },
+  "buildSummary": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "bundler": "vite v5.4.21",
+    "modulesTransformed": 424,
+    "distFiles": {
+      "dist/index.html": {
+        "sizeBytes": 7970,
+        "gzipSizeBytes": 1920
+      },
+      "dist/assets/index-CFPN4POS.css": {
+        "sizeBytes": 36170,
+        "gzipSizeBytes": 7890
+      },
+      "dist/assets/purify.es-CAi2OJFm.js": {
+        "sizeBytes": 30470,
+        "gzipSizeBytes": 11730
+      },
+      "dist/assets/index.es-DQs--M5z.js": {
+        "sizeBytes": 151030,
+        "gzipSizeBytes": 51650
+      },
+      "dist/assets/index-Clnqe9Tg.js": {
+        "sizeBytes": 1183090,
+        "gzipSizeBytes": 378280
+      }
+    }
+  },
+  "fileIntegrityHashes": {
+    "src/utils/sanitizer.js": {
+      "sha256": "ed42c423270ade7d9ef98305e350ede86af7774790760557035ef53e73446b93",
+      "sizeBytes": 606,
+      "lastModified": "2026-10-24T07:00:52.710Z"
+    },
+    "src/components/reports/FullPatrikaReport.js": {
+      "sha256": "9c3bb9e719a03adc6ab7e9f6d97bc16f2503dff651796abf64683c91ab6149dd",
+      "sizeBytes": 76012,
+      "lastModified": "2026-10-22T08:47:27.470Z"
+    },
+    "src/pages/Kundali.js": {
+      "sha256": "749d93eae63a88a9387d1dde55e9b8075d38b5ce4486ca0d0ac94fc5c46ff8ff",
+      "sizeBytes": 34695,
+      "lastModified": "2026-10-24T08:55:03.232Z"
+    },
+    "src/pages/Matching.js": {
+      "sha256": "f516b9ec29a55b34b4983cf92f5bdcf206e6a3b121cbe24c4bc9a3aa79af2b8b",
+      "sizeBytes": 24113,
+      "lastModified": "2026-10-24T08:55:03.247Z"
+    },
+    "src/pages/Numerology.js": {
+      "sha256": "0e67e57910d945fd6942c48d1f8d6339c2e024104ee055d5f714fb154c0ec85b",
+      "sizeBytes": 31605,
+      "lastModified": "2026-10-24T08:55:03.250Z"
+    },
+    "src/engines/astrology/kundali.js": {
+      "sha256": "33dabf24194601ec9cc56e895f45889b5f76c7a0db492689db0976bc43c2b3f5",
+      "sizeBytes": 8983,
+      "lastModified": "2026-10-24T08:54:30.453Z"
+    },
+    "src/engines/astrology/ephemeris.js": {
+      "sha256": "be91020d6e4168dc5994f53065be677e89f4c8b7edb6b19293a9428fad444192",
+      "sizeBytes": 54549,
+      "lastModified": "2026-10-24T08:54:49.794Z"
+    },
+    "tests/run_all_tests.js": {
+      "sha256": "7f7c3f249da19c9cfbbeb98560cab94d6c9c4411613b38fdca7100b99ed59a3a",
+      "sizeBytes": 4098,
+      "lastModified": "2026-10-24T08:57:40.055Z"
+    },
+    "tests/regression/phase5b_security_xss.test.js": {
+      "sha256": "acbf4935bd4b9fee75d16d086a4c27d49d018cb0ad56a785a96622012bf6c36d",
+      "sizeBytes": 5099,
+      "lastModified": "2026-10-24T07:13:03.571Z"
+    },
+    "tests/regression/phase5b_input_safety.test.js": {
+      "sha256": "17195907edde82458e14cf937830db0d93b017c0b0a7546c5823f4606e10d333",
+      "sizeBytes": 6234,
+      "lastModified": "2026-10-24T07:13:03.588Z"
+    },
+    "tests/regression/phase5b_angle_normalization.test.js": {
+      "sha256": "3f8b0d0a0ea6fd69f3659a4d3ae5d73497e166535131dcb724fa982337f6d512",
+      "sizeBytes": 6474,
+      "lastModified": "2026-10-24T07:13:03.589Z"
+    },
+    "tests/regression/phase5b1_security_context.test.js": {
+      "sha256": "a35c94bfd22fadcbce2b30e7e07430080f0813da736efcd4f021c31b22b80b1c",
+      "sizeBytes": 7072,
+      "lastModified": "2026-10-24T08:56:05.307Z"
+    },
+    "scratch/phase5b/security_regression_results.txt": {
+      "sha256": "53a1bec5837c6652cc506107d38553ce0d004762667d01638b989a22934c3aaf",
+      "sizeBytes": 1252,
+      "lastModified": "2026-10-24T07:13:54.169Z"
+    },
+    "scratch/phase5b/input_validation_results.txt": {
+      "sha256": "02f6b85774840b7168bf63bdd89ce9144a867a5b64c9967c6914843fbb32c14e",
+      "sizeBytes": 1878,
+      "lastModified": "2026-10-24T07:13:54.285Z"
+    },
+    "scratch/phase5b/angle_boundary_results.json": {
+      "sha256": "0a470c6b4470c96a7d649a1a939682b95fbf13537d25b1832108bd7f111eea2d",
+      "sizeBytes": 13111,
+      "lastModified": "2026-10-24T07:14:16.847Z"
+    },
+    "scratch/phase5b/test_and_build_results.txt": {
+      "sha256": "7bd3bc322718403039e47002bb2a4366d561a9b97451d6564d2a09faf7bc4fb9",
+      "sizeBytes": 128916,
+      "lastModified": "2026-10-24T07:14:50.407Z"
+    },
+    "scratch/phase5b/evidence_manifest.json": {
+      "sha256": "5c7283b4549e2f05a68311be382ff386da3939aefd594ece2cbd40c97eb4bfd5",
+      "sizeBytes": 6288,
+      "lastModified": "2026-10-24T07:17:28.429Z"
+    },
+    "scratch/phase5b/phase5b_remediation_report.md": {
+      "sha256": "e6dc40794e11117492c110c43808909d41e2a3767eadf6b8e9d8fc098edfa73f",
+      "sizeBytes": 13123,
+      "lastModified": "2026-10-24T07:17:13.426Z"
+    },
+    "scratch/phase5b1/security_context_test_results.txt": {
+      "sha256": "4faf25a7f8c8dc4cd0f68e9b448524387cbaf4b77f723ee40ae0ebeab8c6f505",
+      "sizeBytes": 4120,
+      "lastModified": "2026-10-24T08:56:11.375Z"
+    },
+    "scratch/phase5b1/input_boundary_test_results.json": {
+      "sha256": "1d960cfb0840b8a598f035367e975277f07757b8ba4c11cf8b8f57a3daf67a6c",
+      "sizeBytes": 16948,
+      "lastModified": "2026-10-24T08:57:09.975Z"
+    },
+    "scratch/phase5b1/angle_floating_point_results.json": {
+      "sha256": "51518e841447a07e08240fe7a9fd835dd0cee720fbc0ecbbadecfccfba02f77f",
+      "sizeBytes": 13950,
+      "lastModified": "2026-10-24T08:57:27.349Z"
+    },
+    "scratch/phase5b1/full_test_build_results.txt": {
+      "sha256": "2a887988098da85d1a99853a6cb3a07367d3184ecd037fa7343a0f701a8fca38",
+      "sizeBytes": 133121,
+      "lastModified": "2026-10-24T08:58:00.688Z"
+    },
+    "scratch/phase5b1/phase5b1_evidence_closure.md": {
+      "sha256": "e8013c0f642b3e9a06ec68e6a96101f02eac63cdf66e0667819bb10e9065842f",
+      "sizeBytes": 22924,
+      "lastModified": "2026-10-24T08:59:08.039Z"
+    }
+  }
+}

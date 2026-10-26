@@ -1,0 +1,38 @@
+{
+  "src/engines/astrology/ephemeris.js": {
+    "bytes": 54662,
+    "sha256": "be719d4946da0074530569af0e2b5e74ac0a5e761391fdb83519de7b3a2072c7"
+  },
+  "src/engines/astrology/constants.js": {
+    "bytes": 23494,
+    "sha256": "bb1ab6e1b56bac7926931fe8292eb87cbdd971505c0200c0f4223c7ba43e750c"
+  },
+  "tests/regression/phase4f6_saturn_corrections.test.js": {
+    "bytes": 11687,
+    "sha256": "dbd9ace5ce232b1119bab21ca46e84baa18a5b7cfd0d446f3e7458d79d9d179d"
+  },
+  "tests/run_all_tests.js": {
+    "bytes": 3566,
+    "sha256": "b948353330c4151fde1ae522fd439261d898a9dc68d5037f980795d93629b44f"
+  },
+  "scratch/run_astronomical_benchmark.js": {
+    "bytes": 7755,
+    "sha256": "e0f29d9f170dfb1f9739cb2c9b3b45cd7799f1eebfa7278880917903c3fc27b0"
+  },
+  "scratch/reference_cases.json": {
+    "bytes": 8028,
+    "sha256": "7275c33e527f33ddd2a3f1b0f7021f41890ca2034db10d166c2ec332497c6c32"
+  },
+  "scratch/phase4f5/validation_manifest.json": {
+    "bytes": 3364,
+    "sha256": "b9461765c98bdd501258a0c8521f54c8854a058fc3ce0d5c5bc3fd5a89cfe6f5"
+  },
+  "scratch/phase4f5a/expanded_validation_manifest.json": {
+    "bytes": 4050,
+    "sha256": "6df26389cd8b3c254cf75b910e24e1e4f5ce869592ac71ea3802f48b1a82590e"
+  },
+  "scratch/phase4f6/phase4f6_implementation_report.md": {
+    "bytes": 16436,
+    "sha256": "35ba44d157c1c7c513c9a19c551a0f3a67fac95a1f04eff0305ee9ef938d8472"
+  }
+}

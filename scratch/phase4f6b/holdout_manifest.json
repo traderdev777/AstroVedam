@@ -1,0 +1,66 @@
+[
+  {
+    "file": "HOLDOUT-01_raw.json",
+    "bytes": 7154,
+    "sha256": "b7c54305479522c1b287d04e8699fe6206ade7d3e3ebbc43abf6d7b2b866b410",
+    "id": "HOLDOUT-01",
+    "name": "Early 20th Century (1910)",
+    "dateUTC": "1910-04-15 12:00"
+  },
+  {
+    "file": "HOLDOUT-02_raw.json",
+    "bytes": 7151,
+    "sha256": "46add9f309ed5993d6aed3002e0ee41d70dce7556dae1724bc1f39afa5c26ae4",
+    "id": "HOLDOUT-02",
+    "name": "Mid 20th Century (1945)",
+    "dateUTC": "1945-08-15 09:00"
+  },
+  {
+    "file": "HOLDOUT-03_raw.json",
+    "bytes": 7156,
+    "sha256": "0cd5a0e36de28b439f38ef567e921fd5a12e79e3a34d3e47b9491db9ea7e3cee",
+    "id": "HOLDOUT-03",
+    "name": "Space Age Apollo 11 (1969)",
+    "dateUTC": "1969-07-20 20:17"
+  },
+  {
+    "file": "HOLDOUT-04_raw.json",
+    "bytes": 7153,
+    "sha256": "a0ffe3f4fc97073a02f496ad42de05854d6756b2bbc11eedd60bddad07c89ffd",
+    "id": "HOLDOUT-04",
+    "name": "Late 20th Century (1989)",
+    "dateUTC": "1989-11-09 18:00"
+  },
+  {
+    "file": "HOLDOUT-05_raw.json",
+    "bytes": 7153,
+    "sha256": "bca12b074b17b5d65162b24e503740c9b80161bed0360187fe36a33bd976afe7",
+    "id": "HOLDOUT-05",
+    "name": "Modern Solstice (2012)",
+    "dateUTC": "2012-12-21 11:11"
+  },
+  {
+    "file": "HOLDOUT-06_raw.json",
+    "bytes": 7150,
+    "sha256": "6a26d007487d679e756106ee0c4a5303edec99584745e23140ce9722f1ef78f5",
+    "id": "HOLDOUT-06",
+    "name": "Mid 21st Century (2035)",
+    "dateUTC": "2035-09-02 01:00"
+  },
+  {
+    "file": "HOLDOUT-07_raw.json",
+    "bytes": 7150,
+    "sha256": "24dcdfc35162d198999ed8a5c2c5ba9fd156fc0697efb19e8b54516e3a3a7487",
+    "id": "HOLDOUT-07",
+    "name": "Conjunction Era (2040)",
+    "dateUTC": "2040-09-08 12:00"
+  },
+  {
+    "file": "HOLDOUT-08_raw.json",
+    "bytes": 7150,
+    "sha256": "475f2b4fa0204d1d5852f97e20782145887de6ba398b95d62b3273e1666cd4e3",
+    "id": "HOLDOUT-08",
+    "name": "Century Boundary (2100)",
+    "dateUTC": "2100-01-01 00:00"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "totalHoldouts": 8,
+  "allPassed": true,
+  "maxErrorArcmin": 0.35580953301860063,
+  "maeArcmin": 0.17736716160928978,
+  "signedBiasArcmin": 0.05939481659183343,
+  "results": [
+    {
+      "id": "HOLDOUT-01",
+      "name": "Early 20th Century (1910)",
+      "dateUTC": "1910-04-15 12:00",
+      "jd": 2418777,
+      "refTropLon": 26.0355147,
+      "refTropLat": -2.2451279,
+      "astrovedaLon": 26.03929007412276,
+      "residualArcmin": 0.22652244736562466,
+      "residualArcsec": 13.59134684193748,
+      "absErrorArcmin": 0.22652244736562466,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-02",
+      "name": "Mid 20th Century (1945)",
+      "dateUTC": "1945-08-15 09:00",
+      "jd": 2431682.875,
+      "refTropLon": 109.3321331,
+      "refTropLat": -0.2905479,
+      "astrovedaLon": 109.32892800944953,
+      "residualArcmin": -0.19230543302796832,
+      "residualArcsec": -11.5383259816781,
+      "absErrorArcmin": 0.19230543302796832,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-03",
+      "name": "Space Age Apollo 11 (1969)",
+      "dateUTC": "1969-07-20 20:17",
+      "jd": 2440423.345138889,
+      "refTropLon": 38.0979955,
+      "refTropLat": -2.4284393,
+      "astrovedaLon": 38.09437525114966,
+      "residualArcmin": -0.21721493102077716,
+      "residualArcsec": -13.03289586124663,
+      "absErrorArcmin": 0.21721493102077716,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-04",
+      "name": "Late 20th Century (1989)",
+      "dateUTC": "1989-11-09 18:00",
+      "jd": 2447840.25,
+      "refTropLon": 280.035069,
+      "refTropLat": 0.3694647,
+      "astrovedaLon": 280.03437501064093,
+      "residualArcmin": -0.041639361545549036,
+      "residualArcsec": -2.498361692732942,
+      "absErrorArcmin": 0.041639361545549036,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-05",
+      "name": "Modern Solstice (2012)",
+      "dateUTC": "2012-12-21 11:11",
+      "jd": 2456282.9659722224,
+      "refTropLon": 218.6610314,
+      "refTropLat": 2.3080183,
+      "astrovedaLon": 218.66527388026432,
+      "residualArcmin": 0.254548815858584,
+      "residualArcsec": 15.272928951515041,
+      "absErrorArcmin": 0.254548815858584,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-06",
+      "name": "Mid 21st Century (2035)",
+      "dateUTC": "2035-09-02 01:00",
+      "jd": 2464572.5416666665,
+      "refTropLon": 132.9353576,
+      "refTropLat": 0.6294357,
+      "astrovedaLon": 132.94128775888365,
+      "residualArcmin": 0.35580953301860063,
+      "residualArcsec": 21.348571981116038,
+      "absErrorArcmin": 0.35580953301860063,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-07",
+      "name": "Conjunction Era (2040)",
+      "dateUTC": "2040-09-08 12:00",
+      "jd": 2466406,
+      "refTropLon": 191.5449724,
+      "refTropLat": 2.237285,
+      "astrovedaLon": 191.54680851860937,
+      "residualArcmin": 0.11016711656168354,
+      "residualArcsec": 6.6100269937010125,
+      "absErrorArcmin": 0.11016711656168354,
+      "passed": true
+    },
+    {
+      "id": "HOLDOUT-08",
+      "name": "Century Boundary (2100)",
+      "dateUTC": "2100-01-01 00:00",
+      "jd": 2488069.5,
+      "refTropLon": 205.6316625,
+      "refTropLat": 2.4222185,
+      "astrovedaLon": 205.63131700575875,
+      "residualArcmin": -0.02072965447553088,
+      "residualArcsec": -1.2437792685318527,
+      "absErrorArcmin": 0.02072965447553088,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "REF-01",
+    "name": "Normal Indian Birth Chart",
+    "date": "1999-03-28",
+    "time": "11:25",
+    "tz": 5.5,
+    "lat": 16.8302,
+    "lon": 75.71,
+    "city": "Vijayapura, India",
+    "utcInstant": "1999-03-28T05:55:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 7.112197, "dailyMotion": 0.9888886, "isRetro": false },
+      "Moon": { "lonTrop": 144.3008529, "dailyMotion": 12.781565, "isRetro": false },
+      "Mercury": { "lonTrop": 352.134245, "dailyMotion": -0.4444617, "isRetro": true },
+      "Venus": { "lonTrop": 41.8381246, "dailyMotion": 1.1970537, "isRetro": false },
+      "Mars": { "lonTrop": 221.6169514, "dailyMotion": -0.1282854, "isRetro": true },
+      "Jupiter": { "lonTrop": 10.1039837, "dailyMotion": 0.2419915, "isRetro": false },
+      "Saturn": { "lonTrop": 32.9745009, "dailyMotion": 0.1196905, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-02",
+    "name": "Confirmed Sign Boundary (Mesha Ingress)",
+    "date": "2000-04-13",
+    "time": "17:15",
+    "tz": 5.5,
+    "lat": 23.1765,
+    "lon": 75.7885,
+    "city": "Ujjain, India",
+    "utcInstant": "2000-04-13T11:45:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 23.8517827, "dailyMotion": 0.9793655, "isRetro": false },
+      "Moon": { "lonTrop": 138.8002139, "dailyMotion": 13.7280855, "isRetro": false },
+      "Mercury": { "lonTrop": 0.7254462, "dailyMotion": 1.5394193, "isRetro": false },
+      "Venus": { "lonTrop": 8.2818814, "dailyMotion": 1.2329544, "isRetro": false },
+      "Mars": { "lonTrop": 45.5750292, "dailyMotion": 0.7177572, "isRetro": false },
+      "Jupiter": { "lonTrop": 42.0403249, "dailyMotion": 0.2330493, "isRetro": false },
+      "Saturn": { "lonTrop": 46.979934, "dailyMotion": 0.1222837, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-03",
+    "name": "Confirmed Nakshatra/Pada Boundary (Ashlesha 4 to Magha 1)",
+    "date": "1999-03-28",
+    "time": "10:35",
+    "tz": 5.5,
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "city": "Varanasi, India",
+    "utcInstant": "1999-03-28T05:05:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 7.0778493, "dailyMotion": 0.9889103, "isRetro": false },
+      "Moon": { "lonTrop": 143.8534484, "dailyMotion": 12.7883857, "isRetro": false },
+      "Mercury": { "lonTrop": 352.1513612, "dailyMotion": -0.4477322, "isRetro": true },
+      "Venus": { "lonTrop": 41.796535, "dailyMotion": 1.1971026, "isRetro": false },
+      "Mars": { "lonTrop": 221.6211768, "dailyMotion": -0.127843, "isRetro": true },
+      "Jupiter": { "lonTrop": 10.095582, "dailyMotion": 0.2419903, "isRetro": false },
+      "Saturn": { "lonTrop": 32.9703546, "dailyMotion": 0.1196719, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-04",
+    "name": "Century Leap-Day Rollover",
+    "date": "2000-02-29",
+    "time": "17:30",
+    "tz": 5.5,
+    "lat": 28.6139,
+    "lon": 77.209,
+    "city": "New Delhi, India",
+    "utcInstant": "2000-02-29T12:00:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 340.2058271, "dailyMotion": 1.0039019, "isRetro": false },
+      "Moon": { "lonTrop": 275.5362099, "dailyMotion": 11.8584332, "isRetro": false },
+      "Mercury": { "lonTrop": 342.5064927, "dailyMotion": -1.0261195, "isRetro": true },
+      "Venus": { "lonTrop": 313.9565554, "dailyMotion": 1.2355771, "isRetro": false },
+      "Mars": { "lonTrop": 13.2215498, "dailyMotion": 0.7515521, "isRetro": false },
+      "Jupiter": { "lonTrop": 32.5771018, "dailyMotion": 0.1899919, "isRetro": false },
+      "Saturn": { "lonTrop": 42.3657722, "dailyMotion": 0.0821725, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-05",
+    "name": "Southern-Hemisphere Ascendant (Sydney)",
+    "date": "2020-09-22",
+    "time": "06:00",
+    "tz": 10.0,
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "city": "Sydney, Australia",
+    "utcInstant": "2020-09-21T20:00:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 179.2860643, "dailyMotion": 0.978548, "isRetro": false },
+      "Moon": { "lonTrop": 240.2826859, "dailyMotion": 14.1344685, "isRetro": false },
+      "Mercury": { "lonTrop": 203.3207219, "dailyMotion": 1.2772653, "isRetro": false },
+      "Venus": { "lonTrop": 137.2908194, "dailyMotion": 1.1389951, "isRetro": false },
+      "Mars": { "lonTrop": 27.1044407, "dailyMotion": -0.1773359, "isRetro": true },
+      "Jupiter": { "lonTrop": 287.5314941, "dailyMotion": 0.0299963, "isRetro": false },
+      "Saturn": { "lonTrop": 295.3817726, "dailyMotion": -0.0112804, "isRetro": true }
+    }
+  },
+  {
+    "id": "REF-06",
+    "name": "Daylight Saving Time (New York EDT UTC-4)",
+    "date": "2023-06-21",
+    "time": "12:00",
+    "tz": -4.0,
+    "lat": 40.7128,
+    "lon": -74.006,
+    "city": "New York, USA",
+    "utcInstant": "2023-06-21T16:00:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 90.0412011, "dailyMotion": 0.9544941, "isRetro": false },
+      "Moon": { "lonTrop": 128.9384864, "dailyMotion": 11.8876068, "isRetro": false },
+      "Mercury": { "lonTrop": 78.7139511, "dailyMotion": 2.0513281, "isRetro": false },
+      "Venus": { "lonTrop": 134.0985553, "dailyMotion": 0.7798194, "isRetro": false },
+      "Mars": { "lonTrop": 138.6767322, "dailyMotion": 0.5958079, "isRetro": false },
+      "Jupiter": { "lonTrop": 37.589437, "dailyMotion": 0.1881493, "isRetro": false },
+      "Saturn": { "lonTrop": 337.1978519, "dailyMotion": -0.0073603, "isRetro": true }
+    }
+  },
+  {
+    "id": "REF-07",
+    "name": "Verified Retrograde Motion (Mars & Jupiter)",
+    "date": "2022-10-31",
+    "time": "05:30",
+    "tz": 5.5,
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "city": "Bengaluru, India",
+    "utcInstant": "2022-10-31T00:00:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 217.5422012, "dailyMotion": 0.999903, "isRetro": false },
+      "Moon": { "lonTrop": 290.6654151, "dailyMotion": 14.2424805, "isRetro": false },
+      "Mercury": { "lonTrop": 211.9947162, "dailyMotion": 1.6653942, "isRetro": false },
+      "Venus": { "lonTrop": 219.6146507, "dailyMotion": 1.2535854, "isRetro": false },
+      "Mars": { "lonTrop": 85.6125567, "dailyMotion": -0.013545, "isRetro": true },
+      "Jupiter": { "lonTrop": 359.7694829, "dailyMotion": -0.0773059, "isRetro": true },
+      "Saturn": { "lonTrop": 318.6414327, "dailyMotion": 0.0143803, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-08",
+    "name": "Navamsha Boundary Case (Pada 1 to 2 transition)",
+    "date": "2010-11-10",
+    "time": "11:45",
+    "tz": 5.5,
+    "lat": 26.7922,
+    "lon": 82.1998,
+    "city": "Ayodhya, India",
+    "utcInstant": "2010-11-10T06:15:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 227.7431876, "dailyMotion": 1.0052886, "isRetro": false },
+      "Moon": { "lonTrop": 278.9786435, "dailyMotion": 12.6344565, "isRetro": false },
+      "Mercury": { "lonTrop": 241.9023919, "dailyMotion": 1.4874874, "isRetro": false },
+      "Venus": { "lonTrop": 209.1761768, "dailyMotion": -0.3289602, "isRetro": true },
+      "Mars": { "lonTrop": 249.3859191, "dailyMotion": 0.7305844, "isRetro": false },
+      "Jupiter": { "lonTrop": 353.6177099, "dailyMotion": -0.0273804, "isRetro": true },
+      "Saturn": { "lonTrop": 192.5092816, "dailyMotion": 0.1079823, "isRetro": false }
+    }
+  },
+  {
+    "id": "REF-09",
+    "name": "Sunrise Ascendant Defect Validation",
+    "date": "2000-01-01",
+    "time": "07:14",
+    "tz": 5.5,
+    "lat": 28.6139,
+    "lon": 77.209,
+    "city": "New Delhi, India",
+    "utcInstant": "2000-01-01T01:44:00.000Z",
+    "planets": {
+      "Sun": { "lonTrop": 279.9328273, "dailyMotion": 1.0194399, "isRetro": false },
+      "Moon": { "lonTrop": 218.1669737, "dailyMotion": 12.0133109, "isRetro": false },
+      "Mercury": { "lonTrop": 271.2240198, "dailyMotion": 1.5566438, "isRetro": false },
+      "Venus": { "lonTrop": 241.0486828, "dailyMotion": 1.2091226, "isRetro": false },
+      "Mars": { "lonTrop": 327.631479, "dailyMotion": 0.7756751, "isRetro": false },
+      "Jupiter": { "lonTrop": 25.2359397, "dailyMotion": 0.0410075, "isRetro": false },
+      "Saturn": { "lonTrop": 40.4043357, "dailyMotion": -0.0198117, "isRetro": true }
+    }
+  }
+]

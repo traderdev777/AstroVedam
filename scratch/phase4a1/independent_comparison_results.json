@@ -1,0 +1,1457 @@
+{
+  "metadata": {
+    "directive": "ASTROVEDAM CTO DIRECTIVE — PHASE 4A.1 VERIFICATION GATE",
+    "auditDate": "2026-10-22T03:40:19.654Z",
+    "status": "VERIFIED AND CONFIRMED",
+    "referenceStandard": "NASA JPL Horizons On-Line Solar System Data Service (DE440/441)",
+    "observerFrame": "Geocentric Apparent",
+    "siderealModel": "True Chitra Paksha (Lahiri)",
+    "totalComparisons": 135,
+    "passedWithinTolerance": 67,
+    "failedBeyondTolerance": 68,
+    "passPercentage": 49.6,
+    "failPercentage": 50.4
+  },
+  "defectTally": {
+    "ascendantInversion180Defects": 9,
+    "ascendantInversionTestedCases": 9,
+    "planetaryHeliocentricDefects": 45,
+    "planetaryHeliocentricTestedCases": 45,
+    "geocentricSunMoonPassingChecks": 18,
+    "retrogradeMissedEvents": 11,
+    "retrogradeTotalTestedEvents": 63
+  },
+  "cases": [
+    {
+      "id": "REF-01",
+      "name": "Normal Indian Birth Chart",
+      "location": "Vijayapura, India (16.8302°N, 75.71°E)",
+      "localTime": "1999-03-28 11:25 (UTC+5.5)",
+      "utcInstant": "1999-03-28T05:55:00.000Z",
+      "julianDay": 2451265.746527778,
+      "ayanamsa": 23.8423,
+      "LST": 349.6751690442115,
+      "trueObliquity": 23.43939939206404,
+      "ascendant": {
+        "independentTrueAscendantTrop": 87.43259910562954,
+        "independentTrueAscendantSid": 63.59029910562953,
+        "independentRashi": "Gemini 3° 35'",
+        "astroVedamAscendantSid": 243.59026864141538,
+        "astroVedamRashi": "Sagittarius 3° 35'",
+        "deltaDeg": 179.99996953578585,
+        "deltaArcMin": 10799.99817214715,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 7.112197,
+          "refSid": 343.269897,
+          "avSid": 343.2723147354644,
+          "deltaDeg": 0.0024177354644052684,
+          "deltaArcMin": 0.1450641278643161,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 144.3008529,
+          "refSid": 120.4585529,
+          "avSid": 120.43404004346458,
+          "deltaDeg": -0.024512856535423566,
+          "deltaArcMin": -1.470771392125414,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 352.134245,
+          "refSid": 328.291945,
+          "avSid": 185.0577076748586,
+          "deltaDeg": -143.2342373251414,
+          "deltaArcMin": -8594.054239508485,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 41.8381246,
+          "refSid": 17.9958246,
+          "avSid": 70.2670610954744,
+          "deltaDeg": 52.271236495474405,
+          "deltaArcMin": 3136.274189728464,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 221.6169514,
+          "refSid": 197.7746514,
+          "avSid": 180.32779734811243,
+          "deltaDeg": -17.446854051887584,
+          "deltaArcMin": -1046.811243113255,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 10.1039837,
+          "refSid": 346.2616837,
+          "avSid": 346.9782425354848,
+          "deltaDeg": 0.7165588354848182,
+          "deltaArcMin": 42.993530129089095,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 32.9745009,
+          "refSid": 9.1322009,
+          "avSid": 11.644065301861204,
+          "deltaDeg": 2.511864401861203,
+          "deltaArcMin": 150.71186411167218,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.9888886,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 12.781565,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": -0.4444617,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.1970537,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": -0.1282854,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.2419915,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.1196905,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-02",
+      "name": "Confirmed Sign Boundary (Mesha Ingress)",
+      "location": "Ujjain, India (23.1765°N, 75.7885°E)",
+      "localTime": "2000-04-13 17:15 (UTC+5.5)",
+      "utcInstant": "2000-04-13T11:45:00.000Z",
+      "julianDay": 2451647.9895833335,
+      "ayanamsa": 23.8569,
+      "LST": 94.01052999691944,
+      "trueObliquity": 23.439263343885468,
+      "ascendant": {
+        "independentTrueAscendantTrop": 183.68642559591225,
+        "independentTrueAscendantSid": 159.82952559591226,
+        "independentRashi": "Virgo 9° 49'",
+        "astroVedamAscendantSid": 339.8294906366217,
+        "astroVedamRashi": "Pisces 9° 49'",
+        "deltaDeg": 179.99996504070944,
+        "deltaArcMin": 10799.997902442567,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 23.8517827,
+          "refSid": 359.9948827,
+          "avSid": 359.9954600317578,
+          "deltaDeg": 0.0005773317577677517,
+          "deltaArcMin": 0.0346399054660651,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 138.8002139,
+          "refSid": 114.94331389999999,
+          "avSid": 114.9004872557366,
+          "deltaDeg": -0.04282664426338556,
+          "deltaArcMin": -2.5695986558031336,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 0.7254462,
+          "refSid": 336.8685462,
+          "avSid": 273.0218840279298,
+          "deltaDeg": -63.84666217207024,
+          "deltaArcMin": -3830.7997303242146,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 8.2818814,
+          "refSid": 344.4249814,
+          "avSid": 322.6791268365944,
+          "deltaDeg": -21.7458545634056,
+          "deltaArcMin": -1304.751273804336,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 45.5750292,
+          "refSid": 21.718129200000003,
+          "avSid": 31.810074609363884,
+          "deltaDeg": 10.09194540936388,
+          "deltaArcMin": 605.5167245618328,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 42.0403249,
+          "refSid": 18.183424900000002,
+          "avSid": 21.853284677642147,
+          "deltaDeg": 3.669859777642145,
+          "deltaArcMin": 220.1915866585287,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 46.979934,
+          "refSid": 23.123034,
+          "avSid": 25.399561792747708,
+          "deltaDeg": 2.2765277927477072,
+          "deltaArcMin": 136.59166756486243,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.9793655,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 13.7280855,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 1.5394193,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.2329544,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": 0.7177572,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.2330493,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.1222837,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-03",
+      "name": "Confirmed Nakshatra/Pada Boundary (Ashlesha 4 to Magha 1)",
+      "location": "Varanasi, India (25.3176°N, 82.9739°E)",
+      "localTime": "1999-03-28 10:35 (UTC+5.5)",
+      "utcInstant": "1999-03-28T05:05:00.000Z",
+      "julianDay": 2451265.7118055555,
+      "ayanamsa": 23.8423,
+      "LST": 344.4048450839501,
+      "trueObliquity": 23.43939940442239,
+      "ascendant": {
+        "independentTrueAscendantTrop": 86.52580947448625,
+        "independentTrueAscendantSid": 62.68350947448625,
+        "independentRashi": "Gemini 2° 41'",
+        "astroVedamAscendantSid": 242.6834803369162,
+        "astroVedamRashi": "Sagittarius 2° 41'",
+        "deltaDeg": 179.99997086242996,
+        "deltaArcMin": 10799.998251745797,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 7.0778493,
+          "refSid": 343.2355493,
+          "avSid": 343.2379619151738,
+          "deltaDeg": 0.0024126151737959844,
+          "deltaArcMin": 0.14475691042775907,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 143.8534484,
+          "refSid": 120.0111484,
+          "avSid": 119.98660974542156,
+          "deltaDeg": -0.024538654578435626,
+          "deltaArcMin": -1.4723192747061375,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 352.1513612,
+          "refSid": 328.3090612,
+          "avSid": 184.94442042783967,
+          "deltaDeg": -143.3646407721603,
+          "deltaArcMin": -8601.878446329618,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 41.796535,
+          "refSid": 17.954234999999997,
+          "avSid": 70.21082963132474,
+          "deltaDeg": 52.256594631324745,
+          "deltaArcMin": 3135.3956778794845,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 221.6211768,
+          "refSid": 197.7788768,
+          "avSid": 180.3108631095479,
+          "deltaDeg": -17.468013690452096,
+          "deltaArcMin": -1048.0808214271258,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 10.095582,
+          "refSid": 346.253282,
+          "avSid": 346.97506223750304,
+          "deltaDeg": 0.721780237503026,
+          "deltaArcMin": 43.30681425018156,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 32.9703546,
+          "refSid": 9.128054599999999,
+          "avSid": 11.642828483916048,
+          "deltaDeg": 2.5147738839160496,
+          "deltaArcMin": 150.88643303496298,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.9889103,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 12.7883857,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": -0.4477322,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.1971026,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": -0.127843,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.2419903,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.1196719,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-04",
+      "name": "Century Leap-Day Rollover",
+      "location": "New Delhi, India (28.6139°N, 77.209°E)",
+      "localTime": "2000-02-29 17:30 (UTC+5.5)",
+      "utcInstant": "2000-02-29T12:00:00.000Z",
+      "julianDay": 2451604,
+      "ayanamsa": 23.8553,
+      "LST": 55.82281298212291,
+      "trueObliquity": 23.43927900068446,
+      "ascendant": {
+        "independentTrueAscendantTrop": 150.07760529120742,
+        "independentTrueAscendantSid": 126.22230529120742,
+        "independentRashi": "Leo 6° 13'",
+        "astroVedamAscendantSid": 306.22235105742345,
+        "astroVedamRashi": "Aquarius 6° 13'",
+        "deltaDeg": -179.99995423378397,
+        "deltaArcMin": -10799.997254027037,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 340.2058271,
+          "refSid": 316.3505271,
+          "avSid": 316.35459449085874,
+          "deltaDeg": 0.0040673908587223195,
+          "deltaArcMin": 0.24404345152333917,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 275.5362099,
+          "refSid": 251.68090990000002,
+          "avSid": 251.68890024398038,
+          "deltaDeg": 0.007990343980367243,
+          "deltaArcMin": 0.47942063882203456,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 342.5064927,
+          "refSid": 318.6511927,
+          "avSid": 132.18941627676614,
+          "deltaDeg": 173.53822357676611,
+          "deltaArcMin": 10412.293414605967,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 313.9565554,
+          "refSid": 290.1012554,
+          "avSid": 253.09276359494456,
+          "deltaDeg": -37.008491805055456,
+          "deltaArcMin": -2220.5095083033275,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 13.2215498,
+          "refSid": 349.3662498,
+          "avSid": 7.645008297835062,
+          "deltaDeg": 18.278758497835042,
+          "deltaArcMin": 1096.7255098701025,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 32.5771018,
+          "refSid": 8.721801800000001,
+          "avSid": 17.870604764055933,
+          "deltaDeg": 9.148802964055932,
+          "deltaArcMin": 548.9281778433559,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 42.3657722,
+          "refSid": 18.510472200000002,
+          "avSid": 23.80300711426282,
+          "deltaDeg": 5.292534914262816,
+          "deltaArcMin": 317.552094855769,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 1.0039019,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 11.8584332,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": -1.0261195,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.2355771,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": 0.7515521,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.1899919,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.0821725,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-05",
+      "name": "Southern-Hemisphere Ascendant (Sydney)",
+      "location": "Sydney, Australia (-33.8688°N, 151.2093°E)",
+      "localTime": "2020-09-22 06:00 (UTC+10)",
+      "utcInstant": "2020-09-21T20:00:00.000Z",
+      "julianDay": 2459114.3333333335,
+      "ayanamsa": 24.1422,
+      "LST": 92.36339965766592,
+      "trueObliquity": 23.436605918320783,
+      "ascendant": {
+        "independentTrueAscendantTrop": 183.631394617171,
+        "independentTrueAscendantSid": 159.489194617171,
+        "independentRashi": "Virgo 9° 29'",
+        "astroVedamAscendantSid": 339.4891904320543,
+        "astroVedamRashi": "Pisces 9° 29'",
+        "deltaDeg": 179.99999581488328,
+        "deltaArcMin": 10799.999748892997,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 179.2860643,
+          "refSid": 155.1438643,
+          "avSid": 155.14483061388697,
+          "deltaDeg": 0.0009663138869768773,
+          "deltaArcMin": 0.057978833218612635,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 240.2826859,
+          "refSid": 216.1404859,
+          "avSid": 216.13659976512045,
+          "deltaDeg": -0.0038861348795364847,
+          "deltaArcMin": -0.23316809277218908,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 203.3207219,
+          "refSid": 179.1785219,
+          "avSid": 240.731100056111,
+          "deltaDeg": 61.552578156111,
+          "deltaArcMin": 3693.15468936666,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 137.2908194,
+          "refSid": 113.1486194,
+          "avSid": 44.20703753236351,
+          "deltaDeg": -68.9415818676365,
+          "deltaArcMin": -4136.49491205819,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 27.1044407,
+          "refSid": 2.9622407000000024,
+          "avSid": 340.83960758437547,
+          "deltaDeg": -22.122633115624524,
+          "deltaArcMin": -1327.3579869374714,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 287.5314941,
+          "refSid": 263.3892941,
+          "avSid": 273.7996005361058,
+          "deltaDeg": 10.410306436105827,
+          "deltaArcMin": 624.6183861663496,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 295.3817726,
+          "refSid": 271.2395726,
+          "avSid": 276.18551467983235,
+          "deltaDeg": 4.945942079832378,
+          "deltaArcMin": 296.75652478994266,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.978548,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 14.1344685,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 1.2772653,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.1389951,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": -0.1773359,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.0299963,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": -0.0112804,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        }
+      ]
+    },
+    {
+      "id": "REF-06",
+      "name": "Daylight Saving Time (New York EDT UTC-4)",
+      "location": "New York, USA (40.7128°N, -74.006°E)",
+      "localTime": "2023-06-21 12:00 (UTC-4)",
+      "utcInstant": "2023-06-21T16:00:00.000Z",
+      "julianDay": 2460117.1666666665,
+      "ayanamsa": 24.1805,
+      "LST": 75.5881380802542,
+      "trueObliquity": 23.436248989276752,
+      "ascendant": {
+        "independentTrueAscendantTrop": 168.56868051588867,
+        "independentTrueAscendantSid": 144.38818051588868,
+        "independentRashi": "Leo 24° 23'",
+        "astroVedamAscendantSid": 324.388160724337,
+        "astroVedamRashi": "Aquarius 24° 23'",
+        "deltaDeg": 179.99998020844833,
+        "deltaArcMin": 10799.9988125069,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 90.0412011,
+          "refSid": 65.8607011,
+          "avSid": 65.85673173003455,
+          "deltaDeg": -0.00396936996544639,
+          "deltaArcMin": -0.2381621979267834,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 128.9384864,
+          "refSid": 104.7579864,
+          "avSid": 104.74412286746295,
+          "deltaDeg": -0.01386353253704442,
+          "deltaArcMin": -0.8318119522226652,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 78.7139511,
+          "refSid": 54.53345110000001,
+          "avSid": 15.56974625530827,
+          "deltaDeg": -38.96370484469173,
+          "deltaArcMin": -2337.822290681504,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 134.0985553,
+          "refSid": 109.91805529999999,
+          "avSid": 212.2784501524068,
+          "deltaDeg": 102.36039485240681,
+          "deltaArcMin": 6141.623691144408,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 138.6767322,
+          "refSid": 114.49623220000001,
+          "avSid": 142.16542726507421,
+          "deltaDeg": 27.669195065074206,
+          "deltaArcMin": 1660.1517039044525,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 37.589437,
+          "refSid": 13.408936999999998,
+          "avSid": 3.6909539041575066,
+          "deltaDeg": -9.717983095842492,
+          "deltaArcMin": -583.0789857505495,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 337.1978519,
+          "refSid": 313.0173519,
+          "avSid": 307.18991607365905,
+          "deltaDeg": -5.827435826340945,
+          "deltaArcMin": -349.6461495804567,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.9544941,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 11.8876068,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 2.0513281,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 0.7798194,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": 0.5958079,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.1881493,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": -0.0073603,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        }
+      ]
+    },
+    {
+      "id": "REF-07",
+      "name": "Verified Retrograde Motion (Mars & Jupiter)",
+      "location": "Bengaluru, India (12.9716°N, 77.5946°E)",
+      "localTime": "2022-10-31 05:30 (UTC+5.5)",
+      "utcInstant": "2022-10-31T00:00:00.000Z",
+      "julianDay": 2459883.5,
+      "ayanamsa": 24.1716,
+      "LST": 116.8758023977749,
+      "trueObliquity": 23.436332156057496,
+      "ascendant": {
+        "independentTrueAscendantTrop": 206.41623876101048,
+        "independentTrueAscendantSid": 182.24463876101046,
+        "independentRashi": "Libra 2° 14'",
+        "astroVedamAscendantSid": 2.244646754105986,
+        "astroVedamRashi": "Aries 2° 14'",
+        "deltaDeg": -179.99999200690448,
+        "deltaArcMin": -10799.999520414269,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 217.5422012,
+          "refSid": 193.37060119999998,
+          "avSid": 193.37028761870374,
+          "deltaDeg": -0.0003135812962398177,
+          "deltaArcMin": -0.01881487777438906,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 290.6654151,
+          "refSid": 266.4938151,
+          "avSid": 266.5190754103303,
+          "deltaDeg": 0.025260310330281754,
+          "deltaArcMin": 1.5156186198169053,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 211.9947162,
+          "refSid": 187.8231162,
+          "avSid": 173.84706408160042,
+          "deltaDeg": -13.976052118399565,
+          "deltaArcMin": -838.5631271039739,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 219.6146507,
+          "refSid": 195.4430507,
+          "avSid": 197.9479847609137,
+          "deltaDeg": 2.504934060913712,
+          "deltaArcMin": 150.2960436548227,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 85.6125567,
+          "refSid": 61.4409567,
+          "avSid": 27.036987143898898,
+          "deltaDeg": -34.4039695561011,
+          "deltaArcMin": -2064.2381733660663,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 359.7694829,
+          "refSid": 335.5978829,
+          "avSid": 342.2996195835612,
+          "deltaDeg": 6.701736683561194,
+          "deltaArcMin": 402.1042010136716,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 318.6414327,
+          "refSid": 294.4698327,
+          "avSid": 299.84278175323544,
+          "deltaDeg": 5.372949053235459,
+          "deltaArcMin": 322.37694319412753,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 0.999903,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 14.2424805,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 1.6653942,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.2535854,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": -0.013545,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": -0.0773059,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.0143803,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-08",
+      "name": "Navamsha Boundary Case (Pada 1 to 2 transition)",
+      "location": "Ayodhya, India (26.7922°N, 82.1998°E)",
+      "localTime": "2010-11-10 11:45 (UTC+5.5)",
+      "utcInstant": "2010-11-10T06:15:00.000Z",
+      "julianDay": 2455510.7604166665,
+      "ayanamsa": 24.0045,
+      "LST": 225.25173291185422,
+      "trueObliquity": 23.437888504163816,
+      "ascendant": {
+        "independentTrueAscendantTrop": 302.630830861336,
+        "independentTrueAscendantSid": 278.626330861336,
+        "independentRashi": "Capricorn 8° 37'",
+        "astroVedamAscendantSid": 98.62630965607747,
+        "astroVedamRashi": "Cancer 8° 37'",
+        "deltaDeg": 179.99997879474148,
+        "deltaArcMin": 10799.99872768449,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 227.7431876,
+          "refSid": 203.7386876,
+          "avSid": 203.7382571010999,
+          "deltaDeg": -0.0004304989001013837,
+          "deltaArcMin": -0.025829934006083022,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 278.9786435,
+          "refSid": 254.97414349999997,
+          "avSid": 254.95881700042486,
+          "deltaDeg": -0.01532649957511012,
+          "deltaArcMin": -0.9195899745066072,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 241.9023919,
+          "refSid": 217.8978919,
+          "avSid": 249.66013240735145,
+          "deltaDeg": 31.762240507351464,
+          "deltaArcMin": 1905.7344304410879,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 209.1761768,
+          "refSid": 185.1716768,
+          "avSid": 30.887333552334603,
+          "deltaDeg": -154.2843432476654,
+          "deltaArcMin": -9257.060594859924,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 249.3859191,
+          "refSid": 225.3814191,
+          "avSid": 243.7519773109263,
+          "deltaDeg": 18.370558210926305,
+          "deltaArcMin": 1102.2334926555782,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 353.6177099,
+          "refSid": 329.6132099,
+          "avSid": 338.794505731625,
+          "deltaDeg": 9.181295831624993,
+          "deltaArcMin": 550.8777498974996,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 192.5092816,
+          "refSid": 168.5047816,
+          "avSid": 165.1210151035119,
+          "deltaDeg": -3.383766496488107,
+          "deltaArcMin": -203.02598978928643,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 1.0052886,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 12.6344565,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 1.4874874,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": -0.3289602,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": 0.7305844,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": -0.0273804,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": 0.1079823,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "REF-09",
+      "name": "Sunrise Ascendant Defect Validation",
+      "location": "New Delhi, India (28.6139°N, 77.209°E)",
+      "localTime": "2000-01-01 07:14 (UTC+5.5)",
+      "utcInstant": "2000-01-01T01:44:00.000Z",
+      "julianDay": 2451544.572222222,
+      "ayanamsa": 23.853,
+      "LST": 203.24798028888566,
+      "trueObliquity": 23.439300152254923,
+      "ascendant": {
+        "independentTrueAscendantTrop": 278.9766266457514,
+        "independentTrueAscendantSid": 255.12362664575141,
+        "independentRashi": "Sagittarius 15° 07'",
+        "astroVedamAscendantSid": 75.12364299000774,
+        "astroVedamRashi": "Gemini 15° 07'",
+        "deltaDeg": -179.99998365574368,
+        "deltaArcMin": -10799.999019344621,
+        "pass": false,
+        "classification": "CONFIRMED DEFECT: 180° INVERSION (CALCULATING DESCENDANT INSTEAD OF ASCENDANT)"
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "refTrop": 279.9328273,
+          "refSid": 256.0798273,
+          "avSid": 256.0835616312857,
+          "deltaDeg": 0.0037343312857274213,
+          "deltaArcMin": 0.22405987714364528,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Moon",
+          "refTrop": 218.1669737,
+          "refSid": 194.3139737,
+          "avSid": 194.31510671807152,
+          "deltaDeg": 0.0011330180715276583,
+          "deltaArcMin": 0.0679810842916595,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": true,
+          "classification": "CONFIRMED ACCURATE (GEOCENTRIC MEEUS)"
+        },
+        {
+          "name": "Mercury",
+          "refTrop": 271.2240198,
+          "refSid": 247.3710198,
+          "avSid": 228.9562713594923,
+          "deltaDeg": -18.414748440507708,
+          "deltaArcMin": -1104.8849064304625,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Venus",
+          "refTrop": 241.0486828,
+          "refSid": 217.1956828,
+          "avSid": 158.03666393160458,
+          "deltaDeg": -59.15901886839541,
+          "deltaArcMin": -3549.5411321037245,
+          "toleranceDeg": 0.03333333333333333,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Mars",
+          "refTrop": 327.631479,
+          "refSid": 303.778479,
+          "avSid": 333.5967874812782,
+          "deltaDeg": 29.818308481278223,
+          "deltaArcMin": 1789.0985088766934,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Jupiter",
+          "refTrop": 25.2359397,
+          "refSid": 1.3829396999999979,
+          "avSid": 12.471895006168651,
+          "deltaDeg": 11.088955306168653,
+          "deltaArcMin": 665.3373183701192,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        },
+        {
+          "name": "Saturn",
+          "refTrop": 40.4043357,
+          "refSid": 16.551335699999996,
+          "avSid": 21.651469821930284,
+          "deltaDeg": 5.100134121930289,
+          "deltaArcMin": 306.0080473158173,
+          "toleranceDeg": 0.016666666666666666,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HELIOCENTRIC POSITION USED WITHOUT EARTH VECTOR SUBTRACTION"
+        }
+      ],
+      "retrograde": [
+        {
+          "name": "Sun",
+          "dailyMotionDegPerDay": 1.0194399,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Moon",
+          "dailyMotionDegPerDay": 12.0133109,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mercury",
+          "dailyMotionDegPerDay": 1.5566438,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Venus",
+          "dailyMotionDegPerDay": 1.2091226,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Mars",
+          "dailyMotionDegPerDay": 0.7756751,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Jupiter",
+          "dailyMotionDegPerDay": 0.0410075,
+          "refRetro": false,
+          "avRetro": false,
+          "pass": true,
+          "classification": "PASS"
+        },
+        {
+          "name": "Saturn",
+          "dailyMotionDegPerDay": -0.0198117,
+          "refRetro": true,
+          "avRetro": false,
+          "pass": false,
+          "classification": "CONFIRMED DEFECT: HARDCODED FALSE IN KUNDALI.JS (MISSED RETROGRADE)"
+        }
+      ]
+    }
+  ]
+}

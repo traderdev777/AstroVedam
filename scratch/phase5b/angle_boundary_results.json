@@ -1,0 +1,638 @@
+{
+  "timestamp": "2026-10-24T07:14:16.844Z",
+  "totalCases": 35,
+  "passedCases": 35,
+  "failedCases": 0,
+  "results": [
+    {
+      "description": "Zero boundary",
+      "input": 0,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "One revolution boundary",
+      "input": 360,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Two revolution boundary",
+      "input": 720,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Negative zero revolution",
+      "input": -360,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Negative two revolutions",
+      "input": -720,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon before 0° (revati end)",
+      "input": -0.000001,
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29.999999000000003,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "expected": {
+        "rashi": 12,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon after 0° (ashwini start)",
+      "input": 0.000001,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 0.000001,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Negative 1°",
+      "input": -1,
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "expected": {
+        "rashi": 12,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "passed": true
+    },
+    {
+      "description": "Multi-revolution offset 361°",
+      "input": 361,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Multi-revolution offset 721°",
+      "input": 721,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon before 30° (Aries/Krittika 1/Sagittarius)",
+      "input": 29.999999,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 29.999999,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 3,
+        "pada": 1,
+        "navamsa": 9
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 30.0° (Taurus/Krittika 2/Capricorn)",
+      "input": 30,
+      "actual": {
+        "rashi": 2,
+        "degreeInRashi": 0,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "expected": {
+        "rashi": 2,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon after 30° (Taurus/Krittika 2/Capricorn)",
+      "input": 30.000001,
+      "actual": {
+        "rashi": 2,
+        "degreeInRashi": 0.0000010000000010279564,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "expected": {
+        "rashi": 2,
+        "nakshatra": 3,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon before 13°20' Ashwini 4",
+      "input": 13.333333,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 13.333333,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 13°20' Bharani 1 / Leo navamsa",
+      "input": 13.333333333333334,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 13.333333333333334,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon after 13°20' Bharani 1",
+      "input": 13.333334,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 13.333334,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 2,
+        "pada": 1,
+        "navamsa": 5
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon before 3°20' Pada 1",
+      "input": 3.333333,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 3.333333,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 3°20' Ashwini Pada 2 / Taurus navamsa",
+      "input": 3.3333333333333335,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 3.3333333333333335,
+        "nakshatra": 1,
+        "pada": 2,
+        "navamsa": 2
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 2,
+        "navamsa": 2
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 6°40' Ashwini Pada 3 / Gemini navamsa",
+      "input": 6.666666666666667,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 6.666666666666667,
+        "nakshatra": 1,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 3,
+        "navamsa": 3
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 10°00' Ashwini Pada 4 / Cancer navamsa",
+      "input": 10,
+      "actual": {
+        "rashi": 1,
+        "degreeInRashi": 10,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "expected": {
+        "rashi": 1,
+        "nakshatra": 1,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 60.0° Gemini start",
+      "input": 60,
+      "actual": {
+        "rashi": 3,
+        "degreeInRashi": 0,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "expected": {
+        "rashi": 3,
+        "nakshatra": 5,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 90.0° Cancer start",
+      "input": 90,
+      "actual": {
+        "rashi": 4,
+        "degreeInRashi": 0,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "expected": {
+        "rashi": 4,
+        "nakshatra": 7,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 120.0° Leo start",
+      "input": 120,
+      "actual": {
+        "rashi": 5,
+        "degreeInRashi": 0,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 5,
+        "nakshatra": 10,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 150.0° Virgo start",
+      "input": 150,
+      "actual": {
+        "rashi": 6,
+        "degreeInRashi": 0,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "expected": {
+        "rashi": 6,
+        "nakshatra": 12,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 180.0° Libra start",
+      "input": 180,
+      "actual": {
+        "rashi": 7,
+        "degreeInRashi": 0,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "expected": {
+        "rashi": 7,
+        "nakshatra": 14,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 210.0° Scorpio start",
+      "input": 210,
+      "actual": {
+        "rashi": 8,
+        "degreeInRashi": 0,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "expected": {
+        "rashi": 8,
+        "nakshatra": 16,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 240.0° Sagittarius start",
+      "input": 240,
+      "actual": {
+        "rashi": 9,
+        "degreeInRashi": 0,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "expected": {
+        "rashi": 9,
+        "nakshatra": 19,
+        "pada": 1,
+        "navamsa": 1
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 270.0° Capricorn start",
+      "input": 270,
+      "actual": {
+        "rashi": 10,
+        "degreeInRashi": 0,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "expected": {
+        "rashi": 10,
+        "nakshatra": 21,
+        "pada": 2,
+        "navamsa": 10
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 300.0° Aquarius start",
+      "input": 300,
+      "actual": {
+        "rashi": 11,
+        "degreeInRashi": 0,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "expected": {
+        "rashi": 11,
+        "nakshatra": 23,
+        "pada": 3,
+        "navamsa": 7
+      },
+      "passed": true
+    },
+    {
+      "description": "Exact 330.0° Pisces start",
+      "input": 330,
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 0,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "expected": {
+        "rashi": 12,
+        "nakshatra": 25,
+        "pada": 4,
+        "navamsa": 4
+      },
+      "passed": true
+    },
+    {
+      "description": "Epsilon before 360° Revati 4",
+      "input": 359.999999,
+      "actual": {
+        "rashi": 12,
+        "degreeInRashi": 29.999999000000003,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "expected": {
+        "rashi": 12,
+        "nakshatra": 27,
+        "pada": 4,
+        "navamsa": 12
+      },
+      "passed": true
+    },
+    {
+      "description": "Invalid NaN",
+      "input": "NaN",
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": "NaN",
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "expected": {
+        "rashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "passed": true
+    },
+    {
+      "description": "Invalid Infinity",
+      "input": null,
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": "NaN",
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "expected": {
+        "rashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "passed": true
+    },
+    {
+      "description": "Invalid -Infinity",
+      "input": null,
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": "NaN",
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "expected": {
+        "rashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "passed": true
+    },
+    {
+      "description": "Invalid string type",
+      "input": "invalid",
+      "actual": {
+        "rashi": null,
+        "degreeInRashi": "NaN",
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "expected": {
+        "rashi": null,
+        "nakshatra": null,
+        "pada": null,
+        "navamsa": null
+      },
+      "passed": true
+    }
+  ]
+}

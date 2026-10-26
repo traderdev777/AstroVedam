@@ -1,0 +1,206 @@
+[
+  {
+    "id": "AUDIT-01",
+    "name": "Benchmark REF-01 Baseline",
+    "date": "1999-03-28",
+    "time": "05:55:00",
+    "jd": 2451265.74652778,
+    "ayanamsa": 23.84233046421423,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 32.9745009,
+        "refSid": 9.132170435785774,
+        "avTrop": 33.08779085907417,
+        "avSid": 9.24546039485994,
+        "deltaDeg": 0.11328995907416584,
+        "deltaArc": 6.79739754444995,
+        "refRashi": 1,
+        "avRashi": 1,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 10.1039837,
+        "refSid": 346.2616532357858,
+        "avTrop": 10.098126522744522,
+        "avSid": 346.2557960585303,
+        "deltaDeg": -0.00585717725550694,
+        "deltaArc": -0.3514306353304164,
+        "refRashi": 12,
+        "avRashi": 12,
+        "rashiMatch": true
+      }
+    ]
+  },
+  {
+    "id": "AUDIT-02",
+    "name": "Benchmark REF-06 Max Saturn Error",
+    "date": "2023-06-21",
+    "time": "16:00:00",
+    "jd": 2460117.16666667,
+    "ayanamsa": 24.18051979155176,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 337.1978519,
+        "refSid": 313.0173321084482,
+        "avTrop": 336.9038269631451,
+        "avSid": 312.7233071715933,
+        "deltaDeg": -0.29402493685489617,
+        "deltaArc": -17.64149621129377,
+        "refRashi": 11,
+        "avRashi": 11,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 37.589437,
+        "refSid": 13.408917208448237,
+        "avTrop": 37.23932338655087,
+        "avSid": 13.058803594999112,
+        "deltaDeg": -0.3501136134491247,
+        "deltaArc": -21.006816806947484,
+        "refRashi": 1,
+        "avRashi": 1,
+        "rashiMatch": true
+      }
+    ]
+  },
+  {
+    "id": "AUDIT-03",
+    "name": "Benchmark REF-07 Max Jupiter Error",
+    "date": "2022-10-31",
+    "time": "00:00:00",
+    "jd": 2459883.5,
+    "ayanamsa": 24.17159200690452,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 318.6414327,
+        "refSid": 294.4698406930955,
+        "avTrop": 318.41704832922153,
+        "avSid": 294.245456322317,
+        "deltaDeg": -0.2243843707784663,
+        "deltaArc": -13.463062246707977,
+        "refRashi": 10,
+        "avRashi": 10,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 359.7694829,
+        "refSid": 335.5978908930955,
+        "avTrop": 359.31305738326984,
+        "avSid": 335.1414653763653,
+        "deltaDeg": -0.45642551673017806,
+        "deltaArc": -27.385531003810684,
+        "refRashi": 12,
+        "avRashi": 12,
+        "rashiMatch": true
+      }
+    ]
+  },
+  {
+    "id": "AUDIT-04",
+    "name": "Saturn Kumbha Ingress Vicinity",
+    "date": "2023-01-17",
+    "time": "12:00:00",
+    "jd": 2459962,
+    "ayanamsa": 24.174591284057726,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 324.1735724,
+        "refSid": 299.9989811159423,
+        "avTrop": 323.9626287946324,
+        "avSid": 299.78803751057467,
+        "deltaDeg": -0.2109436053676177,
+        "deltaArc": -12.656616322057062,
+        "refRashi": 10,
+        "avRashi": 10,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 3.5214373,
+        "refSid": 339.3468460159423,
+        "avTrop": 3.167126164630084,
+        "avSid": 338.99253488057235,
+        "deltaDeg": -0.354311135369926,
+        "deltaArc": -21.25866812219556,
+        "refRashi": 12,
+        "avRashi": 12,
+        "rashiMatch": true
+      }
+    ]
+  },
+  {
+    "id": "AUDIT-05",
+    "name": "Saturn Meena Ingress Vicinity",
+    "date": "2025-03-29",
+    "time": "12:00:00",
+    "jd": 2460764,
+    "ayanamsa": 24.205233580578373,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 354.1884265,
+        "refSid": 329.98319291942164,
+        "avTrop": 353.93101099859746,
+        "avSid": 329.7257774180191,
+        "deltaDeg": -0.25741550140253366,
+        "deltaArc": -15.44493008415202,
+        "refRashi": 11,
+        "avRashi": 11,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 75.5968553,
+        "refSid": 51.39162171942163,
+        "avTrop": 75.24506143362139,
+        "avSid": 51.039827853043015,
+        "deltaDeg": -0.351793866378614,
+        "deltaArc": -21.10763198271684,
+        "refRashi": 2,
+        "avRashi": 2,
+        "rashiMatch": true
+      }
+    ]
+  },
+  {
+    "id": "AUDIT-06",
+    "name": "Current Audit Assessment Date",
+    "date": "2026-10-22",
+    "time": "12:00:00",
+    "jd": 2461336,
+    "ayanamsa": 24.22708818607689,
+    "bodies": [
+      {
+        "body": "Saturn",
+        "refTrop": 9.9286727,
+        "refSid": 345.7015845139231,
+        "avTrop": 9.59642047832254,
+        "avSid": 345.36933229224564,
+        "deltaDeg": -0.33225222167743595,
+        "deltaArc": -19.935133300646157,
+        "refRashi": 12,
+        "avRashi": 12,
+        "rashiMatch": true
+      },
+      {
+        "body": "Jupiter",
+        "refTrop": 143.0686734,
+        "refSid": 118.84158521392311,
+        "avTrop": 142.7505066712474,
+        "avSid": 118.52341848517051,
+        "deltaDeg": -0.3181667287526011,
+        "deltaArc": -19.090003725156066,
+        "refRashi": 4,
+        "avRashi": 4,
+        "rashiMatch": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "AstroVedam Phase 4F.6C Reproducibility Manifest",
+    "generatedAt": "2026-10-23T13:22:35.185Z",
+    "auditAuthority": "Principal Astronomical Software Engineer & Independent QA Auditor",
+    "targetModule": "src/engines/astrology/ephemeris.js",
+    "gitMetadataDisclosure": {
+      "gitRepositoryPresent": false,
+      "limitationStatement": "The working directory (/Users/supreeththakur/.gemini/antigravity-ide/brain/841fc7ef-3339-408c-81d2-565fe6d2f4d4/browser/astroveda) is an unversioned project workspace snapshot without an active .git repository database. Tracking and verification are established strictly via SHA-256 cryptographic hashes of all source and output artifacts."
+    }
+  },
+  "sources": {
+    "src/engines/astrology/ephemeris.js": {
+      "bytes": 54662,
+      "sha256": "be719d4946da0074530569af0e2b5e74ac0a5e761391fdb83519de7b3a2072c7"
+    },
+    "src/engines/astrology/constants.js": {
+      "bytes": 23494,
+      "sha256": "bb1ab6e1b56bac7926931fe8292eb87cbdd971505c0200c0f4223c7ba43e750c"
+    },
+    "src/engines/astrology/kundali.js": {
+      "bytes": 6390,
+      "sha256": "69eb1ed340cd38647cbc1b4cd364b7a6b95b8d588b139adc0598808d8f3137e9"
+    },
+    "tests/regression/phase4f6_saturn_corrections.test.js": {
+      "bytes": 11687,
+      "sha256": "dbd9ace5ce232b1119bab21ca46e84baa18a5b7cfd0d446f3e7458d79d9d179d"
+    },
+    "tests/run_all_tests.js": {
+      "bytes": 3566,
+      "sha256": "b948353330c4151fde1ae522fd439261d898a9dc68d5037f980795d93629b44f"
+    },
+    "scratch/run_astronomical_benchmark.js": {
+      "bytes": 7755,
+      "sha256": "e0f29d9f170dfb1f9739cb2c9b3b45cd7799f1eebfa7278880917903c3fc27b0"
+    },
+    "scratch/reference_cases.json": {
+      "bytes": 8028,
+      "sha256": "7275c33e527f33ddd2a3f1b0f7021f41890ca2034db10d166c2ec332497c6c32"
+    }
+  },
+  "artifacts": {
+    "scratch/phase4f6c/time_scale_contract.json": {
+      "bytes": 8599,
+      "sha256": "a7bdafaca6468c7024bf319dea282f72092792bf73619026ac54b64b3de77d75"
+    },
+    "scratch/phase4f6c/time_scale_boundary_results.json": {
+      "bytes": 10688,
+      "sha256": "f38cba1980c8ab890daa2f6ed6088cf04780fce1a6fe057c328a24e96b352f43"
+    },
+    "scratch/phase4f6c/historical_civil_time_audit.json": {
+      "bytes": 3848,
+      "sha256": "082ce3db5c1de23b3727431275f686c8aaed33a156c21b045f200ddb99a905d8"
+    },
+    "scratch/phase4f6c/aberration_rigor_results.json": {
+      "bytes": 4217,
+      "sha256": "0bcc56e23011c033c70c8cf30ee7033b858571d801bd655dbbbf2484b886ae1f"
+    },
+    "scratch/phase4f6c/independent_residuals.json": {
+      "bytes": 52739,
+      "sha256": "2059d627ecd8af8fa28d68dd20991619d0ea928194f7525c55da88b6eff6337d"
+    },
+    "scratch/phase4f6c/benchmark.log": {
+      "bytes": 13690,
+      "sha256": "999fbf002f369ef3de4e4444f5306430d8e82c22eba0c5801af774498ae90915"
+    },
+    "scratch/phase4f6c/npm_test.log": {
+      "bytes": 121858,
+      "sha256": "cefb9dc32564cafa200ea2f81e76b1aee1031e512e580c45a4de78019d45cd93"
+    },
+    "scratch/phase4f6c/build.log": {
+      "bytes": 853,
+      "sha256": "b56e1810c2c31d8d4450e9772973e26a07a1a6869b1d8ef1e6ef1c916a48e474"
+    },
+    "scratch/phase4f6c/time_scale_boundaries.log": {
+      "bytes": 2406,
+      "sha256": "9cb820f8d62b94a2d7cbe8a0ca13d7f7812034b58110889f777e56ca22c31e68"
+    },
+    "scratch/phase4f6c/historical_civil_time.log": {
+      "bytes": 1408,
+      "sha256": "8172ef7bcc2a3bd1837a8cff29948015d068724367ce42a4dccd6f8957b908cf"
+    },
+    "scratch/phase4f6c/aberration_rigor.log": {
+      "bytes": 1268,
+      "sha256": "38f6e23c159ef31cbd285ac076ac75911e9dd405b5beb8a84e9317c9d628c1ea"
+    },
+    "scratch/phase4f6c/residuals_audit.log": {
+      "bytes": 882,
+      "sha256": "e1d201ac2b397e661bb28447c379c41f0a7a1b7b658725dde4e1e33e82be689a"
+    },
+    "scratch/phase4f6c/exit_codes.txt": {
+      "bytes": 151,
+      "sha256": "bc898445ea366e7a9897102af8cacdf9cb3898241b2c3b5f3b25c06a92666b8d"
+    }
+  },
+  "retainedRawHorizonsHoldouts": {
+    "HOLDOUT-01_raw.json": {
+      "bytes": 7154,
+      "sha256": "b7c54305479522c1b287d04e8699fe6206ade7d3e3ebbc43abf6d7b2b866b410"
+    },
+    "HOLDOUT-02_raw.json": {
+      "bytes": 7151,
+      "sha256": "46add9f309ed5993d6aed3002e0ee41d70dce7556dae1724bc1f39afa5c26ae4"
+    },
+    "HOLDOUT-03_raw.json": {
+      "bytes": 7156,
+      "sha256": "0cd5a0e36de28b439f38ef567e921fd5a12e79e3a34d3e47b9491db9ea7e3cee"
+    },
+    "HOLDOUT-04_raw.json": {
+      "bytes": 7153,
+      "sha256": "a0ffe3f4fc97073a02f496ad42de05854d6756b2bbc11eedd60bddad07c89ffd"
+    },
+    "HOLDOUT-05_raw.json": {
+      "bytes": 7153,
+      "sha256": "bca12b074b17b5d65162b24e503740c9b80161bed0360187fe36a33bd976afe7"
+    },
+    "HOLDOUT-06_raw.json": {
+      "bytes": 7150,
+      "sha256": "6a26d007487d679e756106ee0c4a5303edec99584745e23140ce9722f1ef78f5"
+    },
+    "HOLDOUT-07_raw.json": {
+      "bytes": 7150,
+      "sha256": "24dcdfc35162d198999ed8a5c2c5ba9fd156fc0697efb19e8b54516e3a3a7487"
+    },
+    "HOLDOUT-08_raw.json": {
+      "bytes": 7150,
+      "sha256": "475f2b4fa0204d1d5852f97e20782145887de6ba398b95d62b3273e1666cd4e3"
+    }
+  },
+  "executionRecords": [
+    {
+      "command": "node scratch/run_astronomical_benchmark.js",
+      "exitCode": 0,
+      "assertionsPassed": "135/135 (100%)",
+      "log": "scratch/phase4f6c/benchmark.log"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "assertionsPassed": "1,478/1,478 (100%)",
+      "log": "scratch/phase4f6c/npm_test.log"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "424 modules transformed in 5.51s",
+      "log": "scratch/phase4f6c/build.log"
+    },
+    {
+      "command": "node scratch/phase4f6c/test_time_scale_boundaries.cjs",
+      "exitCode": 0,
+      "result": "J2000, 1972 baseline, 28 leap entries, invertibility verified",
+      "log": "scratch/phase4f6c/time_scale_boundaries.log"
+    },
+    {
+      "command": "node scratch/phase4f6c/test_historical_civil_time.cjs",
+      "exitCode": 0,
+      "result": "Pre-1906 LMT vs IST, missing timezone NaN safety verified",
+      "log": "scratch/phase4f6c/historical_civil_time.log"
+    },
+    {
+      "command": "node scratch/phase4f6c/test_aberration_rigor.cjs",
+      "exitCode": 0,
+      "result": "3D Lorentz vector vs scalar aberration across 6 geometries verified",
+      "log": "scratch/phase4f6c/aberration_rigor.log"
+    },
+    {
+      "command": "node scratch/phase4f6c/verify_all_residuals.cjs",
+      "exitCode": 0,
+      "result": "All 39 NASA Horizons cases recomputed (39/39 passed, max 0.7874')",
+      "log": "scratch/phase4f6c/residuals_audit.log"
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "timestamp": "2026-10-24T08:57:09.972Z",
+  "totalTests": 49,
+  "passed": 49,
+  "failed": 0,
+  "results": [
+    {
+      "category": "Timezone",
+      "description": "Missing timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: undefined",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Undefined timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        null
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: undefined",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Null timezone (reject silent UTC coercion)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        null
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: null",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "NaN timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        "NaN"
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: NaN",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Infinity timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        null
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: Infinity",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "-Infinity timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        null
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: -Infinity",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "String timezone offset",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        "5.5"
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: 5.5",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Boolean timezone",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        true
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid numeric timezone offset (e.g. 5.5 for IST). Got: true",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Out-of-range timezone +15",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        15
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali timezone offset out of range [-12, +14]: 15",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Out-of-range timezone -13",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        -13
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali timezone offset out of range [-12, +14]: -13",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Valid boundary offset -12 (Baker Island)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        0.19,
+        -176.47,
+        -12
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 9)",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Valid boundary offset 0.0 (Greenwich / UTC)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        51.5,
+        0,
+        0
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 8)",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Valid offset +5.5 (India Standard Time - IST)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 8)",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Valid fractional offset +9.75 (Lord Howe Island)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        -31.55,
+        159.08,
+        9.75
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 10)",
+      "passed": true
+    },
+    {
+      "category": "Timezone",
+      "description": "Valid boundary offset +14 (Kiritimati / Line Islands)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        1.87,
+        -157.36,
+        14
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 9)",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Non-string date (null)",
+      "inputs": [
+        null,
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid birthDate string in YYYY-MM-DD format",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Malformed date string (slash format)",
+      "inputs": [
+        "1995/10/24",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid birthDate string in YYYY-MM-DD format",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Malformed date string (two-digit year)",
+      "inputs": [
+        "95-10-24",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid birthDate string in YYYY-MM-DD format",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible month 0",
+      "inputs": [
+        "1995-00-10",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate month out of range [1-12]: 0",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible month 13",
+      "inputs": [
+        "1995-13-10",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate month out of range [1-12]: 13",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible day 0",
+      "inputs": [
+        "1995-10-00",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 1995-10: 0",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible day 32 in January",
+      "inputs": [
+        "1995-01-32",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 1995-01: 32",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible day 31 in April (30-day month)",
+      "inputs": [
+        "1995-04-31",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 1995-04: 31",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Impossible day 31 in June (30-day month)",
+      "inputs": [
+        "1995-06-31",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 1995-06: 31",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Leap day on non-leap year (2023-02-29)",
+      "inputs": [
+        "2023-02-29",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 2023-02: 29",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Leap day on century non-leap year (1900-02-29)",
+      "inputs": [
+        "1900-02-29",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthDate day out of range for 1900-02: 29",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Valid leap day on leap year (2024-02-29)",
+      "inputs": [
+        "2024-02-29",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 1)",
+      "passed": true
+    },
+    {
+      "category": "Date",
+      "description": "Valid leap day on 400-year leap century (2000-02-29)",
+      "inputs": [
+        "2000-02-29",
+        "10:30",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 1)",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Non-string time (null)",
+      "inputs": [
+        "1995-10-24",
+        null,
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid birthTime string in HH:MM format",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Malformed time (non-colon)",
+      "inputs": [
+        "1995-10-24",
+        "1030",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw TypeError",
+      "actual": "TypeError: generateKundali requires a valid birthTime string in HH:MM format",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Impossible hour 24",
+      "inputs": [
+        "1995-10-24",
+        "24:00",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthTime hour out of range [0-23]: 24",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Impossible hour 25",
+      "inputs": [
+        "1995-10-24",
+        "25:00",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthTime hour out of range [0-23]: 25",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Impossible minute 60",
+      "inputs": [
+        "1995-10-24",
+        "10:60",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthTime minute out of range [0-59]: 60",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Impossible second 60",
+      "inputs": [
+        "1995-10-24",
+        "10:30:60",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali birthTime second out of range [0-59]: 60",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Valid boundary time midnight (00:00)",
+      "inputs": [
+        "1995-10-24",
+        "00:00",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 4)",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Valid boundary time 23:59",
+      "inputs": [
+        "1995-10-24",
+        "23:59",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 4)",
+      "passed": true
+    },
+    {
+      "category": "Time",
+      "description": "Valid boundary time with seconds 23:59:59",
+      "inputs": [
+        "1995-10-24",
+        "23:59:59",
+        28.61,
+        77.2,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 4)",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Latitude out-of-range (+95.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        95,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali latitude out of range [-90, +90]: 95",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Latitude out-of-range (-91.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        -91,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali latitude out of range [-90, +90]: -91",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Latitude non-finite (NaN)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        "NaN",
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali latitude out of range [-90, +90]: NaN",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Latitude Infinity",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        null,
+        77.2,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali latitude out of range [-90, +90]: Infinity",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Valid North Pole boundary (+90.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        90,
+        0,
+        0
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 6)",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Valid South Pole boundary (-90.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        -90,
+        0,
+        0
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 12)",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Longitude out-of-range (+185.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        185,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali longitude out of range [-180, +180]: 185",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Longitude out-of-range (-185.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        -185,
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali longitude out of range [-180, +180]: -185",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Longitude non-finite (NaN)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        "NaN",
+        5.5
+      ],
+      "expected": "Throw RangeError",
+      "actual": "RangeError: generateKundali longitude out of range [-180, +180]: NaN",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Valid Date Line boundary (+180.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        180,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 1)",
+      "passed": true
+    },
+    {
+      "category": "Coordinates",
+      "description": "Valid Date Line boundary (-180.0)",
+      "inputs": [
+        "1995-10-24",
+        "10:30",
+        28.61,
+        -180,
+        5.5
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 1)",
+      "passed": true
+    },
+    {
+      "category": "Canonical",
+      "description": "Canonical Vijayapura baseline chart",
+      "inputs": [
+        "1999-03-28",
+        "11:25",
+        16.8302,
+        75.71,
+        5.5,
+        "LAHIRI"
+      ],
+      "expected": "Valid Chart Output",
+      "actual": "Success (Lagna: Rashi 3)",
+      "passed": true
+    }
+  ]
+}

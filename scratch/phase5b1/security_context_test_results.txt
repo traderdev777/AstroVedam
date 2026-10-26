@@ -1,0 +1,71 @@
+
+--- Running Phase 5B.1 Security Context & Rendering Safety ---
+  ✅ PASS: Attribute breakout neutralized for: " onfocus="alert(1)" id="...
+  ✅ PASS: No attribute breakout into onfocus handler
+  ✅ PASS: No attribute breakout into onmouseover handler
+  ✅ PASS: No injected script tags inside attribute
+  ✅ PASS: Attribute breakout neutralized for: ' onmouseover='alert(2)'...
+  ✅ PASS: No attribute breakout into onfocus handler
+  ✅ PASS: No attribute breakout into onmouseover handler
+  ✅ PASS: No injected script tags inside attribute
+  ✅ PASS: Attribute breakout neutralized for: "><script>alert(3)</scrip...
+  ✅ PASS: No attribute breakout into onfocus handler
+  ✅ PASS: No attribute breakout into onmouseover handler
+  ✅ PASS: No injected script tags inside attribute
+  ✅ PASS: Attribute breakout neutralized for: " autofocus onfocus="fetc...
+  ✅ PASS: No attribute breakout into onfocus handler
+  ✅ PASS: No attribute breakout into onmouseover handler
+  ✅ PASS: No injected script tags inside attribute
+  ✅ PASS: Attribute breakout neutralized for: ' onclick='evil()' style=...
+  ✅ PASS: No attribute breakout into onfocus handler
+  ✅ PASS: No attribute breakout into onmouseover handler
+  ✅ PASS: No injected script tags inside attribute
+  ✅ PASS: HTML text: No executable script tag for <script>alert('xss')
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: HTML text: No executable script tag for <img src=x onerror=a
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: HTML text: No executable script tag for <svg/onload=alert('s
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: HTML text: No executable script tag for <iframe src='javascr
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: HTML text: No executable script tag for <body onload=alert('
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: HTML text: No executable script tag for <a href='javascript:
+  ✅ PASS: HTML text: No unescaped img tag
+  ✅ PASS: HTML text: No unescaped svg tag
+  ✅ PASS: HTML text: No unescaped iframe tag
+  ✅ PASS: HTML text: Entity brackets correctly encoded
+  ✅ PASS: Dual context: Attribute quotes safely encoded inside title attribute
+  ✅ PASS: Dual context: Script tag safely encoded inside inner text
+  ✅ PASS: Dual context: Event handler enclosed as harmless attribute text
+  ✅ PASS: Apostrophe safely encoded as &#39; for: Apostrophe and hyphen in English name
+  ✅ PASS: Hindi characters preserved intact: Devanagari Hindi text with honorific and parens
+  ✅ PASS: Kannada characters preserved intact: Kannada Unicode with conjuncts
+  ✅ PASS: Telugu characters preserved intact: Telugu Unicode text
+  ✅ PASS: Legitimate ampersand safely encoded for: Devanagari with ampersand
+  ✅ PASS: Legitimate ampersand safely encoded for: Punctuation: slash, ampersand, percent, parens
+  ✅ PASS: escapeHtml(null) returns empty string
+  ✅ PASS: escapeHtml(undefined) returns empty string
+  ✅ PASS: escapeHtml('') returns empty string
+  ✅ PASS: escapeHtml(0) preserves numeric zero as string
+  ✅ PASS: escapeHtml(12345) preserves positive integer
+  ✅ PASS: escapeHtml(-98.76) preserves negative float
+  ✅ PASS: escapeHtml(false) preserves boolean false as string
+  ✅ PASS: escapeHtml(true) preserves boolean true as string
+
+Phase 5B.1 Security Context Suite Results: 67/67 passed
