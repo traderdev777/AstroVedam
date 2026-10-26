@@ -556,24 +556,95 @@ export function renderKundaliPage(container) {
           </div>
         </div>
 
-        <!-- Dosha Analysis & Remedies -->
+        <!-- Dosha Analysis, Lifecycles & Remedies with Ending Dates -->
         <div class="glass-card">
-          <h3 class="card-title"><span style="color: #F59E0B;">🛡️ Dosha Analysis & Step-by-Step Remedies</span></h3>
+          <h3 class="card-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <span style="color: #F59E0B;">🛡️ Dosha Analysis, Ending Dates & Authentic Sanatan Remedies</span>
+            <span style="font-size: 11px; color: var(--gold-400); font-weight: 600;">Exact Ending Dates & Milestones Included</span>
+          </h3>
           <div style="display: flex; flex-direction: column; gap: var(--space-4);">
             ${doshas.filter(d => d.present).map(d => `
-              <div style="padding: var(--space-3); background: rgba(239, 68, 68, 0.05); border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--radius-md);">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
-                  <span style="font-weight: 700; color: #F59E0B;">${d.name} (${d.nameHi})</span>
-                  <span style="font-size: 11px; color: ${d.cancelled ? '#10B981' : '#EF4444'}; font-weight: 600;">${d.intensity}</span>
+              <div style="padding: var(--space-4); background: rgba(239, 68, 68, 0.04); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: var(--radius-md);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 6px;">
+                  <span style="font-weight: 800; font-size: 15px; color: #F59E0B;">${d.name} (${d.nameHi})</span>
+                  <span style="font-size: 11px; padding: 2px 8px; border-radius: 4px; background: ${d.cancelled ? 'rgba(16, 185, 129, 0.2)' : 'rgba(239, 68, 68, 0.2)'}; color: ${d.cancelled ? '#10B981' : '#EF4444'}; font-weight: 700; border: 1px solid currentColor;">${d.intensity}</span>
                 </div>
                 <div style="font-size: var(--text-xs); color: var(--text-secondary); margin-bottom: 6px;">${d.details}</div>
-                <div style="font-size: 11px; color: #E2E8F0; margin-bottom: 6px;">${d.impact}</div>
-                <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.08);">
-                  <strong style="font-size: 11px; color: var(--gold-400);">Authentic Sanatan Remedies:</strong>
-                  <ul style="padding-left: 18px; margin-top: 4px; font-size: 11px; color: var(--text-secondary); line-height: 1.5;">
-                    ${d.remedies.map(r => `<li>${r}</li>`).join('')}
-                  </ul>
-                </div>
+                <div style="font-size: 12px; color: #E2E8F0; margin-bottom: 8px; line-height: 1.5;">${d.impact}</div>
+
+                <!-- Ending Date & Lifecycle Banner -->
+                ${d.endingTimeline ? `
+                  <div style="background: rgba(218, 165, 32, 0.08); border: 1px solid rgba(218, 165, 32, 0.35); border-radius: 6px; padding: 10px 12px; margin: 8px 0 10px 0;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: ${d.timelineMilestones && d.timelineMilestones.length > 0 ? '8px' : '0'};">
+                      <div style="font-size: 12px; color: var(--gold-300);">
+                        <strong>⏳ Ending Date / Relief Milestone:</strong>
+                        <span style="font-weight: 700; color: #FFF;"> ${d.endingTimeline}</span>
+                      </div>
+                      ${d.endDateFormatted && d.endDateFormatted !== 'N/A' ? `
+                        <span style="font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; background: rgba(218,165,32,0.25); color: var(--gold-300); border: 1px solid var(--gold-400);">
+                          🗓️ ${d.endDateFormatted}
+                        </span>
+                      ` : ''}
+                    </div>
+
+                    ${d.timelineMilestones && d.timelineMilestones.length > 0 ? `
+                      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px; margin-top: 6px; font-size: 11px;">
+                        ${d.timelineMilestones.map(m => `
+                          <div style="padding: 6px 8px; background: rgba(0,0,0,0.25); border-radius: 4px; border-left: 3px solid var(--gold-400);">
+                            <div style="font-weight: 700; color: var(--gold-300);">${m.phase || m.label}</div>
+                            <div style="color: #CBD5E1; font-size: 10.5px;">${m.period || m.date || ''}</div>
+                            ${m.desc ? `<div style="color: var(--text-tertiary); font-size: 10px; margin-top: 2px;">${m.desc}</div>` : ''}
+                          </div>
+                        `).join('')}
+                      </div>
+                    ` : ''}
+                  </div>
+                ` : ''}
+
+                <!-- Structured Remedies Section -->
+                ${d.structuredRemedies ? `
+                  <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.08);">
+                    <div style="font-weight: 800; font-size: 12px; color: var(--gold-400); margin-bottom: 6px;">Authentic Sanatan Remedies & Vidhi:</div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px; font-size: 11.5px; line-height: 1.5;">
+                      ${d.structuredRemedies.mantra ? `
+                        <div style="padding: 8px 10px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid var(--border-secondary);">
+                          <strong style="color: #38BDF8;">🕉️ Mantra Sadhana:</strong>
+                          <div style="font-style: italic; color: #FFF; margin: 2px 0;">"${d.structuredRemedies.mantra.verse}"</div>
+                          <div style="color: var(--text-secondary); font-size: 10.5px;"><strong>Japa:</strong> ${d.structuredRemedies.mantra.japaCount} &bull; <strong>Mala:</strong> ${d.structuredRemedies.mantra.mala}</div>
+                        </div>
+                      ` : ''}
+                      ${d.structuredRemedies.rudraksha ? `
+                        <div style="padding: 8px 10px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid var(--border-secondary);">
+                          <strong style="color: #F43F5E;">📿 Sacred Rudraksha:</strong>
+                          <div style="color: #FFF; font-weight: 600; margin: 2px 0;">${d.structuredRemedies.rudraksha.mukhi}</div>
+                          <div style="color: var(--text-secondary); font-size: 10.5px;">${d.structuredRemedies.rudraksha.benefit}</div>
+                        </div>
+                      ` : ''}
+                      ${d.structuredRemedies.daan ? `
+                        <div style="padding: 8px 10px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid var(--border-secondary);">
+                          <strong style="color: #34D399;">🌾 Daan & Seva (दान):</strong>
+                          <div style="color: #E2E8F0; margin: 2px 0;">${d.structuredRemedies.daan.items}</div>
+                          <div style="color: var(--text-secondary); font-size: 10.5px;"><strong>Day:</strong> ${d.structuredRemedies.daan.day} &bull; <strong>Recipient:</strong> ${d.structuredRemedies.daan.recipient}</div>
+                        </div>
+                      ` : ''}
+                      ${d.structuredRemedies.tirthas ? `
+                        <div style="padding: 8px 10px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid var(--border-secondary);">
+                          <strong style="color: #FBBF24;">🏛️ Siddha Tirthas (सिद्ध पीठ):</strong>
+                          <ul style="padding-left: 16px; margin: 3px 0 0 0; color: #CBD5E1; font-size: 10.5px;">
+                            ${d.structuredRemedies.tirthas.map(t => `<li>${t}</li>`).join('')}
+                          </ul>
+                        </div>
+                      ` : ''}
+                    </div>
+                  </div>
+                ` : `
+                  <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.08);">
+                    <strong style="font-size: 11px; color: var(--gold-400);">Authentic Sanatan Remedies:</strong>
+                    <ul style="padding-left: 18px; margin-top: 4px; font-size: 11px; color: var(--text-secondary); line-height: 1.5;">
+                      ${d.remedies.map(r => `<li>${r}</li>`).join('')}
+                    </ul>
+                  </div>
+                `}
               </div>
             `).join('')}
           </div>

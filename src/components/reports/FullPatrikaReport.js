@@ -692,11 +692,16 @@ export function renderFullPatrikaReport(kundali, navamsa, yogas, doshas, userInp
                 ? `<div style="font-size: 11px; color: #64748B; margin-top: 4px;"><strong>${transitLabel}:</strong> ${escapeHtml(displayDate)}</div>`
                 : '';
 
+              const endingDateHtml = (d.endingTimeline && d.present)
+                ? `<div style="font-size: 11px; color: #9A3412; margin-top: 3px; font-weight: 600;"><strong>⏳ ${langKey === "hi" ? "समाप्ति / शमन अवधि" : (langKey === "kn" ? "ಮುಕ್ತಾಯ / ಶಮನ ಅವಧಿ" : "Ending / Relief Milestone")}:</strong> ${escapeHtml(d.endingTimeline)}</div>`
+                : '';
+
               return `
                 <div style="margin-bottom: 8px; font-size: 12.5px; padding: 8px 12px; background: ${bgColor}; border-left: 4px solid ${borderColor}; border-radius: 4px; line-height: 1.5;">
                   <strong style="color: ${badgeColor}; font-size: 13px;">${displayName}:</strong> 
                   <span style="font-weight: 700; color: ${badgeColor};">${statusText}</span>
                   <div style="font-size: 12px; color: #334155; margin-top: 2px;">${impactText}</div>
+                  ${endingDateHtml}
                   ${transitDateHtml}
                 </div>
               `;
