@@ -566,17 +566,23 @@ function setupEventListeners(container, savedBirth) {
     });
   });
 
-  // City Autocomplete change
+  // City Autocomplete input and change
   const cityInput = document.getElementById('g-city');
-  cityInput?.addEventListener('change', () => {
+  const updateGuruCity = () => {
+    if (!cityInput) return;
     const found = findIndianPlace(cityInput.value);
     if (found) {
-      document.getElementById('g-lat').value = found.lat;
-      document.getElementById('g-lon').value = found.lon;
-      document.getElementById('g-tz').value = found.tz;
-      cityInput.value = found.label;
+      const gLat = document.getElementById('g-lat');
+      const gLon = document.getElementById('g-lon');
+      const gTz = document.getElementById('g-tz');
+      if (gLat) gLat.value = found.lat;
+      if (gLon) gLon.value = found.lon;
+      if (gTz) gTz.value = found.tz;
+      cityInput.value = found.label || found.name;
     }
-  });
+  };
+  cityInput?.addEventListener('input', updateGuruCity);
+  cityInput?.addEventListener('change', updateGuruCity);
 
   // Save updated birth details
   form?.addEventListener('submit', (e) => {

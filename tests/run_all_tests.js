@@ -23,6 +23,7 @@ import { runInputSafetyTests } from './regression/phase5b_input_safety.test.js';
 import { runAngleNormalizationTests } from './regression/phase5b_angle_normalization.test.js';
 import { runSecurityContextTests } from './regression/phase5b1_security_context.test.js';
 import { runPhase5B2NavamsaFPTests } from './regression/phase5b2_navamsa_fp.test.js';
+import { runIndianPlacesTests } from './regression/indian_places_search.test.js';
 
 console.log('===========================================================');
 console.log('🪐 ASTROVEDAM MASTER QA REGRESSION TEST SUITE');
@@ -52,6 +53,7 @@ try {
   results.push(await runAngleNormalizationTests());
   results.push(await runSecurityContextTests());
   results.push(await runPhase5B2NavamsaFPTests());
+  results.push(await runIndianPlacesTests());
 } catch (err) {
   console.error('\n💥 CRITICAL TEST SUITE RUNTIME ERROR:', err);
   process.exit(1);

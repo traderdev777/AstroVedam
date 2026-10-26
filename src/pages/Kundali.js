@@ -93,10 +93,10 @@ export function renderKundaliPage(container) {
             <div class="form-group" style="grid-column: span 2;">
               <label class="form-label" style="display: flex; justify-content: space-between;">
                 <span>📍 Place of Birth (Search All Indian Cities, Tirthas & Towns)</span>
-                <span style="color: var(--gold-400); font-size: 11px;">150+ Places across India</span>
+                <span style="color: var(--gold-400); font-size: 11px;">350+ Places across India (Including Chirala & AP Towns)</span>
               </label>
               <input type="text" id="k-place-input" list="k-indian-places-list" class="form-input" 
-                     placeholder="Type to search e.g. Varanasi, Ayodhya, Bengaluru, Mumbai, Ujjain, Patna..." 
+                     placeholder="Type to search e.g. Chirala, Tirupati, Vijayawada, Varanasi, Bengaluru..." 
                      value="${escapeHtml(cityVal)}" autocomplete="off" />
               ${renderIndianPlacesDatalist('k-indian-places-list')}
             </div>

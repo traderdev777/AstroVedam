@@ -123,19 +123,89 @@ export const INDIAN_PLACES = [
   { name: 'Siddipet, Telangana', state: 'Telangana', lat: 18.1018, lon: 78.8520, tz: 5.5 },
 
   // --- Andhra Pradesh ---
-  { name: 'Visakhapatnam (Vizag), AP', state: 'Andhra Pradesh', lat: 17.6868, lon: 83.2185, tz: 5.5 },
-  { name: 'Vijayawada, Andhra Pradesh', state: 'Andhra Pradesh', lat: 16.5062, lon: 80.6480, tz: 5.5 },
-  { name: 'Guntur, Andhra Pradesh', state: 'Andhra Pradesh', lat: 16.3067, lon: 80.4365, tz: 5.5 },
-  { name: 'Nellore, Andhra Pradesh', state: 'Andhra Pradesh', lat: 14.4426, lon: 79.9865, tz: 5.5 },
-  { name: 'Kurnool, Andhra Pradesh', state: 'Andhra Pradesh', lat: 15.8281, lon: 78.0373, tz: 5.5 },
-  { name: 'Rajahmundry, Andhra Pradesh', state: 'Andhra Pradesh', lat: 17.0005, lon: 81.8040, tz: 5.5 },
-  { name: 'Kakinada, Andhra Pradesh', state: 'Andhra Pradesh', lat: 16.9891, lon: 82.2475, tz: 5.5 },
-  { name: 'Kadapa (Cuddapah), AP', state: 'Andhra Pradesh', lat: 14.4673, lon: 78.8242, tz: 5.5 },
-  { name: 'Anantapur, Andhra Pradesh', state: 'Andhra Pradesh', lat: 14.6819, lon: 77.6006, tz: 5.5 },
-  { name: 'Eluru, Andhra Pradesh', state: 'Andhra Pradesh', lat: 16.7107, lon: 81.0952, tz: 5.5 },
-  { name: 'Ongole, Andhra Pradesh', state: 'Andhra Pradesh', lat: 15.5057, lon: 80.0499, tz: 5.5 },
-  { name: 'Srikakulam, Andhra Pradesh', state: 'Andhra Pradesh', lat: 18.2969, lon: 83.8968, tz: 5.5 },
-  { name: 'Amaravati, Andhra Pradesh', state: 'Andhra Pradesh', lat: 16.5131, lon: 80.5165, tz: 5.5 },
+  { name: "Chirala, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.8246, lon: 80.3522, tz: 5.5 },
+  { name: "Bapatla, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.9042, lon: 80.4674, tz: 5.5 },
+  { name: "Visakhapatnam (Vizag), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.6868, lon: 83.2185, tz: 5.5 },
+  { name: "Vijayawada, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.5062, lon: 80.6480, tz: 5.5 },
+  { name: "Guntur, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.3067, lon: 80.4365, tz: 5.5 },
+  { name: "Nellore, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.4426, lon: 79.9865, tz: 5.5 },
+  { name: "Kurnool, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.8281, lon: 78.0373, tz: 5.5 },
+  { name: "Rajahmundry (Rajamahendravaram), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.0005, lon: 81.8040, tz: 5.5 },
+  { name: "Kakinada, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.9891, lon: 82.2475, tz: 5.5 },
+  { name: "Kadapa (Cuddapah), Andhra Pradesh", state: "Andhra Pradesh", lat: 14.4673, lon: 78.8242, tz: 5.5 },
+  { name: "Tirupati (Balaji / Venkateswara), Andhra Pradesh", state: "Andhra Pradesh", lat: 13.6288, lon: 79.4192, tz: 5.5 },
+  { name: "Anantapur, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.6819, lon: 77.6006, tz: 5.5 },
+  { name: "Eluru, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.7107, lon: 81.0952, tz: 5.5 },
+  { name: "Ongole, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.5057, lon: 80.0499, tz: 5.5 },
+  { name: "Tenali, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.2430, lon: 80.6400, tz: 5.5 },
+  { name: "Bhimavaram, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.5449, lon: 81.5212, tz: 5.5 },
+  { name: "Machilipatnam (Bandar), Andhra Pradesh", state: "Andhra Pradesh", lat: 16.1875, lon: 81.1389, tz: 5.5 },
+  { name: "Chittoor, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.2172, lon: 79.1003, tz: 5.5 },
+  { name: "Hindupur, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.8292, lon: 77.4917, tz: 5.5 },
+  { name: "Nandyal, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.4886, lon: 78.4836, tz: 5.5 },
+  { name: "Adoni, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.6322, lon: 77.2728, tz: 5.5 },
+  { name: "Madanapalle, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.5560, lon: 78.5010, tz: 5.5 },
+  { name: "Proddatur, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.7526, lon: 78.5523, tz: 5.5 },
+  { name: "Tadepalligudem, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.8143, lon: 81.5267, tz: 5.5 },
+  { name: "Srikakulam, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.2969, lon: 83.8968, tz: 5.5 },
+  { name: "Amaravati, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.5131, lon: 80.5165, tz: 5.5 },
+  { name: "Srikalahasti, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.7498, lon: 79.6984, tz: 5.5 },
+  { name: "Srisailam (Mallikarjuna Jyotirlinga), Andhra Pradesh", state: "Andhra Pradesh", lat: 16.0739, lon: 78.8687, tz: 5.5 },
+  { name: "Kanipakam (Varasiddhi Vinayaka), Andhra Pradesh", state: "Andhra Pradesh", lat: 13.2798, lon: 79.0357, tz: 5.5 },
+  { name: "Simhachalam (Varaha Narasimha), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.7667, lon: 83.2504, tz: 5.5 },
+  { name: "Annavaram (Satyanarayana Swamy), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.2809, lon: 82.4042, tz: 5.5 },
+  { name: "Mangalagiri (Panakala Narasimha), Andhra Pradesh", state: "Andhra Pradesh", lat: 16.4300, lon: 80.5700, tz: 5.5 },
+  { name: "Draksharamam (Bhimeswara Swamy), Andhra Pradesh", state: "Andhra Pradesh", lat: 16.7933, lon: 82.0628, tz: 5.5 },
+  { name: "Pithapuram (Pada Gaya), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.1167, lon: 82.2500, tz: 5.5 },
+  { name: "Narasaraopet, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.2359, lon: 80.0494, tz: 5.5 },
+  { name: "Gudivada, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.4410, lon: 80.9926, tz: 5.5 },
+  { name: "Tanuku, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.7565, lon: 81.6823, tz: 5.5 },
+  { name: "Palakollu, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.5173, lon: 81.7337, tz: 5.5 },
+  { name: "Markapur, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.7350, lon: 79.2707, tz: 5.5 },
+  { name: "Kavali, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.9132, lon: 79.9927, tz: 5.5 },
+  { name: "Dharmavaram, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.4137, lon: 77.7126, tz: 5.5 },
+  { name: "Tuni, Andhra Pradesh", state: "Andhra Pradesh", lat: 17.3582, lon: 82.5489, tz: 5.5 },
+  { name: "Rayachoti, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.0560, lon: 78.7520, tz: 5.5 },
+  { name: "Puttaparthi (Prasanthi Nilayam), Andhra Pradesh", state: "Andhra Pradesh", lat: 14.1673, lon: 77.8105, tz: 5.5 },
+  { name: "Guntakal, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.1670, lon: 77.3750, tz: 5.5 },
+  { name: "Kadiri, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.1167, lon: 78.1667, tz: 5.5 },
+  { name: "Yemmiganur, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.7667, lon: 77.4833, tz: 5.5 },
+  { name: "Sattenapalle, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.3958, lon: 80.1478, tz: 5.5 },
+  { name: "Vinukonda, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.0500, lon: 79.7500, tz: 5.5 },
+  { name: "Chilakaluripet, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.0892, lon: 80.1672, tz: 5.5 },
+  { name: "Kandukur, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.2165, lon: 79.9042, tz: 5.5 },
+  { name: "Amalapuram, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.5787, lon: 82.0061, tz: 5.5 },
+  { name: "Nidadavole, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.9200, lon: 81.6700, tz: 5.5 },
+  { name: "Kovvur, Andhra Pradesh", state: "Andhra Pradesh", lat: 17.0167, lon: 81.7333, tz: 5.5 },
+  { name: "Jaggayyapet, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.8920, lon: 80.0970, tz: 5.5 },
+  { name: "Nuzvid, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.7850, lon: 80.8460, tz: 5.5 },
+  { name: "Macherla, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.4800, lon: 79.4300, tz: 5.5 },
+  { name: "Ponnur, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.0667, lon: 80.5667, tz: 5.5 },
+  { name: "Repalle, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.0200, lon: 80.8500, tz: 5.5 },
+  { name: "Gudur, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.1500, lon: 79.8500, tz: 5.5 },
+  { name: "Sullurpeta (ISRO Sriharikota), Andhra Pradesh", state: "Andhra Pradesh", lat: 13.7008, lon: 80.0200, tz: 5.5 },
+  { name: "Nagari, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.3300, lon: 79.5800, tz: 5.5 },
+  { name: "Palamaner, Andhra Pradesh", state: "Andhra Pradesh", lat: 13.2000, lon: 78.7500, tz: 5.5 },
+  { name: "Kuppam, Andhra Pradesh", state: "Andhra Pradesh", lat: 12.7500, lon: 78.3700, tz: 5.5 },
+  { name: "Rajampet, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.1900, lon: 79.1600, tz: 5.5 },
+  { name: "Badvel, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.7333, lon: 79.0500, tz: 5.5 },
+  { name: "Pulivendula, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.4167, lon: 78.2333, tz: 5.5 },
+  { name: "Jammalamadugu, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.8500, lon: 78.3833, tz: 5.5 },
+  { name: "Dhone, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.4200, lon: 77.8700, tz: 5.5 },
+  { name: "Nandikotkur, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.8600, lon: 78.2600, tz: 5.5 },
+  { name: "Gooty, Andhra Pradesh", state: "Andhra Pradesh", lat: 15.1167, lon: 77.6333, tz: 5.5 },
+  { name: "Tadipatri, Andhra Pradesh", state: "Andhra Pradesh", lat: 14.9100, lon: 78.0100, tz: 5.5 },
+  { name: "Vizianagaram, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.1167, lon: 83.4167, tz: 5.5 },
+  { name: "Anakapalle, Andhra Pradesh", state: "Andhra Pradesh", lat: 17.6900, lon: 83.0000, tz: 5.5 },
+  { name: "Bheemunipatnam (Bheemili), Andhra Pradesh", state: "Andhra Pradesh", lat: 17.8900, lon: 83.4500, tz: 5.5 },
+  { name: "Araku Valley, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.3300, lon: 82.8800, tz: 5.5 },
+  { name: "Palasa-Kasibugga, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.7700, lon: 84.4200, tz: 5.5 },
+  { name: "Bobbali, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.5700, lon: 83.3700, tz: 5.5 },
+  { name: "Parvathipuram, Andhra Pradesh", state: "Andhra Pradesh", lat: 18.7800, lon: 83.4300, tz: 5.5 },
+  { name: "Mandapeta, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.8700, lon: 81.9300, tz: 5.5 },
+  { name: "Ramachandrapuram, Andhra Pradesh", state: "Andhra Pradesh", lat: 16.8500, lon: 82.0200, tz: 5.5 },
+  { name: "Peddapuram, Andhra Pradesh", state: "Andhra Pradesh", lat: 17.0800, lon: 82.1400, tz: 5.5 },
+  { name: "Jangareddygudem, Andhra Pradesh", state: "Andhra Pradesh", lat: 17.1200, lon: 81.3000, tz: 5.5 },
 
   // --- Uttar Pradesh ---
   { name: 'Lucknow, Uttar Pradesh', state: 'Uttar Pradesh', lat: 26.8467, lon: 80.9462, tz: 5.5 },
@@ -330,40 +400,154 @@ export const INDIAN_PLACES = [
   { name: 'Kavaratti, Lakshadweep', state: 'Lakshadweep', lat: 10.5669, lon: 72.6420, tz: 5.5 }
 ];
 
+// Ensure label property exists on each place object for full compatibility
+INDIAN_PLACES.forEach(p => {
+  if (!p.label) p.label = p.name;
+});
+
 /**
- * Filter or search Indian places by city or state name
+ * Normalizes query string for robust fuzzy matching:
+ * - lowercase & trims whitespace
+ * - normalizes common phonetic variations (andra -> andhra, etc.)
+ * - removes filler words like "of", "in", "near", "district", "city"
+ */
+function normalizeQuery(str) {
+  if (!str) return "";
+  return str
+    .toLowerCase()
+    .replace(/\bandra\b/g, "andhra")
+    .replace(/\bandrapradesh\b/g, "andhra pradesh")
+    .replace(/\bap\b/g, "andhra pradesh")
+    .replace(/\bup\b/g, "uttar pradesh")
+    .replace(/\bmp\b/g, "madhya pradesh")
+    .replace(/\btn\b/g, "tamil nadu")
+    .replace(/\bka\b/g, "karnataka")
+    .replace(/\bkl\b/g, "kerala")
+    .replace(/\bmh\b/g, "maharashtra")
+    .replace(/\bts\b/g, "telangana")
+    .replace(/\b(of|in|near|district|dist|city|town)\b/g, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Filter or search Indian places by city or state name with phonetic and alias support
  */
 export function searchIndianPlaces(query) {
-  if (!query || query.trim() === '') return INDIAN_PLACES;
-  const q = query.toLowerCase().trim();
-  return INDIAN_PLACES.filter(p => 
-    p.name.toLowerCase().includes(q) || 
-    p.state.toLowerCase().includes(q)
-  );
+  if (!query || query.trim() === "") return INDIAN_PLACES;
+  const raw = query.toLowerCase().trim();
+  const norm = normalizeQuery(query);
+  return INDIAN_PLACES.filter(p => {
+    const pName = p.name.toLowerCase();
+    const pState = p.state.toLowerCase();
+    if (pName.includes(raw) || pState.includes(raw)) return true;
+    if (norm && (pName.includes(norm) || pState.includes(norm))) return true;
+    if (norm.includes("andhra") && pState.includes("andhra")) return true;
+    return false;
+  });
 }
 
 /**
  * Helper to generate HTML <datalist> options for autocomplete
  */
-export function renderIndianPlacesDatalist(datalistId = 'indian-places-list') {
+export function renderIndianPlacesDatalist(datalistId = "indian-places-list") {
   return `
     <datalist id="${datalistId}">
       ${INDIAN_PLACES.map(p => `
         <option value="${p.name}" data-lat="${p.lat}" data-lon="${p.lon}" data-tz="${p.tz}">
-          ${p.name} (Lat: ${p.lat.toFixed(2)}, Lon: ${p.lon.toFixed(2)})
+          ${p.name} [Lat: ${p.lat.toFixed(2)}, Lon: ${p.lon.toFixed(2)}]
         </option>
-      `).join('')}
+      `).join("")}
     </datalist>
   `;
 }
 
 /**
  * Match a location string to place object
+ * Handles:
+ * - Exact string matches
+ * - Primary city matches (e.g. "Chirala" -> "Chirala, Andhra Pradesh")
+ * - Conversational queries (e.g. "Chirala of andrapradesh", "Chirala AP")
+ * - Well-known aliases (e.g. "Vizag" -> "Visakhapatnam", "Kashi" -> "Varanasi")
  */
 export function findIndianPlace(placeName) {
-  if (!placeName) return null;
-  const exact = INDIAN_PLACES.find(p => p.name.toLowerCase() === placeName.toLowerCase().trim());
+  if (!placeName || typeof placeName !== "string") return null;
+  const rawTrimmed = placeName.trim().toLowerCase();
+  if (!rawTrimmed) return null;
+
+  // 1. Exact match on full name
+  const exact = INDIAN_PLACES.find(p => p.name.toLowerCase() === rawTrimmed);
   if (exact) return exact;
-  const partial = INDIAN_PLACES.find(p => placeName.toLowerCase().includes(p.name.split(',')[0].toLowerCase().trim()));
-  return partial || null;
+
+  // 2. Exact match on primary city (e.g. "Chirala" === "Chirala")
+  const primaryExact = INDIAN_PLACES.find(p => {
+    const primary = p.name.split(/[,(]/)[0].trim().toLowerCase();
+    return primary === rawTrimmed;
+  });
+  if (primaryExact) return primaryExact;
+
+  // 3. Multi-token / normalized matching (handles "Chirala of andrapradesh", "Chirala, AP", etc.)
+  const normQ = normalizeQuery(placeName);
+  const qTokens = normQ.split(" ").filter(Boolean);
+
+  if (qTokens.length > 0) {
+    let bestMatch = null;
+    let highestScore = 0;
+
+    for (const p of INDIAN_PLACES) {
+      const primary = p.name.split(/[,(]/)[0].trim().toLowerCase();
+      const allNames = p.name.toLowerCase().replace(/[^a-z0-9\s]/g, " ");
+      const state = p.state.toLowerCase();
+      let score = 0;
+
+      // Primary city exact match to a query token
+      if (qTokens.includes(primary)) {
+        score += 50;
+      } else if (qTokens.some(t => t.length >= 3 && primary.startsWith(t))) {
+        score += 30;
+      } else if (allNames.split(" ").some(w => qTokens.includes(w) && w.length >= 3)) {
+        score += 25;
+      }
+
+      // State confirmation bonus
+      if (score > 0) {
+        if (normQ.includes(state) || qTokens.some(t => t.length >= 4 && state.includes(t))) {
+          score += 40;
+        }
+      }
+
+      // Full query contains primary city
+      if (normQ.startsWith(primary) || normQ.includes(" " + primary + " ") || normQ.endsWith(" " + primary)) {
+        score += 20;
+      }
+
+      if (score > highestScore) {
+        highestScore = score;
+        bestMatch = p;
+      }
+    }
+
+    if (bestMatch && highestScore >= 30) {
+      return bestMatch;
+    }
+  }
+
+  // 4. Starts-with match (safe boundary)
+  const startsWithMatch = INDIAN_PLACES.find(p => {
+    const primary = p.name.split(/[,(]/)[0].trim().toLowerCase();
+    return primary.startsWith(rawTrimmed) || rawTrimmed.startsWith(primary);
+  });
+  if (startsWithMatch) return startsWithMatch;
+
+  // 5. Parenthetical alias matches (e.g. Vizag, Kashi, Banaras)
+  const aliasMatch = INDIAN_PLACES.find(p => {
+    const parenMatches = p.name.match(/\(([^)]+)\)/);
+    if (!parenMatches) return false;
+    const aliases = parenMatches[1].split(/[\/,]/).map(s => s.trim().toLowerCase());
+    return aliases.some(a => a === rawTrimmed || rawTrimmed.includes(a));
+  });
+  if (aliasMatch) return aliasMatch;
+
+  return null;
 }
