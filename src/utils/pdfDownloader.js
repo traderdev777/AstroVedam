@@ -4,8 +4,17 @@
  * supports multilingual filenames, and provides a real-time progress modal with native print fallback.
  */
 
-import { jsPDF } from 'jspdf';
-import html2canvas from 'html2canvas';
+// jsPDF + html2canvas are heavy (~200 KB); load them only when a PDF is actually requested.
+let pdfLibsPromise = null;
+function loadPdfLibs() {
+  if (!pdfLibsPromise) {
+    pdfLibsPromise = Promise.all([import('jspdf'), import('html2canvas')]).then(([jspdfMod, h2cMod]) => ({
+      jsPDF: jspdfMod.jsPDF || jspdfMod.default,
+      html2canvas: h2cMod.default || h2cMod,
+    }));
+  }
+  return pdfLibsPromise;
+}
 
 export function showDownloadStatus(stage, message, percent = 0) {
   let statusCard = document.getElementById('astro-pdf-download-status');
@@ -114,6 +123,7 @@ export async function downloadKundaliPdf(elementId = 'printable-patrika', person
   notify('generating', `Preparing 9-Page HD Kundali Patrika (${langLabel})...`, 5);
 
   try {
+    const { jsPDF, html2canvas } = await loadPdfLibs();
     const pdf = new jsPDF({
       orientation: 'portrait',
       unit: 'mm',
