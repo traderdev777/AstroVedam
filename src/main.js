@@ -1,4 +1,3 @@
-import { renderAstroGuruPage } from './pages/AstroGuru.js';
 import { initAstroGuruWidget } from './components/ui/AstroGuruWidget.js';
 /**
  * AstroVeda - Main Application Controller
@@ -8,14 +7,26 @@ import { initAstroGuruWidget } from './components/ui/AstroGuruWidget.js';
 import './styles/index.css';
 import { initCosmicCanvas } from './utils/cosmicCanvas.js';
 import { getLanguage, setLanguage, applyTranslations } from './i18n/index.js';
-import { renderHomePage } from './pages/Home.js';
-import { renderKundaliPage } from './pages/Kundali.js';
-import { renderDashaPage } from './pages/Dasha.js';
-import { renderPanchangPage } from './pages/Panchang.js';
-import { renderMuhurtaPage } from './pages/Muhurta.js';
-import { renderMatchingPage } from './pages/Matching.js';
-import { renderNumerologyPage } from './pages/Numerology.js';
-import { renderVaastuPage } from './pages/Vaastu.js';
+// Pages are code-split: each one is downloaded only when the user opens it.
+const PAGE_LOADERS = {
+  home: () => import('./pages/Home.js').then(m => m.renderHomePage),
+  kundali: () => import('./pages/Kundali.js').then(m => m.renderKundaliPage),
+  dasha: () => import('./pages/Dasha.js').then(m => m.renderDashaPage),
+  panchang: () => import('./pages/Panchang.js').then(m => m.renderPanchangPage),
+  muhurta: () => import('./pages/Muhurta.js').then(m => m.renderMuhurtaPage),
+  matching: () => import('./pages/Matching.js').then(m => m.renderMatchingPage),
+  numerology: () => import('./pages/Numerology.js').then(m => m.renderNumerologyPage),
+  vaastu: () => import('./pages/Vaastu.js').then(m => m.renderVaastuPage),
+  astroguru: () => import('./pages/AstroGuru.js').then(m => m.renderAstroGuruPage),
+};
+const pageCache = {};
+function loadPage(id) {
+  if (!pageCache[id]) {
+    pageCache[id] = PAGE_LOADERS[id]().catch(err => { delete pageCache[id]; throw err; });
+  }
+  return pageCache[id];
+}
+let navToken = 0;
 import { store } from './utils/store.js';
 
 let currentPage = 'home';
@@ -40,47 +51,32 @@ function navigateTo(pageId) {
     }
   });
 
-  // Scroll to top
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-
-  // Render Page
-  switch (pageId) {
-    case 'home':
-      renderHomePage(pageContentEl, navigateTo);
-      break;
-    case 'kundali':
-      renderKundaliPage(pageContentEl);
-      break;
-    case 'dasha':
-      renderDashaPage(pageContentEl);
-      break;
-    case 'panchang':
-      renderPanchangPage(pageContentEl);
-      break;
-    case 'muhurta':
-      renderMuhurtaPage(pageContentEl);
-      break;
-    case 'matching':
-      renderMatchingPage(pageContentEl);
-      break;
-    case 'numerology':
-      renderNumerologyPage(pageContentEl);
-      break;
-    case 'vaastu':
-      renderVaastuPage(pageContentEl);
-      break;
-    case 'astroguru':
-      renderAstroGuruPage(pageContentEl);
-      break;
-    default:
-      renderHomePage(pageContentEl, navigateTo);
-  }
-
-  // Close mobile menu if open
+  // Close mobile menu immediately for snappy feel
   document.getElementById('nav-links')?.classList.remove('mobile-open');
 
-  // Apply translations to static page attributes
-  applyTranslations();
+  if (!PAGE_LOADERS[pageId]) pageId = 'home';
+  currentPage = pageId;
+  const token = ++navToken;
+  pageContentEl.setAttribute('aria-busy', 'true');
+
+  return loadPage(pageId).then(render => {
+    if (token !== navToken) return; // a newer navigation won
+    window.scrollTo(0, 0);
+    if (pageId === 'home') render(pageContentEl, navigateTo);
+    else render(pageContentEl);
+    pageContentEl.removeAttribute('aria-busy');
+    applyTranslations();
+  }).catch(err => {
+    console.error('Failed to load page', pageId, err);
+    pageContentEl.removeAttribute('aria-busy');
+    pageContentEl.innerHTML = '<div style="padding:48px;text-align:center"><p>Could not load this section. Please check your connection.</p><button class="control-btn" onclick="location.reload()">Retry</button></div>';
+  });
+}
+
+// Prefetch the most-used pages when the browser is idle
+function prefetchPages() {
+  const idle = window.requestIdleCallback || (cb => setTimeout(cb, 1500));
+  idle(() => { ['kundali', 'panchang', 'dasha'].forEach(id => loadPage(id).catch(() => {})); });
 }
 
 // Theme Switcher
@@ -152,28 +148,41 @@ function initApp() {
   const pageParam = urlParams.get('page') || (window.location.hash ? window.location.hash.replace('#', '') : null);
   const isPdfView = urlParams.get('view') === 'pdf';
 
-  if (isPdfView || pageParam === 'kundali') {
-    navigateTo('kundali');
-  } else if (pageParam && ['home', 'kundali', 'dasha', 'panchang', 'muhurta', 'matching', 'numerology', 'vaastu', 'astroguru'].includes(pageParam)) {
-    navigateTo(pageParam);
-  } else {
-    navigateTo('home');
-  }
+  let firstRoute = 'home';
+  if (isPdfView || pageParam === 'kundali') firstRoute = 'kundali';
+  else if (pageParam && PAGE_LOADERS[pageParam]) firstRoute = pageParam;
 
-  // Dismiss loading screen gracefully
+  // Reveal the app as soon as the first page has rendered (no artificial delay)
   const loadingScreen = document.getElementById('loading-screen');
   const appShell = document.getElementById('app-shell');
-
-  setTimeout(() => {
-    if (loadingScreen && appShell) {
+  navigateTo(firstRoute).finally(() => {
+    appShell?.classList.remove('hidden');
+    if (loadingScreen) {
       loadingScreen.classList.add('fade-out');
-      appShell.classList.remove('hidden');
-      setTimeout(() => {
-        loadingScreen.remove();
-      }, 800);
+      setTimeout(() => loadingScreen.remove(), 400);
     }
-  }, 1200);
+    prefetchPages();
+  });
+
+  // Fonts that only some languages need are fetched after first paint
+  loadDeferredFonts();
 }
+
+function loadDeferredFonts() {
+  const idle = window.requestIdleCallback || (cb => setTimeout(cb, 2000));
+  idle(() => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&display=swap';
+    document.head.appendChild(link);
+  });
+}
+
+// Back/forward support for hash routes
+window.addEventListener('hashchange', () => {
+  const id = window.location.hash.replace('#', '');
+  if (id && id !== currentPage && PAGE_LOADERS[id]) navigateTo(id);
+});
 
 // Run on DOM ready
 if (document.readyState === 'loading') {

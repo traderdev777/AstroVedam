@@ -3,7 +3,7 @@
  */
 
 import { generateNumerologyProfile, analyzeMobileNumber } from '../engines/numerology/calculator.js';
-import { escapeHtml } from '../components/reports/FullPatrikaReport.js';
+import { escapeHtml } from '../utils/escapeHtml.js';
 import { store } from '../utils/store.js';
 
 export function renderNumerologyPage(container) {

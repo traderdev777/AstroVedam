@@ -4,7 +4,8 @@
  */
 
 import { store } from '../../utils/store.js';
-import { getAstroGuruResponse } from '../../engines/astroguru/advisor.js';
+// The advisor engine is large; load it only when the user actually asks the Guru something.
+const loadAdvisor = () => import('../../engines/astroguru/advisor.js');
 
 let isWidgetOpen = false;
 let widgetMessages = [];
@@ -119,7 +120,8 @@ export function initAstroGuruWidget(navigateTo) {
     renderWidgetMessages();
 
     // Generate guru response
-    setTimeout(() => {
+    setTimeout(async () => {
+      const { getAstroGuruResponse } = await loadAdvisor();
       const birth = store.getSavedBirthDetails();
       const resp = getAstroGuruResponse(text, store.currentKundali, birth, widgetLang);
       widgetMessages.push({

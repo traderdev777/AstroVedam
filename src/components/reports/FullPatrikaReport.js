@@ -47,15 +47,8 @@ import {
  * @param {any} val - Untrusted input
  * @returns {string} - Escaped HTML string
  */
-export function escapeHtml(val) {
-  if (val === null || val === undefined) return '';
-  return String(val)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
+import { escapeHtml } from '../../utils/escapeHtml.js';
+export { escapeHtml };
 
 export function renderFullPatrikaReport(kundali, navamsa, yogas, doshas, userInputs = {}, selectedLang = 'hi') {
   const langKey = ['en', 'hi', 'kn', 'mr', 'te'].includes(selectedLang) ? selectedLang : 'hi';

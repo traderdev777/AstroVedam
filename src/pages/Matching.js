@@ -8,7 +8,7 @@ import { generateKundali } from '../engines/astrology/kundali.js';
 import { matchHoroscopes } from '../engines/astrology/matching.js';
 import { analyzeDoshas } from '../engines/astrology/dosha.js';
 import { INDIAN_PLACES, renderIndianPlacesDatalist, findIndianPlace } from '../utils/indianPlaces.js';
-import { escapeHtml } from '../components/reports/FullPatrikaReport.js';
+import { escapeHtml } from '../utils/escapeHtml.js';
 
 export function renderMatchingPage(container) {
   // Preset defaults matching user's exact case
